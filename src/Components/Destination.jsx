@@ -32,7 +32,7 @@ const Destination = () => {
         crossOrigin="anonymous"
       />
       <div className="country">
-        {/* <h1>This is Destination Page </h1> */}
+       
         <div className="africa">
           <div className="item2">
             <h3>Africa</h3>
