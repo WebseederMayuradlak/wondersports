@@ -1,0 +1,210 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.country {
+  width: 100%;
+
+  /* position: fixed; */
+  height: 530px;
+  background-color: white;
+  /* background-color: chartreuse; */
+}
+.country .africa {
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  background-image: url(../Images/Africa.jpg);
+  height: 70%;
+}
+.country .africa .item2 {
+  position: relative;
+  padding-top: 250px;
+}
+.country h3 {
+  color: white;
+  padding-bottom: 6%;
+}
+.country .africa .item2 a {
+ 
+  position: relative;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+
+  text-decoration: none;
+  color: black;
+}
+.country .africa .item2 a:hover {
+  color: white;
+  background-color: black;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .country {
+    height: 950px;
+  }
+  .country .africa {
+    display: block;
+    width: auto;
+    height: 200px;
+    margin: 10px;
+    margin-bottom: 5px;
+  }
+  .country .africa .item2 {
+    padding-top: 100px;
+    margin-left: 100px;
+  }
+  .country .africa .item2 h3 {
+    text-align: center;
+  }
+  .country .africa .item2 a {
+    margin-top: 0px;
+    padding: 5px;
+  }
+  .country .africa-item2 {
+    display: block;
+    justify-content: center;
+  }
+}
+.country .africa-items {
+  padding-top: 5%;
+  margin: 2%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 4%;
+  /* justify-content: space-between; */
+  height: 400px;
+}
+.country .africa-items .item1 {
+  text-decoration: none;
+}
+.country .africa-items .item1 a {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  list-style: none;
+}
+.asia {
+  margin-top: 100px;
+  width: 100%;
+  height: 500px;
+}
+.asia-container {
+  margin-left: 5%;
+  background-image: url(../Images/Africa.jpg);
+  margin-right: 5%;
+  height: 400px;
+}
+.asia-container .text-item h3 {
+  margin-top: 50px;
+  color: white;
+}
+.asia-container .text-item {
+  position: relative;
+  padding-top: 250px;
+}
+.asia-container .text-item a {
+  /* margin-top: 200px; */
+  position: relative;
+  top: 80px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  left: -20px;
+  margin: 50px;
+  text-decoration: none;
+  color: black;
+}
+.asia-container .text-item a:hover {
+  color: white;
+  background-color: black;
+}
+.asia-continents {
+  position: relative;
+  /* padding-top: 250px;    */
+}
+.asia-continents {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -10px;
+  left: 50px;
+  right: 50px;
+  text-decoration: none;
+
+  /* position: relative;    */
+}
+.asia-continents .asia-country a {
+  text-decoration: none;
+  color: black;
+}
+.asia-continents .asia-country {
+  margin: 12px;
+}
+.asia-continents .hidden-item {
+  display: none;
+}
+.controller a {
+  position: relative;
+  top: 40px;
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+  font-size: 50px;
+  font-weight: 700;
+}
+.europe {
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.europe .europe-container {
+ 
+  background-image: url(../Images/Africa.jpg);
+  margin-right: 5%;
+  margin-left: 5%;
+  height: 400px;
+}
+.europe .europe-container h3 {
+  position: relative;
+  /* top: 200px; */
+  /* margin-top: 100px; */
+  padding-top: 300px;
+  color: white;
+}
+.europe .europe-container a {
+  position: relative;
+  top: 80px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  left: -20px;
+  margin: 50px;
+  text-decoration: none;
+  color: black;
+}
+.europe .europe-container a:hover {
+  background-color: white;
+  color: black;
+}
+
+.europe .europe-country {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.europe .europe-container {
+  margin: 12px;
+}
+.europe .europe-country .country-list a {
+  text-decoration: none;
+  color: black;
+}
+.controller {
+  position: relative;
+}

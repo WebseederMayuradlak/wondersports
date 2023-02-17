@@ -1,0 +1,489 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: serif;
+  box-sizing: border-box;
+}
+.text {
+  width: 400px;
+  position: absolute;
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-align: center;
+  /* left: 3150px; */
+  left: 300px;
+  top: 500px;
+}
+.btn-link {
+  /* position: absolute; */
+  /* top: 400px; */
+  text-decoration: none;
+  color: whitesmoke;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  justify-content: center;
+  width: 17%;
+  bottom: 0px;
+  top: 20px;
+  left: 4150px;
+}
+.btn-link:hover {
+  color: rgb(49, 48, 48);
+  background-color: whitesmoke;
+}
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 400px;
+  margin-left: 150px;
+  background-image: url(../Images/nature.jpg);
+}
+
+.continents {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+  /* background-color: aqua; */
+  margin-right: 100px;
+  height: 150px;
+  justify-content: space-between;
+}
+.continents a {
+  position: relative;
+  top: 100px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.continents .col1 {
+  border-radius: 50%;
+  width: 15%;
+  text-decoration: none;
+
+  /* height: 150px; */
+  background-image: url(../Images/nature.jpg);
+}
+
+.continents .col2 {
+  border-radius: 50%;
+  text-decoration: none;
+  width: 15%;
+  height: 150px;
+  background-image: url(../Images/nature.jpg);
+  /*     background-image: url(../Images/nature.jpg); */
+}
+
+.continents .col3 {
+  border-radius: 50%;
+  text-decoration: none;
+  width: 15%;
+  height: 150px;
+  background-image: url(../Images/nature.jpg);
+}
+
+.continents .col4 {
+  border-radius: 50%;
+  text-decoration: none;
+
+  width: 16%;
+  height: 150px;
+  background-image: url(../Images/nature.jpg);
+}
+.inner-text {
+  padding-top: 100px;
+  color: whitesmoke;
+}
+.continents .col5 {
+  border-radius: 50%;
+  text-decoration: none;
+
+  width: 15%;
+  height: 150px;
+  background-image: url(../Images/nature.jpg);
+}
+@media screen and(max-width: 700px) {
+  * {
+    font-size: 15px;
+  }
+  .continents {
+    /* display: in; */
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .inner-text {
+    color: black;
+  }
+  .continents .col1 {
+    border-radius: 70px;
+    width: 15%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+
+  .continents .col2 {
+    border-radius: 70px;
+    width: 15%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .continents .col3 {
+    border-radius: 70px;
+    width: 15%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .continents .col4 {
+    border-radius: 70px;
+    width: 15%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .continents .col5 {
+    border-radius: 70px;
+    width: 15%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .mycontainer {
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+ .continents{
+  justify-content: space-between;
+
+ }
+  .continents .col5 {
+    border-radius: 70px;
+    width: 100%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .continents .col1 {
+    margin-top: 10px;
+    border-radius: 70px;
+    width: 100%;
+    /* color: whitesmoke; */
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .continents .col1 a {
+    color: whitesmoke;
+  }
+  .continents .col2 {
+    border-radius: 70px;
+    width: 100%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .continents .col3 {
+    border-radius: 70px;
+    width: 100%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+  .continents .col4 {
+    border-radius: 70px;
+    width: 100%;
+    text-decoration: none;
+    height: 150px;
+    background-image: url(../Images/nature.jpg);
+  }
+}
+
+.mycontainer {
+  margin: 0px;
+  min-width: 380px;
+  /* width: auto; */
+  position: relative;
+  /* height: 100%; */
+}
+.mycontainer video {
+  /* position: absolute; */
+}
+.experience {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  /* background-color: blueviolet; */
+}
+.experience .column1 {
+  width: 40%;
+  height: 250px;
+  justify-content: center;
+}
+.experience .column1 a {
+  font-family: Mon;
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+
+  border: 1px solid rgb(216, 213, 213);
+}
+.experience .column1 a:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+.experience .column2 {
+  height: 250px;
+  width: 40%;
+  background-image: url(../Images/Dubai.jpg);
+}
+.counter {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 250px;
+  background-image: url(../Images/Footer\ 2.jpg);
+}
+.counter .items {
+  /* margin: 100px; */
+  position: relative;
+  flex-wrap: wrap;
+  top: 20px;
+  margin-left: 100px;
+  width: 100%;
+  color: whitesmoke;
+  display: flex;
+}
+.counter .items p {
+  color: yellow;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+.counter .items i {
+  /* position: relative; */
+  padding-left: 20px;
+  top: 50px;
+  left: 100px;
+}
+.counter .items span {
+  color: whitesmoke;
+}
+.counter .items .plan {
+  /* background-color: aqua; */
+  /* position: relative; */
+  width: 22%;
+  height: 200px;
+}
+.counter .items .glob {
+  width: 22%;
+  height: 200px;
+}
+.counter .items .tree {
+  width: 22%;
+  height: 200px;
+}
+.counter .items .travel {
+  width: 22%;
+
+  height: 200px;
+}
+.trips {
+  width: 100%;
+}
+.trips a:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.rating {
+  margin: 50px;
+
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.rating h4 {
+  position: relative;
+  justify-content: center;
+}
+.rating p {
+  /* text-align: justify; */
+}
+.trending {
+  margin-top: 30px;
+  /* margin-top: 5%; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-left: 150px;
+  justify-content: space-between;
+}
+.trending .blog1:hover{
+  opacity: 0.8;
+}
+.trending .blog2:hover{
+  opacity: 0.8;
+}
+.trending .blog3:hover{
+  opacity: 0.8;
+}
+.trending .blog:hover{
+  opacity: 0.8;
+}
+@media screen and (max-width: 600px){
+   .trending{
+    margin-top: 300px;
+    display: inline-block;
+    flex-wrap: wrap;
+ 
+    position: relative;
+    gap: 10px;
+   }
+   .trending .blog1{
+    width: 100%;
+   }
+}
+.trending .blog2:hover button {
+  transition: ease 1.5s;
+  transform: translateX(X);
+
+  visibility: visible;
+}
+.trending .blog3:hover button {
+  transition: ease 1.5s;
+  transform: translateX(X);
+
+  visibility: visible;
+}
+.trending .blog1:hover button {
+  transition: ease 1.5s;
+  transform: translateX(X);
+
+  visibility: visible;
+}
+.trending .blog:hover button {
+  transition: ease 1.5s;
+  transform: translateX(X);
+
+  visibility: visible;
+}
+
+.trending p {
+  /* position: relative; */
+  bottom: 10px;
+  text-align: center;
+  /* justify-content:space-between; */
+  color: rgb(245, 245, 245);
+  padding-top: 80%;
+  /* justify-content: flex-start; */
+}
+.trending button {
+  position: relative;
+  /* top: -10px; */
+  top: 130px;
+  background-color: none;
+  visibility: hidden;
+}
+.trending a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  border: none;
+  bottom: -40px;
+  color: white;
+  right: -50px;
+}
+.trending .blog1 {
+  cursor: pointer;
+  width: 23%;
+  height: 300px;
+  background-image: url(../Images/nature.jpg);
+}
+.trending .blog2 {
+  cursor: pointer;
+  width: 23%;
+  height: 300px;
+  background-image: url(../Images/nature.jpg);
+}
+.d {
+  background-color: #e0e0e0;;
+}
+.trending .blog3 {
+  cursor: pointer;
+  width: 23%;
+  height: 300px;
+  background-image: url(../Images/nature.jpg);
+}
+.trending .blog {
+  width: 23%;
+  cursor: pointer;
+  height: 300px;
+  background-image: url(../Images/nature.jpg);
+}
+
+.trade {
+  margin-top: 20px;
+}
+.trede h4 {
+  text-align: center;
+}
+.next{
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  background-image: url(../Images/next.jpg);
+  /* background-color: #e0e0e0; */
+  margin-bottom: 20px;
+}
+.next .con1{
+margin-top: 20px;
+padding-top:20px ;
+}
+.next .con1{
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  /* font-size: 30px;
+  font-weight: 700; */
+color:#e0e0e0 ;
+}
+.next .con2{
+  letter-spacing: 10px;
+  font-weight: 500;
+  font-size: 50px;
+ color: rgb(233, 207, 207);
+}
+.next .con3{
+
+  padding-top: 150px;
+  height: 350px;
+  margin-left: 150px;
+margin-right: 150px;
+  display: flex;
+  /* background-color: aqua; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.next .con3 a i{
+ color: #fff;
+  
+}
+.next .con3 h6{
+ color: #ffff;
+
+}
+
+.next .con3 .first-3 a{
+  /* font-size: 200px; */
+}

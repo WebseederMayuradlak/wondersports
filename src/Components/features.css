@@ -1,0 +1,71 @@
+.main-container{
+    margin-top: 30px;
+    /* border: 1px solid black; */
+/* background-image: ; */
+/* background-image: url(../Images/lanscap.jpg); */
+height: 400px;
+width: 100%;
+background-color: rgb(228, 203, 207);
+margin: 0px;
+}
+.features{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 290px;
+    /* margin-left: 50px; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    width: 100%;
+    
+    grid-template-columns: repeat(5,195px) ;
+/* justify-content: space-between; */
+    /* position: relative; */
+    }
+    .features a:hover{
+        opacity: 0.8;
+    }
+.destination1{
+    padding-top: 20px;
+    text-align: center;
+}
+.features p{
+    color: black;
+
+}
+.destination2{
+    padding: 10px;
+    background-color: white;
+}
+.destination4{
+    padding: 10px;
+    background-color: white;
+}
+.destination3{
+    padding: 10px;
+    background-color: white;
+}
+.destination5{
+    padding: 10px;
+    background-color: white;
+}
+.destination6{
+    padding: 10px;
+    background-color: white;
+}
+@media only screen and (min-width:200px) and (max-width:767px){
+    .main-container{
+        width: 50%;;
+    }
+    .destination1{
+        text-align: center
+    }
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+     height: 100%;
+     width: 50%;
+    }
+}
