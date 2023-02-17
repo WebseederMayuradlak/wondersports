@@ -40,47 +40,47 @@ const Destination = () => {
               guide
             </a>{" "}
             &nbsp; &nbsp; &nbsp;
-            <a href="">trips</a>&nbsp; &nbsp; &nbsp;
+            <a href="">trips</a>
             <a href="">articles</a>
           </div>
         </div>
         <div className="africa-items ">
           <div className="item1">
             <a href="">
-              <img src={Image} height="130px" width="170px" alt="" />
+              <img src={Image} height="180px" width="200px" alt="" />
               <h5>Kenya</h5>
             </a>
           </div>
           <div className="item1">
             <a href="">
-              <img src={Image} height="130px" width="170px" alt="" />
+              <img src={Image} height="180px" width="200px" alt="" />
               <h5>Seychelles</h5>
             </a>
           </div>
           <div className="item1">
             <a href="">
-              <img src={Image} height="130px" width="170px" alt="" />
+              <img src={Image} height="180px" width="200px" alt="" />
               <h5>South Africa</h5>
             </a>
           </div>
           <div className="item1">
             <a href="">
-              <img src={Image} height="130px" width="170px" alt="" />
+              <img src={Image} height="180px" width="200px" alt="" />
               <h5>Tanzania</h5>
             </a>
           </div>
         </div>
-      </div>
+      </div> <br /> <br />
       <div className="asia">
         <div className="asia-container">
           <div className="text-item">
             <h3>Asia</h3>
             <a href="">guide</a>
             <a href="">trips</a>
-            <a href="">articles</a>
+            <a href="">articles</a> 
           </div>
         </div>
-      </div>
+      </div> 
       <div className="asia-continents">
         {/* <span class="carousel-control-next-icon" aria-hidden="true"></span> */}
         {/* <div className="controller"> 

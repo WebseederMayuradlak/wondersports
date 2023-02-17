@@ -20,21 +20,38 @@
 }
 .country .africa .item2 {
   position: relative;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 .country h3 {
   color: white;
-  padding-bottom: 6%;
+  padding-bottom: 5%;
 }
-.country .africa .item2 a {
+/* .country .africa .item2 a {
  
   position: relative;
   border: 1px solid black;
+  justify-content: space-between;
   border-radius: 30px;
   padding: 10px;
 
   text-decoration: none;
   color: black;
+} */
+.country .africa .item2 a{
+  position: relative;
+  top: 50px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  /* width: 100px; */
+  float: left;
+  left: 500px;
+  margin-left: 200px;
+  border-radius: 50px;
+  bottom: 20px;
 }
 .country .africa .item2 a:hover {
   color: white;
@@ -68,7 +85,9 @@
   }
 }
 .country .africa-items {
-  padding-top: 5%;
+  position: relative;
+  padding-top: 2%;
+
   margin: 2%;
   margin-left: 5%;
   display: flex;
@@ -79,6 +98,7 @@
   gap: 4%;
   /* justify-content: space-between; */
   height: 400px;
+  bottom: 20px;
 }
 .country .africa-items .item1 {
   text-decoration: none;

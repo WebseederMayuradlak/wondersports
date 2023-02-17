@@ -15,7 +15,7 @@ import "./footer.css";
 const NewFooter = () => {
   return (
     <>
-    <hr />
+      <hr />
       <footer className="bg-white text-center text-dark fixed-bottm">
         <link
           rel="stylesheet"
@@ -29,20 +29,19 @@ const NewFooter = () => {
         />
 
         <div className="text-black">
-          <section className="mb-4">
-            </section>
-        
-          
+          <section className="mb-4"></section>
+
           <section className="main bg-white">
             <div className="row">
-              <div className="col-lg-3 col-md-6 mb-4 text-start" id="logo-container">
+              <div
+                className="col-lg-3 col-md-6 mb-4 text-start"
+                id="logo-container"
+              >
                 {/* <h4>Logo icon</h4> */}
                 <ul className="list-unstyled mb-0 text-start">
                   <h4>Contact Details</h4>
                   <li>
-                    
                     <a href="">
-                      
                       <img
                         src={Logo}
                         alt=""
@@ -53,11 +52,9 @@ const NewFooter = () => {
                     </a>
                   </li>
                   <li>
-                    
                     <Phone /> Contact No.+91998347543
                   </li>
                   <li>
-                    
                     <Email /> Email myemail@gmail.com
                   </li>
 
@@ -67,39 +64,28 @@ const NewFooter = () => {
 
                   <li></li>
                 </ul>
-              </div> 
+              </div>
               <div className="col-lg-3 col-md-6 mb-4 mb-md-0 text-dark">
-
                 <ul className="list-unstyled mb-0 text-start" id="menu-icon">
                   <li>
-                    <a href="#!" >
+                    <a href="#!">
                       <h4>Home</h4>
                     </a>
                   </li>
                   <li>
-                    <a href="/" >
-                      Destination
-                    </a>
+                    <a href="/">Destination</a>
                   </li>
                   <li>
-                    <a href="/" >
-                      Interest
-                    </a>
+                    <a href="/">Interest</a>
                   </li>
                   <li>
-                    <a href="/" >
-                      About Us
-                    </a>
+                    <a href="/">About Us</a>
                   </li>
                   <li>
-                    <a href="" >
-                      Contact Us
-                    </a>
+                    <a href="">Contact Us</a>
                   </li>
                   <li>
-                    <a href="/" >
-                      FAQ
-                    </a>
+                    <a href="/">FAQ</a>
                   </li>
                 </ul>
               </div>
@@ -108,34 +94,24 @@ const NewFooter = () => {
 
                 <ul className="list-unstyled mb-0 text-start" id="destination">
                   <li>
-                    <a href="" > 
-                     <h4> Destination </h4>
+                    <a href="">
+                      <h4> Destination </h4>
                     </a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      Africa
-                    </a>
+                    <a href="#!">Africa</a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      Asia
-                    </a>
+                    <a href="#!">Asia</a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      Europe
-                    </a>
+                    <a href="#!">Europe</a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      Middle East
-                    </a>
+                    <a href="#!">Middle East</a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      North America
-                    </a>
+                    <a href="#!">North America</a>
                   </li>
                 </ul>
               </div>
@@ -144,66 +120,61 @@ const NewFooter = () => {
 
                 <ul className="list-unstyled mb-0 text-start">
                   <li>
-                    <a href="" >
+                    <a href="">
                       <h4>Blogs</h4>
                     </a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      This is Our Africa Blog
-                    </a>
+                    <a href="#!">This is Our Africa Blog</a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      This is Our Asia Blog
-                    </a>
+                    <a href="#!">This is Our Asia Blog</a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      This is North Ameriaca Blog
-                    </a>
+                    <a href="#!">This is North Ameriaca Blog</a>
                   </li>
                   <li>
-                    <a href="#!" >
-                      This is Middle East Blog
-                    </a>
+                    <a href="#!">This is Middle East Blog</a>
                   </li>
                 </ul>
               </div>
             </div>
 
             {/* <p className="float-left">Contact us on Social Media</p> */}
-     <div className="icon-container">
-      
-            <div className="text-start" id="social"> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-              <a >
-                <Facebook color="blue" />
-              </a>&nbsp; 
-
-              <a className="">
-                <Twitter color="blue" />
-              </a>
-              &nbsp; 
-              <a className="">
-                <Pinterest color="danger" />
-              </a>
-&nbsp;
-              <a className="">
-                <Instagram color="secondary" />
-              </a>
-&nbsp;
-              <a className="">
-                <LinkedIn />
-              </a>
-
-            </div>
-            <div className="copyright">
-            PrivacyPolicies.com © 2002 - 2023 <br /> All rights reserved
-            </div>
-            <div className="lorem-container">
-      <p>. Expedita ea quis cupiditate  est labore, sunt, laborum incidunt? Sed sapiente laboriosam excepturi fugit consectetur a.</p>
-
-      </div>
+            <div className="icon-container">
+              <div className="text-start" id="social">
+                {" "}
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                <a>
+                  <Facebook color="blue" />
+                </a>
+                &nbsp;
+                <a className="">
+                  <Twitter color="blue" />
+                </a>
+                &nbsp;
+                <a className="">
+                  <Pinterest color="danger" />
+                </a>
+                &nbsp;
+                <a className="">
+                  <Instagram color="secondary" />
+                </a>
+                &nbsp;
+                <a className="">
+                  <LinkedIn />
+                </a>
+              </div>
+              <div className="copyright">
+                PrivacyPolicies.com © 2002 - 2023 <br /> All rights reserved
+              </div>
+              <div className="lorem-container">
+                <p>
+                  . Expedita ea quis cupiditate est labore, sunt, laborum
+                  incidunt? Sed sapiente laboriosam excepturi fugit consectetur
+                  a.
+                </p>
+              </div>
             </div>
           </section>
         </div>
