@@ -13,7 +13,7 @@ export default function Navbar() {
         content.style.display = "block";
 Cursor.innerText='X';
     }
-    // content.style.backgroundColor='black';
+   
   };
   return (
     <>
