@@ -1,0 +1,88 @@
+.head-container{
+    margin-top: 20px;
+   margin-left: 100px;
+    left: 100px;
+    height: 400px;
+    width: 90%;
+    background-image: url(../../Images/Country-Image/Finland.jpg);
+}
+.head-container .middle{
+  padding-top: 300px;  
+  color: white;
+}
+.head-container .middle a{
+    position: relative;
+   top: 90px;
+    border:1px solid black;
+   text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-left: 200px;
+border-radius: 30px;
+text-transform: uppercase;
+bottom: 20px;
+
+}
+.head-container .middle a:hover{
+   color: white;
+    background-color: black;
+}
+.middle-country{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+.middle-country .countries a{
+    text-decoration: none;
+    color: black;
+}
+.countries a h5{
+    margin-top: 10px;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .countries .middle {
+        position: relative;
+        top: 100px;
+    }
+   
+   .head-container {
+    margin-left: 0px;
+    width: 350px;
+    height: 200px;
+   }
+   .head-container .middle{
+    padding: 0px;
+    text-align: center;
+    /* top: 100px;    */
+   }
+   .head-container .middle h3{
+    position: relative;
+    top: 100px;
+   }
+   .head-container .middle a{
+    /* margin-top: 50px; */
+    position: relative;
+    top: 130px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+   }
+   .middle-country{
+    margin-left: 0px;
+margin-top: 30px;
+   }
+   .middle-country h5{
+    /* padding-top: 100px; */
+    text-align: center;
+   }
+   .middle-country img{
+    width: 350px;
+    height: 200px;
+   }
+}
