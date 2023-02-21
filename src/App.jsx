@@ -13,7 +13,8 @@ function App() {
     <div className="App">
    
    <Navbar/>
-  <InterestPage/>
+   <Destination />
+  {/* <InterestPage/> */}
    <NewFooter/>
    {/* <Footer /> */}
     </div>
