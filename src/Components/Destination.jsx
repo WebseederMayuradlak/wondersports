@@ -5,6 +5,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import Jordan from "../Images/Country-Image/Jordan.jpg"
 import "./Destination.css";
+
 import Middle_East from "./Country/Middle_East";
 import NorthAmerica from "./Country/NorthAmerica";
 const Destination = () => {
@@ -263,6 +264,7 @@ const Destination = () => {
         </div>
       <Middle_East/>
       <NorthAmerica />
+      
     </>
   );
 };

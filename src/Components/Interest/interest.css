@@ -1,0 +1,620 @@
+
+.interest-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 50px;
+    /* margin: 50px; */
+}
+
+.page-container {
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 48%;
+}
+
+.page-container .winter {
+    /* border: 2px solid grey; */
+    display: flex;
+    border-radius: 10px;
+
+    flex-wrap: wrap;
+}
+
+.page-container .winter .winter-container {
+
+    display: block;
+}
+
+.winter-text {
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 350px;
+    /* margin-left: 50px; */
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: 500px;
+    height: 220px;
+}
+
+.winter-text:hover {
+    transition: 1.0s ease;
+    transform: translateX(X);
+    background-color: green;
+    color: white;
+    box-shadow: 1px wheat;
+}
+
+.page-container .winter .winter-container .winter-item {
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+    background-image: url(../../Images/Country-Image/lack.jpg);
+    border-radius: 10px;
+}
+
+.page-container .winter .winter-container .winter-trips {
+    background-image: url(../../Images/back.jpg);
+}
+
+.page-container .winter .winter-container .winter-article {
+    background-image: url(../../Images/Tree.PNG);
+}
+
+.page-container .winter .winter-container .guide {
+    height: 370px;
+    background-image: url(../../Images/Guide.PNG);
+
+}
+
+.page-container .winter .winter-container .winter-item:hover {
+
+    opacity: 0.8;
+}
+
+.page-container .winter .winter-container .winter-item:hover a {
+    position: relative;
+    transition: 0.5s ease;
+    top: 140px;
+    background-color: #0066FF;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.page-container .winter .winter-container .winter-item a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500px;
+    color: white;
+    position: relative;
+    top: 220px;
+}
+
+.summer {
+    /* margin: 10px; */
+    border-radius: 10px;
+    /* border: 2px solid rgb(142, 137, 137); */
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    /* height: 60%; */
+}
+
+.summer .summer-container {
+    display: block;
+
+}
+
+.summer .summer-container .summer-item {
+    background-image: url(../../Images/Tree.PNG);
+    width: 400px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.summer .summer-container .summer-item a {
+    position: relative;
+    top: 220px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+
+.summer .summer-item:hover {
+    opacity: 0.8;
+}
+
+.summer .summer-item:hover a {
+    position: relative;
+    transition: 0.5s ease;
+    top: 140px;
+    background-color: #0066FF;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.summer .summer-container .guide {
+    background-image: url(../../Images/Guide.PNG);
+    height: 370px;
+}
+
+.summer .summer-container .summer-trips {
+    background-image: url(../../Images/Country-Image/Austria.jpg);
+}
+
+.second-row {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.second-row .spring {
+    width: 48%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-row .spring .spring-container {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-row .spring .spring-container .spring-item {
+
+    display: block;
+}
+
+.second-row .spring .spring-container .spring-item .list-item {
+    margin: 10px;
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+    background-image: url(../../Images/back.jpg);
+}
+
+.second-row .spring .spring-text {
+border-radius: 10px;
+    width: 400px;
+    margin: 20px;
+    height: 200px;
+}
+
+.second-row .spring .spring-text h3 {
+    padding-top: 100px;
+}
+
+.second-row .spring .spring-text:hover {
+transition: 1.0s ease;
+
+    background-color: green;
+    color: white;
+
+}
+
+.second-row .spring .spring-container .spring-item .list-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+}
+
+.second-row .spring .spring-container .spring-item .list-item:hover a {
+    position: relative;
+    top: 120px;
+    background-color: #0066FF;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+    transition: 1.0s ease;
+}
+
+.second-row .spring .spring-container .spring-item .spring-guide {
+    height: 340px;
+}
+
+.second-row .snow {
+    width: 48%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-row .snow .snow-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-row .snow .snow-container .snow-item .list-item {
+    margin: 10px;
+    width: 400px;
+    height: 280px;
+    background-image: url(../../Images/back.jpg);
+    border-radius: 10px;
+}
+
+.second-row .snow .snow-container .snow-item .list-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+}
+
+.second-row .snow .snow-container .snow-item .list-item:hover a {
+    position: relative;
+    top: 120px;
+    background-color: #0066FF;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+    transition: 1.0s ease;
+}
+
+.second-row .snow .snow-container .snow-item .snow-text {
+    padding-top: 100px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 200px;
+}
+
+.second-row .snow .snow-container .snow-item .snow-text:hover {
+transition: 1.0s ease;
+
+    background-color: green;
+    color: white;
+}
+
+.second-row .snow .snow-container .snow-item .snow-guide {
+    height: 340px;
+}
+
+.third-page{
+    
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-top: 50px;
+    justify-content: space-between; 
+    /* background-color: #0066FF; */
+}
+.third-page .beach{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.third-page .beach .beach-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.third-page .beach .beach-container .beach-item {
+    display:block;
+}
+.third-page .beach .beach-container .beach-item .list-item{
+    margin: 10px;
+    width: 400px;
+    height: 280px;
+    border-radius: 10px;
+    background-image: url(../../Images/back.jpg);
+}
+.third-page .beach .beach-container .beach-item .beach-text{
+    padding-top: 100px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 200px;
+}
+.third-page .beach .beach-container .beach-item .beach-guide{
+    height: 350px;
+}
+.third-page .beach .beach-container .beach-item .beach-text:hover{
+  background-color: green;
+  color: white;
+transition: 1.0s ease;
+
+}
+.third-page .beach .beach-container .beach-item a{
+    text-decoration: none;
+    position: relative;
+    top: 200px;
+    color: white;
+    font-size: 18px;
+     font-weight: 400;
+     text-transform: uppercase;
+}
+.third-page .beach .beach-container .beach-item .list-item:hover a{
+    position: relative;
+    top: 120px;
+    background-color: #0066FF;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+    transition: 1.0s ease;
+} 
+.third-page .food{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.third-page .food .food-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.third-page .food .food-container .food-item{
+    display: block;
+}
+.third-page .food .food-container .food-item .list-item{
+    margin: 10px;
+    width: 400px;
+    height: 280px;
+    background-image: url(../../Images/back.jpg);
+    border-radius: 10px;
+}
+.third-page .food .food-container .food-item .food-text{
+    padding-top: 100px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 180px;
+}
+.third-page .food .food-container .food-item .food-text:hover{
+
+background-color: green;
+color: white;
+transition: 1.0s ease;
+}
+.third-page .food .food-container .food-item .list-item a{
+    position: relative;
+    top: 200px;
+text-decoration: none;
+color: white;
+font-size: 18px;
+text-transform: uppercase;
+}
+.third-page .food .food-container .food-item .list-item:hover a{
+    position: relative;
+    top: 120px;
+    background-color: #0066FF;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 5px;
+    transition: 1.0s ease;
+
+}
+.third-page .food .food-container .food-item .food-guide{
+    height: 350px;
+}
+.history-solo{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    margin-top: 50px;
+    justify-content: space-between; 
+    /* background-color: aqua; */
+}
+.history-solo .history{
+    /* border: 1px solid black; */
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.history-solo .history .history-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.history-solo .history .history-container .history-item {
+    display: block;
+}
+.history-solo .history .history-container .history-item .list-item {
+    margin: 10px;
+    width: 400px;
+    height: 280px;
+    background-image: url(../../Images/back.jpg);
+    border-radius: 10px;
+}
+.history-solo .history .history-container .history-item .history-text{
+    padding-top: 100px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 180px;
+}
+.history-solo .history .history-container .history-item .list-item a {
+    position: relative;
+    top: 200px;
+text-decoration: none;
+color: white;
+font-size: 18px;
+text-transform: uppercase;
+}
+.history-solo .history .history-container .history-item .list-item:hover a{
+background-color: #0066FF;
+padding: 5px;
+border: 1px solid grey;
+border-radius: 10px;
+top: 140px;
+transition: 1.0s ease;
+}
+.history-solo .history .history-container .history-item .history-text{
+    padding-top: 100px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 180px;
+}
+.history-solo .history .history-container .history-item .history-text:hover{
+    background-color: green;
+    color: white;
+    transition: 1.0s ease;
+}
+.history-solo .history .history-container .history-item .history-article{
+  height: 350px;
+}
+.solo-travel{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.solo-travel .solo-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.solo-travel .solo-container .solo-item {
+    display: block;
+}
+.solo-travel .solo-container .solo-item .list-item {
+    margin: 10px;
+    width: 400px;
+    height: 280px;
+    background-image: url(../../Images/back.jpg);
+    border-radius: 10px;
+}
+.solo-travel .solo-container .solo-item .list-item a{
+    position: relative;
+    top: 200px;
+text-decoration: none;
+color: white;
+font-size: 18px;
+text-transform: uppercase;
+}
+.solo-travel .solo-container .solo-item .list-item:hover a{
+    background-color: #0066FF;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    top: 140px;
+    transition: 1.0s ease;
+}
+.solo-travel .solo-container .solo-item .solo-text{
+    border-radius: 10px;
+    padding-top: 80px;
+    border-radius: 10px;
+}
+.solo-travel .solo-container .solo-item .solo-text:hover{
+    background-color: green;
+    color: white;
+    height: 180px;
+    transition: 1.0s ease;
+}
+.solo-travel .solo-container .solo-item .solo-trips{
+    height: 380px;
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .interest-container {
+        width: 350px;
+        display: block;
+        width: 80%;
+        margin-top: 20px;
+        /* margin: 50px; */
+        margin-left: 0px;
+    }
+
+    .page-container .winter {
+        border: none;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .page-container {
+        width: 350px;
+        padding-left: 0px;
+    }
+
+    .page-container .winter .winter-container .winter-item {
+        margin: 5px;
+        width: 350px;
+        height: 200px;
+        /* background-image: url(../../Images/Country-Image/lack.jpg); */
+        border-radius: 10px;
+    }
+
+    .page-container .winter .winter-container .winter-item a {
+        position: relative;
+        top: 150px;
+        font-weight: 400px;
+        font-size: 15px;
+    }
+
+    .page-container .winter .winter-container .winter-item:hover a {
+        position: relative;
+        transition: 0.5s ease;
+        top: 100px;
+        background-color: #0066FF;
+        border: 1px solid grey;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    .winter-text {
+        padding-top: 60px;
+
+        margin-left: 60px;
+        width: 250px;
+        /* margin-left: 50px; */
+        font-size: 18px;
+        border-radius: 10px;
+        font-weight: 400px;
+        height: 120px;
+    }
+
+    .summer {
+        /* margin: 10px; */
+        margin-top: 20px;
+        border-radius: 10px;
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .summer .summer-container {
+        margin: 0px;
+    }
+
+    .summer .summer-container .summer-item {
+        /* background-image: url(../../Images/Tree.PNG); */
+        width: 350px;
+        height: 200px;
+        margin: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .summer .summer-container .summer-item a {
+        position: relative;
+        top: 160px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: white;
+        font-size: 15px;
+    }
+
+    .summer .summer-container .summer-item:hover a {
+        position: relative;
+        top: 90px;
+    }
+}
