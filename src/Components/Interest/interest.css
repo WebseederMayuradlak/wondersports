@@ -1,4 +1,3 @@
-
 .interest-container {
     width: 100%;
     display: flex;
@@ -6,6 +5,14 @@
     margin: 20px;
     margin-top: 50px;
     /* margin: 50px; */
+}
+
+.interest {
+    /* min-height: 100%;
+    max-width: 100%; */
+    background-image: url(../../Images/white.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .page-container {
@@ -190,7 +197,7 @@
 }
 
 .second-row .spring .spring-text {
-border-radius: 10px;
+    border-radius: 10px;
     width: 400px;
     margin: 20px;
     height: 200px;
@@ -201,7 +208,7 @@ border-radius: 10px;
 }
 
 .second-row .spring .spring-text:hover {
-transition: 1.0s ease;
+    transition: 1.0s ease;
 
     background-color: green;
     color: white;
@@ -279,7 +286,7 @@ transition: 1.0s ease;
 }
 
 .second-row .snow .snow-container .snow-item .snow-text:hover {
-transition: 1.0s ease;
+    transition: 1.0s ease;
 
     background-color: green;
     color: white;
@@ -289,61 +296,137 @@ transition: 1.0s ease;
     height: 340px;
 }
 
-.third-page{
-    
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .second-row {
+        width: 350px;
+        display: block;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+
+    .second-row .spring {
+        width: 350px;
+    }
+
+    .second-row .spring .spring-container .spring-item .list-item {
+        width: 350px;
+        height: 200px;
+    }
+
+    .second-row .spring .spring-container .spring-item .spring-text {
+        width: 300px;
+        height: 150px;
+    }
+
+    .second-row .spring .spring-container .spring-item .list-item a {
+        font-size: 15px;
+        position: relative;
+        top: 150px;
+    }
+
+    .second-row .spring .spring-container .spring-item .list-item:hover a {
+        top: 80px;
+        transition: 1.0s ease;
+    }
+
+    .second-row .snow {
+        width: 350px;
+        margin: 0px;
+    }
+
+    .second-row .snow .snow-container {
+        display: block;
+        /* flex-wrap: wrap; */
+    }
+
+    .second-row .snow .snow-container .snow-item .list-item {
+        width: 350px;
+        height: 200px;
+    }
+
+    .second-row .snow .snow-container .snow-item .snow-text {
+
+        width: 300px;
+        height: 150px;
+    }
+
+    .second-row .snow .snow-container .snow-item .list-item a {
+        position: relative;
+        top: 140px;
+        font-size: 15px;
+    }
+
+    .second-row .snow .snow-container .snow-item .list-item:hover a {
+        top: 80px;
+        transition: 1.0s ease;
+    }
+}
+
+.third-page {
+
     width: 95%;
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
     margin-top: 50px;
-    justify-content: space-between; 
+    justify-content: space-between;
     /* background-color: #0066FF; */
 }
-.third-page .beach{
+
+.third-page .beach {
     width: 48%;
     display: flex;
     flex-wrap: wrap;
 }
-.third-page .beach .beach-container{
+
+.third-page .beach .beach-container {
     display: flex;
     flex-wrap: wrap;
 }
+
 .third-page .beach .beach-container .beach-item {
-    display:block;
+    display: block;
 }
-.third-page .beach .beach-container .beach-item .list-item{
+
+.third-page .beach .beach-container .beach-item .list-item {
     margin: 10px;
     width: 400px;
     height: 280px;
     border-radius: 10px;
     background-image: url(../../Images/back.jpg);
 }
-.third-page .beach .beach-container .beach-item .beach-text{
+
+.third-page .beach .beach-container .beach-item .beach-text {
     padding-top: 100px;
     width: 400px;
     margin: 20px;
     border-radius: 10px;
     height: 200px;
 }
-.third-page .beach .beach-container .beach-item .beach-guide{
+
+.third-page .beach .beach-container .beach-item .beach-guide {
     height: 350px;
 }
-.third-page .beach .beach-container .beach-item .beach-text:hover{
-  background-color: green;
-  color: white;
-transition: 1.0s ease;
+
+.third-page .beach .beach-container .beach-item .beach-text:hover {
+    background-color: green;
+    color: white;
+    transition: 1.0s ease;
 
 }
-.third-page .beach .beach-container .beach-item a{
+
+.third-page .beach .beach-container .beach-item a {
     text-decoration: none;
     position: relative;
     top: 200px;
     color: white;
     font-size: 18px;
-     font-weight: 400;
-     text-transform: uppercase;
+    font-weight: 400;
+    text-transform: uppercase;
 }
-.third-page .beach .beach-container .beach-item .list-item:hover a{
+
+.third-page .beach .beach-container .beach-item .list-item:hover a {
     position: relative;
     top: 120px;
     background-color: #0066FF;
@@ -351,48 +434,56 @@ transition: 1.0s ease;
     border: 1px solid grey;
     padding: 5px;
     transition: 1.0s ease;
-} 
-.third-page .food{
+}
+
+.third-page .food {
     width: 48%;
     display: flex;
     flex-wrap: wrap;
 }
-.third-page .food .food-container{
+
+.third-page .food .food-container {
     display: flex;
     flex-wrap: wrap;
 }
-.third-page .food .food-container .food-item{
+
+.third-page .food .food-container .food-item {
     display: block;
 }
-.third-page .food .food-container .food-item .list-item{
+
+.third-page .food .food-container .food-item .list-item {
     margin: 10px;
     width: 400px;
     height: 280px;
     background-image: url(../../Images/back.jpg);
     border-radius: 10px;
 }
-.third-page .food .food-container .food-item .food-text{
+
+.third-page .food .food-container .food-item .food-text {
     padding-top: 100px;
     width: 400px;
     border-radius: 10px;
     margin: 20px;
     height: 180px;
 }
-.third-page .food .food-container .food-item .food-text:hover{
 
-background-color: green;
-color: white;
-transition: 1.0s ease;
+.third-page .food .food-container .food-item .food-text:hover {
+
+    background-color: green;
+    color: white;
+    transition: 1.0s ease;
 }
-.third-page .food .food-container .food-item .list-item a{
+
+.third-page .food .food-container .food-item .list-item a {
     position: relative;
     top: 200px;
-text-decoration: none;
-color: white;
-font-size: 18px;
-text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
 }
-.third-page .food .food-container .food-item .list-item:hover a{
+
+.third-page .food .food-container .food-item .list-item:hover a {
     position: relative;
     top: 120px;
     background-color: #0066FF;
@@ -402,31 +493,119 @@ text-transform: uppercase;
     transition: 1.0s ease;
 
 }
-.third-page .food .food-container .food-item .food-guide{
+
+.third-page .food .food-container .food-item .food-guide {
     height: 350px;
 }
-.history-solo{
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .third-page {
+        margin-top: 5px;
+        margin-left: 0px;
+        width: 350px;
+
+    }
+
+    .third-page .beach {
+        width: 350px;
+        display: block;
+    }
+
+    .third-page .beach .beach-container {
+        display: block;
+    }
+
+    .third-page .beach .beach-container .beach-item .list-item {
+        width: 350px;
+        height: 200px;
+    }
+
+    .third-page .beach .beach-container .beach-item .beach-text {
+        width: 300px;
+        height: 150px;
+    }
+
+    .third-page .beach .beach-container .beach-item .list-item a {
+        position: relative;
+        top: 160px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .third-page .beach .beach-container .beach-item .list-item:hover a {
+        position: relative;
+        top: 85px;
+        /* background-color: #0066FF; */
+        border-radius: 10px;
+        border: 1px solid grey;
+        padding: 5px;
+        transition: 0.5s ease;
+    }
+
+    .third-page .food {
+        display: block;
+        width: 350px;
+    }
+
+    .third-page .food .food-container {
+        display: block;
+
+    }
+
+    .third-page .food .food-container .food-item {
+        display: block;
+
+    }
+
+    .third-page .food .food-container .food-item .list-item {
+        width: 350px;
+        height: 200px;
+    }
+
+    .third-page .food .food-container .food-item .food-text {
+        width: 300px;
+        height: 150px;
+    }
+
+    .third-page .food .food-container .food-item .list-item a {
+        position: relative;
+        top: 150px;
+        font-size: 15px;
+    }
+
+    .third-page .food .food-container .food-item .list-item:hover a {
+        top: 80px;
+        transition: 0.5s ease;
+
+    }
+}
+
+.history-solo {
     width: 95%;
     display: flex;
     flex-wrap: wrap;
     margin: 50px;
     margin-top: 50px;
-    justify-content: space-between; 
+    justify-content: space-between;
     /* background-color: aqua; */
 }
-.history-solo .history{
+
+.history-solo .history {
     /* border: 1px solid black; */
     width: 48%;
     display: flex;
     flex-wrap: wrap;
 }
-.history-solo .history .history-container{
+
+.history-solo .history .history-container {
     display: flex;
     flex-wrap: wrap;
 }
+
 .history-solo .history .history-container .history-item {
     display: block;
 }
+
 .history-solo .history .history-container .history-item .list-item {
     margin: 10px;
     width: 400px;
@@ -434,72 +613,25 @@ text-transform: uppercase;
     background-image: url(../../Images/back.jpg);
     border-radius: 10px;
 }
-.history-solo .history .history-container .history-item .history-text{
+
+.history-solo .history .history-container .history-item .history-text {
     padding-top: 100px;
     width: 400px;
     margin: 20px;
     border-radius: 10px;
     height: 180px;
 }
+
 .history-solo .history .history-container .history-item .list-item a {
     position: relative;
     top: 200px;
-text-decoration: none;
-color: white;
-font-size: 18px;
-text-transform: uppercase;
-}
-.history-solo .history .history-container .history-item .list-item:hover a{
-background-color: #0066FF;
-padding: 5px;
-border: 1px solid grey;
-border-radius: 10px;
-top: 140px;
-transition: 1.0s ease;
-}
-.history-solo .history .history-container .history-item .history-text{
-    padding-top: 100px;
-    width: 400px;
-    border-radius: 10px;
-    margin: 20px;
-    height: 180px;
-}
-.history-solo .history .history-container .history-item .history-text:hover{
-    background-color: green;
+    text-decoration: none;
     color: white;
-    transition: 1.0s ease;
+    font-size: 18px;
+    text-transform: uppercase;
 }
-.history-solo .history .history-container .history-item .history-article{
-  height: 350px;
-}
-.solo-travel{
-    width: 48%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.solo-travel .solo-container{
-    display: flex;
-    flex-wrap: wrap;
-}
-.solo-travel .solo-container .solo-item {
-    display: block;
-}
-.solo-travel .solo-container .solo-item .list-item {
-    margin: 10px;
-    width: 400px;
-    height: 280px;
-    background-image: url(../../Images/back.jpg);
-    border-radius: 10px;
-}
-.solo-travel .solo-container .solo-item .list-item a{
-    position: relative;
-    top: 200px;
-text-decoration: none;
-color: white;
-font-size: 18px;
-text-transform: uppercase;
-}
-.solo-travel .solo-container .solo-item .list-item:hover a{
+
+.history-solo .history .history-container .history-item .list-item:hover a {
     background-color: #0066FF;
     padding: 5px;
     border: 1px solid grey;
@@ -507,26 +639,152 @@ text-transform: uppercase;
     top: 140px;
     transition: 1.0s ease;
 }
-.solo-travel .solo-container .solo-item .solo-text{
+
+.history-solo .history .history-container .history-item .history-text {
+    padding-top: 100px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 180px;
+}
+
+.history-solo .history .history-container .history-item .history-text:hover {
+    background-color: green;
+    color: white;
+    transition: 1.0s ease;
+}
+
+.history-solo .history .history-container .history-item .history-article {
+    height: 350px;
+}
+
+.solo-travel {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.solo-travel .solo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.solo-travel .solo-container .solo-item {
+    display: block;
+}
+
+.solo-travel .solo-container .solo-item .list-item {
+    margin: 10px;
+    width: 400px;
+    height: 280px;
+    background-image: url(../../Images/back.jpg);
+    border-radius: 10px;
+}
+
+.solo-travel .solo-container .solo-item .list-item a {
+    position: relative;
+    top: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.solo-travel .solo-container .solo-item .list-item:hover a {
+    background-color: #0066FF;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    top: 140px;
+    transition: 1.0s ease;
+}
+
+.solo-travel .solo-container .solo-item .solo-text {
     border-radius: 10px;
     padding-top: 80px;
     border-radius: 10px;
 }
-.solo-travel .solo-container .solo-item .solo-text:hover{
+
+.solo-travel .solo-container .solo-item .solo-text:hover {
     background-color: green;
     color: white;
     height: 180px;
     transition: 1.0s ease;
 }
-.solo-travel .solo-container .solo-item .solo-trips{
+
+.solo-travel .solo-container .solo-item .solo-trips {
     height: 380px;
 }
+
 @media only screen and (min-width: 200px) and (max-width: 767px) {
+    .interest {
+        max-width: 100%;
+    }
+    .history-solo {
+        width: 350px;
+        margin: 10px;
+    }
+
+    .history-solo .history {
+        width: 350px;
+        display: block;
+    }
+
+    .history-solo .history .history-container .history-item .list-item {
+        width: 350px;
+        height: 200px;
+    }
+
+    .history-solo .history .history-container .history-item .list-item a {
+        font-size: 15px;
+        position: relative;
+        top: 160px;
+    }
+
+    .history-solo .history .history-container .history-item .list-item:hover a {
+        transition: 0.5s ease;
+        top: 80px;
+    }
+
+    .history-solo .solo-travel {
+        width: 350px;
+        display: block;
+    }
+
+    .history-solo .solo-travel .solo-container {
+        display: block;
+
+    }
+
+    .history-solo .solo-travel .solo-container .solo-item .list-item {
+        width: 350px;
+        height: 200px;
+
+    }
+
+    .history-solo .solo-travel .solo-container .solo-item .list-item a {
+        position: relative;
+        top: 150px;
+        font-size: 15px;
+    }
+
+    .history-solo .solo-travel .solo-container .solo-item .list-item:hover a {
+        top: 80px;
+        transition: 0.5s ease;
+        padding: 5px;
+    }
+.history-solo .solo-travel .solo-container .solo-item .solo-text {
+    width: 300px;
+    height: 150px;
+    /* text-align: center; */
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
     .interest-container {
         width: 350px;
         display: block;
         width: 80%;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         /* margin: 50px; */
         margin-left: 0px;
     }
@@ -617,4 +875,43 @@ text-transform: uppercase;
         position: relative;
         top: 90px;
     }
+}
+.photography {
+    display: flex;
+    width: 80%;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.photography .photo-item {
+    background-image: url(../../Images/nature.jpg);
+    width: 25%;
+    height: 250px;
+    margin: 30px;
+}
+.photography .photo-item:hover a{
+  display: block;
+  /* padding-top: 100px; */
+  position: relative;
+  top: 100px;
+ 
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #0066FF;
+  transition:  1.0s ease;
+width: 90px;
+text-align: center;
+margin-left: 150px;
+}
+.photography .photo-text{
+    width: 20%;
+    height: 200px;
+}
+.photography .photo-item a{
+    text-decoration: none;
+font-size: 18px;
+text-transform: uppercase;
+color: white;
+display: none;
 }
