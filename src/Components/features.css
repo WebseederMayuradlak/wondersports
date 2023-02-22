@@ -8,7 +8,7 @@ width: 100%;
 background-color: rgb(228, 203, 207);
 margin: 0px;
 }
-.features{
+.main-container .features{
     margin-top: 10px;
     display: grid;
     grid-template-rows: 290px;
@@ -19,7 +19,7 @@ margin: 0px;
     grid-gap: 10px;
     width: 100%;
     
-    grid-template-columns: repeat(5,195px) ;
+    grid-template-columns: repeat(5,250px) ;
 /* justify-content: space-between; */
     /* position: relative; */
     }
@@ -27,6 +27,7 @@ margin: 0px;
         opacity: 0.8;
     }
 .destination1{
+    /* width: 350px; */
     padding-top: 20px;
     text-align: center;
 }

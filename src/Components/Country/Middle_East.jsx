@@ -32,9 +32,7 @@ var Middle_East =()=>{
             <h5>Turkey</h5>
         </a>
       </div>
-
     </div>
-
  </div>
  </>
     )

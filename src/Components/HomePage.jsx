@@ -46,8 +46,9 @@ const HomePage = () => {
           muted
           loop
           autoPlay
-          width="1100px"
-          height="700px"
+          // width="100%"
+          // height="700px"
+          // style={{width:'100%',height:'700px'}}
         ></video>
         <div className="text">
           <p>

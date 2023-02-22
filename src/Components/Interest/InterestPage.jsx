@@ -180,6 +180,21 @@ const InterestPage = () => {
                     </div>
                 </div>
             </div>
+            <div className="photography">
+                <div className="photo-item">
+                    <a href="">guide </a>
+                </div>
+                <div className="photo-item">
+                    <a href="">article</a>
+                </div>
+                <div className="photo-text">
+                    <h3>Photography</h3>
+                </div>
+                <div className="photo-item">
+                    <a href="">trips</a>
+                </div>
+
+            </div>
         </>
     )
 }

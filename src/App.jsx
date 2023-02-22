@@ -7,15 +7,14 @@ import Destination from './Components/Destination';
 import Footer from "./Components/Footer"
 import Middle_East from './Components/Country/Middle_East';
 import InterestPage from './Components/Interest/InterestPage';
+import Kenya from './Components/Contries-Page/Kenya';
 
 function App() {
   return (
     <div className="App">
-   
-   <Navbar/>
-  <InterestPage/>
-   <NewFooter/>
-   {/* <Footer /> */}
+   <Navbar />
+   <Kenya />
+   <Footer />
     </div>
   );
 }
