@@ -1,0 +1,218 @@
+.blogs-page {
+    width: 100%;
+    height: 700px;
+    color: white;
+    background-image: url(./BlogsImage/Mountaine2.jpg);
+
+}
+
+.blogs-page .blogs-page-1 {
+    padding-top: 15%;
+}
+
+.blogs-page span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.blogs-page p {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+    position: relative;
+    left: 30%;
+    width: 600px;
+}
+
+.blogs-page-2 {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.blogs-page-2 .text-blogs-2 {
+    width: 45%;
+    height: 25%;
+    text-align: right;
+    margin-left: 50px;
+}
+
+.blogs-page-2 .text-blogs-2 p {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(240, 17, 188);
+}
+.blogs-page-2 .text-blogs-2 span {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.blogs-page-2 .image-blogs-2 {
+
+    position: relative;
+    
+    /* left: 6%; */
+    width: 45%;
+    flex-wrap: wrap;
+}
+.blogs-page-2 .image-blogs-2 img{
+    position: relative;
+    top: 10%;
+    left: -5%;
+}
+.blogs-page-3 {
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+height: 500px;
+}
+
+
+.blogs-page-3 .text-blogs-3 {
+    text-align: left;
+    width: 48%;
+}
+
+.blogs-page-3 .text-blogs-3 p {
+
+    color: rgb(240, 17, 188);
+    font-size: 30px;
+    font-weight: 500;
+}
+.blogs-page-3 .image-blogs-3{
+    /* background-color: red; */
+    width: 48%;
+   /* margin-left: 100px; */
+}
+.blogs-page-3 .image-blogs-3 img{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.blogs-page-3 .text-blogs-3 span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.blogs-page-4 {
+    margin-top: 30px;
+    background-image: url(../Blogs-Page/BlogsImage/Blogs4.jpg);
+    height: 500px;
+    width: 100%;
+}
+
+.blogs-page-4 .text-blogs-4 span {
+    color: rgb(240, 17, 188);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.blogs-page-4 .text-blogs-4 {
+    position: relative;
+    top: 20%;
+    width: 500px;
+    left: 35%;
+}
+
+.blogs-page-4 .text-blogs-4 p {
+    font-size: 18px;
+
+}
+.blogs-page-4 .image-blogs-4{
+    position: relative;
+    /* right: 30%; */
+}
+.blogs-page-5{
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+    height: 500px;
+}
+.blogs-page-5 .text-blogs-5 {
+    position: relative;
+  text-align: right;
+  /* text-align: justify; */
+    width: 45%;
+    padding-left: 50px;
+}
+.blogs-page-5 .text-blogs-5 p{
+    color: rgb(240, 17, 188);
+    font-size: 30px;
+    font-weight: 500;
+}
+.blogs-page-5 .text-blogs-5 span {
+font-size: 18px;
+}
+.blogs-page-5 .image-blogs-5{
+     position: relative;
+    right: 2%;
+ width: 45%;   
+}
+.blogs-page-6{
+    height: 450px;
+    width: 100%;
+    background-image: url(./BlogsImage/statue.jpg);
+}
+.blogs-page-6 .text-blogs-6{
+    top: 28%;
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+.blogs-page-6 .text-blogs-6 p{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(240, 17, 188);
+}
+.blogs-page-6 .text-blogs-6 span {
+    font-size: 18px;
+    font-weight: 400;
+}
+.blogs-page-7{
+    width: 100%;
+    height: 500px;
+    background-image: url(./BlogsImage/mount1.jpg);
+}
+.blogs-page-7 .text-blogs-7{
+    top: 25%;
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+.blogs-page-7 .text-blogs-7 p {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(240, 17, 188);
+}
+.blogs-page-8 .text-blogs-7 span {
+    font-size: 18px;
+    font-weight: 400;
+}
+.blogs-page-8{
+    width: 100%;
+    margin: 20px;
+    height: 500px;
+    display: flex;
+    margin-top: 6%;
+}
+.blogs-page-8 .text-blogs-8{
+    text-align: left;
+width: 48%;
+}
+.blogs-page-8 .text-blogs-8 p{
+    font-size: 30px;
+    font-weight: 500;
+  color: rgb(240, 17, 188);
+}
+.blogs-page-8 .image-blogs-8{
+    width: 48%;
+}
+.blogs-page-8 .image-blogs-8 {
+    position: relative;
+    left: 1%;
+}
+.blogs-page-8 .text-blogs-8{
+    font-size: 18px;
+    font-weight:500 ;
+}

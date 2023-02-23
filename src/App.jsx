@@ -8,13 +8,16 @@ import Footer from "./Components/Footer"
 import Middle_East from './Components/Country/Middle_East';
 import InterestPage from './Components/Interest/InterestPage';
 import Kenya from './Components/Contries-Page/Kenya';
+import Blogs1 from './Components/Blogs-Page/Blogs1';
+
 
 function App() {
   return (
     <div className="App">
    <Navbar />
-   <Kenya />
-   <Footer />
+   {/* <Kenya /> */}
+<Blogs1/> 
+     <Footer />
     </div>
   );
 }
