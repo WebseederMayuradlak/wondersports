@@ -7,7 +7,7 @@ import Destination from './Components/Destination';
 import Footer from "./Components/Footer"
 import Middle_East from './Components/Country/Middle_East';
 import InterestPage from './Components/Interest/InterestPage';
-import Kenya from './Components/Tour-Guide/Kenya';
+// import Kenya from './Components/Tour-Guide/Kenya';
 import Blogs1 from './Components/Blogs-Page/Blogs1';
 import MainBlogPage from './Components/Blogs-Page/MainBlogPage';
 
