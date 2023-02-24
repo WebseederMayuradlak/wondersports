@@ -78,10 +78,113 @@ export default function MainBlogPage() {
       </div>
       <div className="place-destination">
         <div className="destination-text">
-          <span></span>
-          <h3></h3>
+          <span>Journey</span>
+          <h3 style={{ color: 'black', paddingTop: '0px' }}>Travel category</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit sed atque deleniti nisi ipsum, fugit voluptatum sit officiis cupiditate in?</p>
         </div>
+        <div className="place-row-1">
+          <div className="place-text-1">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p> 
+
+          </div>
+          <div className="place-text-2">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+          <div className="place-text-3">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+        </div>
+        <div className="place-row-2">
+          <div className="place-text2-1">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+          <div className="place-text2-2">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+          </div>
+          <div className="place-text2-3">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+        </div>
+        <div className="place-row-3">
+          <div className="place-text3-1">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+          <div className="place-text3-2">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+          <div className="place-text3-3">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+        </div>
+        <div className="place-row-4">
+          <div className="place-text4-1">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+          </div>
+          <div className="place-text4-2">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+          <div className="place-text4-3">
+            <a href="">
+              <img src={IndiaImage} alt="" height='220px' width='370px' />
+              <h3>Lorem ipsum dolor sit amet it consectetur was adipisicing. </h3>
+            </a>
+            <p><a href="">Blockchain</a></p>
+
+          </div>
+        </div>
+
       </div>
     </div>
   )

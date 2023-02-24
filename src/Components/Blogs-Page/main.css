@@ -1,3 +1,4 @@
+/* top bottom right left  */
 .blog-content {
     height: 1000px;
     width: 100%;
@@ -53,7 +54,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 14%;
+    padding-left: 10%;
     /* margin-right: 20%; */
     height: auto;
 
@@ -104,7 +105,7 @@
 }
 
 .blog-about-us .about-image {
-width: 48%;
+    width: 48%;
     position: relative;
     padding-left: 30%;
     /* left: 25%; */
@@ -122,11 +123,13 @@ width: 48%;
     width: 600px;
     text-align: left;
 }
-.blog-about-us .mytext .brdr{
-   padding-left: 10px;
+
+.blog-about-us .mytext .brdr {
+    padding-left: 10px;
     border-left: 7px solid rgb(19, 53, 26);
 }
-.blog-about-us .about-image h3{
+
+.blog-about-us .about-image h3 {
     position: relative;
     top: -5%;
     margin-left: 40%;
@@ -134,23 +137,26 @@ width: 48%;
     padding: 10px;
     background-color: white;
 }
-.places{
+
+.places {
     width: 100%;
     display: flex;
     height: auto;
     flex-wrap: wrap;
     background-image: url(./BlogsImage/White.jpg);
 }
-.places .turkey-canada{
+
+.places .turkey-canada {
     margin: 1%;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 
-     /* margin-left: 20%;  */
+    /* margin-left: 20%;  */
     /* margin-right: 20%;  */
     /* justify-content: space-between; */
 }
+
 .places .turkey-canada .turkey-place {
     border-radius: 14px;
 
@@ -158,11 +164,12 @@ width: 48%;
     background-image: url(./BlogsImage/Turkey.jpg);
     width: 30%;
     height: 300px;
-    
+
     position: relative;
     left: 10%;
     /* padding-left: 10%; */
 }
+
 .places .turkey-canada .canada-place {
     border-radius: 14px;
 
@@ -170,25 +177,27 @@ width: 48%;
     margin-top: 2%;
     position: relative;
     left: 10%;
-    background-image: url(./BlogsImage/Canada.jpg);
+    background-image: url(./BlogsImage/Capture.PNG);
     width: 30%;
     height: 300px;
 }
-.places .span-india-china .india-place{
+
+.places .span-india-china .india-place {
     background-image: url(./BlogsImage/Imag1.jpg);
     width: 30%;
     border-radius: 14px;
- 
+
     height: 300px;
 }
-.places .span-india-china .span-place{
+
+.places .span-india-china .span-place {
     background-image: url(./BlogsImage/Image2.jpg);
     width: 30%;
     border-radius: 14px;
     height: 300px;
 }
 
-.places .span-india-china .china-place{
+.places .span-india-china .china-place {
     background-image: url(./BlogsImage/China.jpg);
     width: 30%;
     height: 300px;
@@ -197,7 +206,7 @@ width: 48%;
 }
 
 .places .span-india-china {
-    
+
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -207,6 +216,7 @@ width: 48%;
     height: auto;
     margin-bottom: 2%;
 }
+
 /* .places span{
  position: relative;
  left: 30%;
@@ -222,40 +232,202 @@ width: 48%;
     /* background-color: red; */
     padding-top: 50px;
 }
-.places .place-text span{
+
+.places .place-text span {
     padding-top: 20px;
-      color: rgb(19, 53, 26); 
-      font-size: 18px;
-      text-transform: uppercase;
-      
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 53, 26);
+    font-size: 18px;
+    text-transform: uppercase;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .places .place-text h3 {
     text-transform: uppercase;
     font-weight: 900;
     color: #000;
 }
-.places .place-text p{
+
+.places .place-text p {
     font-size: 18px;
 }
+
 .places .turkey-canada {
 
- text-transform: uppercase;
+    text-transform: uppercase;
     color: white;
     font-size: 30px;
     font-weight: 550;
 }
+
 .places .span-india-china {
     text-transform: uppercase;
     color: white;
     font-size: 30px;
     font-weight: 550;
 }
+
 .places .span-india-china span {
     position: relative;
     left: -25%;
 }
+
 .places .turkey-canada span {
     position: relative;
     left: -25%;
 }
+
+.place-destination {
+    background-image: url(./BlogsImage/MainPage.jpg);
+    width: 100%;
+    height: auto;
+    padding-bottom: 3%;
+}
+.place-destination .destination-text {
+    margin-left: 30%;
+    width: 500px;
+}
+
+.place-destination .place-row-1 {
+    margin-left: 20%;
+    margin-top: 2%;
+    display: flex;
+    margin-right: 20%;
+    /* background-color: red; */
+    /* justify-content: space-between; */
+}
+
+.place-destination .place-row-1 .place-text-1 {
+    margin-right: 4%;
+    height: 300px;
+    width: 30%;
+    border-radius: 14px;
+
+}
+
+.place-destination .place-row-1 .place-text-2 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-1 .place-text-3 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-2 {
+    margin-left: 20%;
+    margin-top: 4%;
+    display: flex;
+    margin-right: 20%;
+}
+
+.place-destination .place-row-2 .place-text2-1 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-2 .place-text2-2 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-2 .place-text2-3 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-3 {
+    margin-left: 20%;
+    margin-top: 4%;
+    display: flex;
+    margin-right: 20%;
+}
+
+.place-destination .place-row-3 .place-text3-1 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-3 .place-text3-2 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-3 .place-text3-3 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-4 {
+    margin-left: 20%;
+    margin-top: 4%;
+    display: flex;
+    margin-right: 20%;
+}
+
+.place-destination .place-row-4 .place-text4-1 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+}
+
+.place-destination .place-row-4 .place-text4-2 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+
+    width: 30%;
+  
+}
+
+.place-destination .place-row-4 .place-text4-3 {
+    height: 300px;
+    margin-right: 4%;
+    border-radius: 14px;
+    width: 30%;
+    /* background-image: url(./BlogsImage/Capture.PNG); */
+}
+.place-destination a{
+    text-decoration: none;
+    color: black;
+}
+.place-destination h3{
+    text-align: justify;
+}
+.place-destination p{
+    text-align: left;
+}
+/* .place-destination h3{
+    font-size: 25px;
+color: white;
+text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 30%;
+} */
