@@ -12,13 +12,18 @@ import Blogs1 from './Components/Blogs-Page/Blogs1';
 import MainBlogPage from './Components/Blogs-Page/MainBlogPage';
 import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
 import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
+import MiddleEast from './Components/TourGuide/MiddleEast';
+import NorthTourGuide from './Components/TourGuide/NorthTourGuide';
 
 
 function App() {
   return (
     <div className="App">
    <Navbar />
-<EuroptourGuide/>
+   <NorthTourGuide/>
+   {/* <MiddleEast/> */}
+   {/* <AfricatourGuide /> */}
+{/* <EuroptourGuide/> */}
      <Footer />
     </div>
   );

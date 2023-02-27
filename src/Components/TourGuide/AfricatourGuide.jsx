@@ -16,7 +16,7 @@ const AfricatourGuide = () => {
         <>
             <div className="kenya-container">
                 <div className="kenya-page">
-                    <p className="travel-guide"> _____The Travel Guide ____</p>
+                    <p className="travel-guide">Africa - Tour Guide </p>
                     <p className="adavanture ">Prepare For The Advanture!</p>
                     <a href=""> Let's Go </a>
                 </div>
