@@ -1,17 +1,17 @@
 import React from "react";
-import Image1 from '../Contries-Page/CountriesImage/Image1.jpeg'
-import Image2 from '../Contries-Page/CountriesImage/Image2.jpeg'
-import Image3 from '../Contries-Page/CountriesImage/Image3.jpeg'
-import Image4 from "../Contries-Page/CountriesImage/image4.jpeg"
-import Img1 from '../Contries-Page/CountriesImage/1.jpeg'
-import Img2 from '../Contries-Page/CountriesImage/2.jpeg'
-import Img3 from '../Contries-Page/CountriesImage/3.jpeg'
-import Img4 from '../Contries-Page/CountriesImage/4.jpeg'
-import Img5 from '../Contries-Page/CountriesImage/5.jpeg'
-import Img6 from '../Contries-Page/CountriesImage/6.jpeg'
+import Image1 from '../TourGuide/CountriesImage/Image1.jpeg'
+import Image2 from '../TourGuide/CountriesImage/Image2.jpeg'
+import Image3 from '../TourGuide/CountriesImage/Image3.jpeg'
+import Image4 from "../TourGuide/CountriesImage/image4.jpeg"
+import Img1 from '../TourGuide/CountriesImage/1.jpeg'
+import Img2 from '../TourGuide/CountriesImage/2.jpeg'
+import Img3 from '../TourGuide/CountriesImage/3.jpeg'
+import Img4 from '../TourGuide/CountriesImage/4.jpeg'
+import Img5 from '../TourGuide/CountriesImage/5.jpeg'
+import Img6 from '../TourGuide/CountriesImage/6.jpeg'
 
-import "./kenya.css"
-const Kenya = () => {
+import "./africatour.css"
+const AfricatourGuide = () => {
     return (
         <>
             <div className="kenya-container">
@@ -107,5 +107,5 @@ const Kenya = () => {
         </>
     )
 }
-export default Kenya;
+export default AfricatourGuide;
 

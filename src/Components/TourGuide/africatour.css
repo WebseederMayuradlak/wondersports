@@ -1,7 +1,7 @@
 .kenya-container{
     min-width: 100%;
 height: 800px;
-    background-image: url(../../Components/Contries-Page/CountriesImage/backgraoundImage.jpeg);
+    background-image: url(../../Components/TourGuide/CountriesImage/backgraoundImage.jpeg);
 }
 .kenya-container .kenya-page  {
     padding-top: 15%;
@@ -147,7 +147,7 @@ margin-left: 200px;
     margin-top: 50px;
 width: 100%;
 height: 500px;
-background-image: url(../Contries-Page/CountriesImage/sunset.jpg);
+background-image: url(../TourGuide/CountriesImage/sunset.jpg);
 }
 .see-tour .wrapper{
 color: white;

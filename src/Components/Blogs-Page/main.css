@@ -412,7 +412,6 @@
     margin-right: 4%;
     border-radius: 14px;
     width: 30%;
-    /* background-image: url(./BlogsImage/Capture.PNG); */
 }
 .place-destination a{
     text-decoration: none;
@@ -424,10 +423,7 @@
 .place-destination p{
     text-align: left;
 }
-/* .place-destination h3{
-    font-size: 25px;
-color: white;
-text-transform: uppercase;
-    font-weight: 700;
-    padding-top: 30%;
-} */
+
+.place-destination img{
+    border-radius: 10px;
+}
