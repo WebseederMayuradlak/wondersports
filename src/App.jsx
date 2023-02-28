@@ -20,6 +20,9 @@ import SpringtourGuide from './Components/TourGuide/Spring/SpringtourGuide';
 import SnowtourGuide from './Components/TourGuide/Snow-Guide/SnowtourGuide';
 import BeachandDiving from './Components/TourGuide/Beach-and-Diving/BeachandDiving';
 import FoodandDrink from './Components/TourGuide/Food-and-Drinks/FoodandDrink';
+import HistoryandHeritage from './Components/TourGuide/History-Guide/HistoryandHeritage';
+import Solotravel from './Components/TourGuide/Solo-Travel/Solotravel';
+import PhotoGraphy from './Components/TourGuide/Photography/PhotoGraphy';
 // import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
 // import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
 // import MiddleEast from './Components/TourGuide/MiddleEast';
@@ -33,11 +36,16 @@ function App() {
   return (
     <div className="App">
    <Navbar />
+   <PhotoGraphy/>
+   {/* <Solotravel/> */}
    {/* <BeachandDiving/> */}
    {/* <SnowtourGuide/> */}
    {/* <SpringtourGuide/>? */}
    {/* <WintertourGuide/> */}
-   <FoodandDrink/>
+   {/* <Blogs1/> */}
+   {/* <HistoryandHeritage/> */}
+   {/* <FoodandDrink/> */}
+
      <Footer />
     </div>
   );
