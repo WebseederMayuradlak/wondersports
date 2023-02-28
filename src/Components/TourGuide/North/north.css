@@ -1,0 +1,281 @@
+.north-page {
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../CountriesImage/sunset.jpg);
+    height: 1000px;
+}
+
+.north-page .north-text {
+    color: white;
+    padding-top: 20%;
+}
+
+.north-page .north-text a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(255, 183, 0);
+    /* width: 100px; */
+
+}
+
+.north-page .north-text h3 {
+    padding-top: 1%;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+.north-page .north-text span {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.north-guide-1 {
+    background-color: #01090B;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    /* margin-top: 3%; */
+    height: auto;
+}
+
+.north-guide-1 .north-guide-text-1 {
+    padding-top: 3%;
+    width: 40%;
+    margin: 3%;
+}
+
+.north-guide-1 .north-guide-text-1 span {
+
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.north-guide-1 .north-guide-text-1 h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.north-guide-1 .north-guide-text-1 p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.north-guide-1 .north-guide-text-1 p {
+    margin-left: 10%;
+    width: 600px;
+}
+
+.north-guide-1 .north-guide-img-1 img {
+    border-radius: 10px;
+}
+
+.north-guide-1 .north-guide-img-1 {
+    margin: 2%;
+    width: 45%;
+}
+
+.north-guide-1 .north-guide-img-2 {
+    width: 40%;
+    margin: 2%;
+
+}
+
+.north-guide-1 .north-guide-img-2 img {
+    border-radius: 10px;
+}
+
+.north-guide-1 .north-guide-text-2 {
+    padding-top: 3%;
+    width: 40%;
+    margin: 3%;
+    /* width: 45%; */
+}
+
+.north-guide-1 .north-guide-text-2 span {
+
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.north-guide-1 .north-guide-text-2 h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.north-guide-1 .north-guide-text-2 p {
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.north-guide-1 .north-guide-img-3 {
+    width: 45%;
+
+}
+
+.north-guide-1 .north-guide-img-3 img {
+    border-radius: 10px;
+}
+
+.north-guide-1 .north-guide-text-3 {
+    width: 40%;
+    margin: 3%;
+}
+
+.north-guide-1 .north-guide-text-3 span {
+
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.north-guide-1 .north-guide-text-3 p {
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.north-guide-1 .north-guide-img-4 {
+    margin: 3%;
+    width: 45%;
+}
+
+.north-guide-1 .north-guide-img-4 img {
+    border-radius: 10px;
+}
+
+.north-guide-1 .north-guide-text-4 {
+    padding-top: 3%;
+    width: 40%;
+    margin: 3%;
+}
+
+.north-guide-1 .north-guide-text-4 span {
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.north-guide-1 .north-guide-text-3 h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.north-guide-1 .north-guide-text-4 h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.north-guide-1 .north-guide-text-4 p {
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.north-guide-1 .north-guide-img-5 {
+    background-image: url(../CountriesImage/sunset.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.north-guide-1 .north-guide-img-5 .north-mytext {
+    margin-top: 8%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.north-guide-1 .north-guide-img-5 p {
+    margin-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+}
+
+.north-guide-1 .north-guide-img-5 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: #FF6C00;
+}
+
+.north-guide-text {
+    width: 40%;
+    margin-left: 30%;
+    height: 230px;
+}
+
+.north-guide-text span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.north-guide-text p {
+    font-size: 18px;
+}
+
+.north-guide-text a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    background-color: #FF6C00;
+}
+
+.north-guide-1 .collapse {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.north-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 950px;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.north-content .north-content-1 {
+    padding-top: 13%;
+    margin: 1%;
+}
+
+.north-content .north-content-2 {
+    margin: 1%;
+    height: auto;
+}
+
+.north-content .north-content-2 .north-content2-img-1 {
+    /* margin: 1%; */
+    position: relative;
+    top: 13%;
+}
+
+.north-content .north-content-2 .north-content2-img-2 {
+    padding-top: 40%;
+}
+
+.north-content .north-content-3 {
+    margin: 1%;
+
+}
+
+.north-content .north-content-3 .north-content3-img-1 {
+    margin-top: 5%;
+}
+
+.north-content .north-content-4 {
+    margin: 1%;
+    padding-top: 10%;
+}
+
