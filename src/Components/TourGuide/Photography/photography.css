@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 .photo-guide-page {
     width: 100%;
     min-height: 100%;
@@ -282,4 +283,3 @@
     margin: 1%;
     padding-top: 10%;
 }
-
