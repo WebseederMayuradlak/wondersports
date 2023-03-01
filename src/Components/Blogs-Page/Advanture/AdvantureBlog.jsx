@@ -1,25 +1,25 @@
 import React from 'react'
-import "./blogs1.css"
-import Icemountain from './BlogsImage/icemountaine.jpg'
-import MountImage from './BlogsImage/mount1.jpg'
-export default function Blogs1() {
+import "./advanture.css"
+import Icemountain from '../BlogsImage/icemountaine.jpg'
+import MountImage from '../BlogsImage/mount1.jpg'
+export default function AdvantureBlog() {
     return (
         <>
             <div className="blogs-page">
                 <div className="blogs-page-1">
-                    <span>travel blogs</span>
+                    <span>Advanture  blogs</span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quis fugit magnam, explicabo at earum numquam corporis quo nulla quod.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi corrupti optio eligendi aspernatur? Unde dolorem, officia ullam, minus nam deleniti eos sed quod nemo beatae at, nesciunt earum ea nisi.
                     </p>
                 </div>
-            </div>
+            </div> 
             <div className="blogs-page-2">
                 <div className="text-blogs-2">
                     <p>the mountains</p>
                     <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, porro quasi recusandae, exercitationem accusamus corrupti doloribus illum mollitia nulla voluptatem rem possimus ab cum numquam dignissimos cupiditate aliquam ea sed? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos quibusdam ipsa labore asperiores nisi libero suscipit laborum blanditiis eum sequi! Magni consequatur, perspiciatis fuga molestias reiciendis omnis. Rem, accusamus fugiat? Assumenda quaerat asperiores officiis, doloribus distinctio, dolore unde delectus ullam voluptatum cupiditate, neque autem itaque eius nemo perferendis pariatur. Necessitatibus id quaerat voluptas voluptates ut ex provident? Nostrum accusantium, veniam quia rerum sed aperiam consequuntur optio cum. Tenetur fugit labore, cumque illo sequi amet. Iure et esse odio sit sint neque eius asperiores suscipit dignissimos, amet nobis temporibus voluptatum soluta sapiente mollitia inventore! Eius neque, eligendi doloremque cumque vitae nam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam optio nemo dolorum est reprehenderit ipsum repellendus, ipsam eius quibusdam vitae officiis eligendi magni incidunt tenetur, ut quaerat nostrum quo temporibus? Consequuntur veniam, tempora quae nesciunt deserunt facere nemo magnam nihil nobis corrupti obcaecati assumenda aliquid atque ratione expedita. Molestiae, veritatis. </span>
                 </div>
                 <div className="image-blogs-2">
-                    <img src={Icemountain} alt="" />
+                    <img src={Icemountain} alt=""  />
                 </div>
                 <div className="blogs-page-4">
                     <div className="text-blogs-4">

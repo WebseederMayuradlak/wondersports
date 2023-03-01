@@ -1,0 +1,199 @@
+.culture-blog {
+    width: 100%;
+    height: auto;
+    /* color: white; */
+    /* display: flex; */
+}
+
+.culture-blog .culture-blog-2 {
+    margin: 0% 0% 10% 10%;
+    /* justify-content: space-around; */
+    display: flex;
+    /* width: 100%; */
+}
+
+.culture-blog .culture-blog-1 {
+    height: 650px;
+    width: 100%;
+    background-image: url(../BlogsImage/China.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.culture-blog .culture-blog-1 {
+    padding-top: 8%;
+}
+
+.culture-blog .culture-blog-1 .blogtext {
+    position: relative;
+    top: 5%;
+    left: 30%;
+    /* padding-left: 30%; */
+    max-width: 600px;
+}
+
+.culture-blog .culture-blog-1 span {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.culture-blog .culture-blog-2 p {
+    max-width: 500px;
+}
+
+.culture-blog .culture-blog-2 {
+    height: 350px;
+}
+
+/* .culture-blog .culture-blog-2 .culture-text, */
+.culture-blog .culture-img {
+    max-width: 35vw;
+    margin: 5%;
+}
+
+.culture-blog .culture-blog-2 .culture-text {
+    margin: 3%;
+    max-width: 35vw;
+}
+
+.culture-blog .culture-blog-2 .culture-text {
+    font-size: 18px;
+    text-align: right;
+    position: relative;
+    /* left: 10%; */
+}
+
+.culture-blog .culture-blog-2 .culture-text h3 {
+    text-transform: uppercase;
+
+    color: rgb(205, 10, 240);
+}
+
+.culture-blog .culture-blog .culture-blog-2 .culture-img {
+    border-radius: 10px;
+    position: relative;
+    /* right: 30%; */
+}
+
+.culture-blog .culture-blog-2 .culture-img img {
+    border-radius: 10px;
+}
+
+.culture-blog .culture-blog-3 {
+    background-image: url(../BlogsImage/Mountaine2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.culture-blog .culture-blog-3 .blog-text-3 {
+    width: 60vh;
+    top: 5vw;
+    position: relative;
+    left: 70vh;
+}
+
+.culture-blog .culture-blog-3 .blog-text-3 h3 {
+    text-transform: uppercase;
+
+    color: rgb(205, 10, 240);
+}
+
+.culture-blog .culture-blog-4 {
+    max-width: 100%;
+    display: flex;
+    margin: 2% 0% 10% 10%;
+    height: 300px;
+    /* height: 400px; */
+}
+
+.culure-blog .culture-blog-4 .culture-img-4 {
+    max-width: 35vw;
+}
+
+.culture-blog .culture-blog-4 .culture-text-4 {
+    max-width: 35vw;
+    position: relative;
+    left: 8%;
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.culture-blog .culture-blog-4 .culture-text-4 h3 {
+    text-transform: uppercase;
+    color: rgb(205, 10, 240);
+}
+
+.culture-blog .culture-blog-5 {
+    background-image: url(../BlogsImage/Mountaine2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.culture-blog .culture-blog-5 h3 {
+    text-transform: uppercase;
+
+    color: rgb(205, 10, 240);
+}
+
+.culture-blog .culture-blog-5 .blog-text-5 {
+    width: 60vh;
+    top: 5vw;
+    position: relative;
+    left: 70vh;
+}
+
+.culture-blog .culture-blog-6 {
+    max-width: 100%;
+    display: flex;
+    margin: 2% 0% 10% 10%;
+    height: 300px;
+}
+
+.culture-blog .culture-blog-6 .culture-img-6 {
+    width: 35vw;
+}
+
+.culture-blog .culture-blog-6 .culture-img-6 img {
+    border-radius: 10px;
+}
+
+.culture-blog .culture-blog-6 .culture-text-6 {
+    max-width: 35vw;
+    position: relative;
+    /* left: 8%; */
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: right;
+}
+
+.culture-blog .culture-blog-6 .culture-text-6 h3 {
+    color: rgb(205, 10, 240);
+    text-transform: uppercase;
+}
+
+.culture-blog .culture-blog-7 {
+    background-image: url(../BlogsImage/ForestImage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+}
+
+.culture-blog .culture-blog-7 h3 {
+    color: rgb(205, 10, 240);
+    text-transform: uppercase;
+}
+
+.culture-blog .culture-blog-7 .blog-text-7 {
+    width: 60vh;
+    top: 5vw;
+    position: relative;
+    left: 70vh;
+}

@@ -7,6 +7,7 @@ import Footer from "./Components/Footer"
 import Middle_East from './Components/Country/Middle_East';
 import InterestPage from './Components/Interest/InterestPage';
 // import Kenya from './Components/Tour-Guide/Kenya';
+// import Blogs1 from './Components/Blogs-Page/AdvantureBlog';
 import MainBlogPage from './Components/Blogs-Page/MainBlogPage';
 import AfricatourGuide from './Components/TourGuide/Africa/AfricatourGuide';
 import EuroptourGuide from './Components/TourGuide/Europe/EuroptourGuide';
@@ -21,7 +22,13 @@ import FoodandDrink from './Components/TourGuide/Food-and-Drinks/FoodandDrink';
 import HistoryandHeritage from './Components/TourGuide/History-Guide/HistoryandHeritage';
 import Solotravel from './Components/TourGuide/Solo-Travel/Solotravel';
 import PhotoGraphy from './Components/TourGuide/Photography/PhotoGraphy';
+import AdvantureBlog from './Components/Blogs-Page/Advanture/AdvantureBlog';
+import CultureBlog from './Components/Blogs-Page/Culture/CultureBlog';
+import Crossocean from './Components/Blogs-Page/Cross-Ocean/Crossocean';
+import FaimilyBlog from './Components/Blogs-Page/Faimily/FaimilyBlog';
+import ForestBlog from './Components/Blogs-Page/Forest/ForestBlog';
 import Mountain from './Components/Blogs-Page/Mountain/Mountain';
+// import AdvantureBlog from './Components/Blogs-Page/AdvantureBlog';
 // import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
 // import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
 // import MiddleEast from './Components/TourGuide/MiddleEast';
@@ -32,20 +39,21 @@ import Mountain from './Components/Blogs-Page/Mountain/Mountain';
 
 
 function App() {
+  
   return (
     <div className="App">
-   {/* <Navbar /> */}
-   {/* <MainBlogPage /> */}
-   {/* <PhotoGraphy/> */}
-   {/* <Solotravel/> */}
-   {/* <BeachandDiving/> */}
-   {/* <SnowtourGuide/> */}
-   {/* <SpringtourGuide/>? */}
-   {/* <WintertourGuide/> */}
-   <Mountain/>
-   {/* <HistoryandHeritage/> */}
-   {/* <FoodandDrink/> */}
-
+      <Navbar/>
+      {/* <ForestBlog/> */}
+      <Mountain />
+      {/* <FaimilyBlog/> */}
+      {/* <Crossocean/> */}
+      {/* <CultureBlog/> */}
+      {/* <AdvantureBlog/> */}
+      {/* <AdvantureBlog/> */}
+    {/* <AdvantureBlog/> */}
+{/* <MainBlogPage/> */}
+{/* <Solotravel/> */}
+{/* <AdvantureBlog/> */}
      <Footer />
     </div>
   );
