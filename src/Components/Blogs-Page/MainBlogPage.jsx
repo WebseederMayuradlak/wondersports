@@ -12,7 +12,7 @@ import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 export default function MainBlogPage() {
   return (
     <div className='main-blog-page'>
-      <div className="blog-content">
+      <div className="blog-content" style={{paddingLeft:'30%'}}>
         <p>Travelling turns you into a <br /> great storyteller</p>
         <a href="" className='read'>read blog</a>
         <a href="">destinations <ArrowRightAltIcon fontSize='large' /> </a>

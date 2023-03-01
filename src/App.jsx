@@ -28,14 +28,6 @@ import Crossocean from './Components/Blogs-Page/Cross-Ocean/Crossocean';
 import FaimilyBlog from './Components/Blogs-Page/Faimily/FaimilyBlog';
 import ForestBlog from './Components/Blogs-Page/Forest/ForestBlog';
 import Mountain from './Components/Blogs-Page/Mountain/Mountain';
-// import AdvantureBlog from './Components/Blogs-Page/AdvantureBlog';
-// import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
-// import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
-// import MiddleEast from './Components/TourGuide/MiddleEast';
-// import NorthTourGuide from './Components/TourGuide/NorthTourGuide';
-// import { BrowserRouter as Router,Link,Routes } from 'react-router-dom';
-// import WintertourGuide from './Components/TourGuide/WintertourGuide';
-// import SummertourGuide from './Components/TourGuide/SummertourGuide';
 
 
 function App() {
@@ -43,17 +35,10 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <ForestBlog/> */}
-      <Mountain />
-      {/* <FaimilyBlog/> */}
-      {/* <Crossocean/> */}
-      {/* <CultureBlog/> */}
-      {/* <AdvantureBlog/> */}
-      {/* <AdvantureBlog/> */}
-    {/* <AdvantureBlog/> */}
-{/* <MainBlogPage/> */}
-{/* <Solotravel/> */}
-{/* <AdvantureBlog/> */}
+      <MainBlogPage/>
+      {/* <Destination/> */}
+      {/* <InterestPage/> */}
+   {/* <HomePage/> */}
      <Footer />
     </div>
   );

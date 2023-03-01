@@ -51,7 +51,7 @@
   left: 300px;
   top: 500px;
 }
-.text p{
+.text p {
   font-size: 18px;
 }
 .continents {
@@ -170,10 +170,9 @@
   }
 }
 @media screen and (max-width: 750px) {
- .continents{
-  justify-content: space-between;
-
- }
+  .continents {
+    justify-content: space-between;
+  }
   .continents .col5 {
     border-radius: 70px;
     width: 100%;
@@ -215,7 +214,6 @@
     background-image: url(../Images/nature.jpg);
   }
 }
-
 
 .mycontainer video {
   width: 100%;
@@ -288,7 +286,6 @@
   color: whitesmoke;
 }
 .counter .items .plan {
-
   width: 22%;
   height: 200px;
 }
@@ -337,30 +334,30 @@
   justify-content: space-between;
 }
 
-.trending .blog1:hover{
+.trending .blog1:hover {
   opacity: 0.8;
 }
-.trending .blog2:hover{
+.trending .blog2:hover {
   opacity: 0.8;
 }
-.trending .blog3:hover{
+.trending .blog3:hover {
   opacity: 0.8;
 }
-.trending .blog:hover{
+.trending .blog:hover {
   opacity: 0.8;
 }
-@media screen and (max-width: 600px){
-   .trending{
+@media screen and (max-width: 600px) {
+  .trending {
     margin-top: 300px;
     display: inline-block;
     flex-wrap: wrap;
- 
+
     position: relative;
     gap: 10px;
-   }
-   .trending .blog1{
+  }
+  .trending .blog1 {
     width: 100%;
-   }
+  }
 }
 .trending .blog2:hover button {
   transition: ease 1.5s;
@@ -425,7 +422,7 @@
   background-image: url(../Images/nature.jpg);
 }
 .d {
-  background-color: #e0e0e0;;
+  background-color: #e0e0e0;
 }
 .trending .blog3 {
   cursor: pointer;
@@ -446,7 +443,7 @@
 .trede h4 {
   text-align: center;
 }
-.next{
+.next {
   margin-top: 20px;
   width: 100%;
   height: 500px;
@@ -454,44 +451,41 @@
   /* background-color: #e0e0e0; */
   margin-bottom: 20px;
 }
-.next .con1{
-margin-top: 20px;
-padding-top:20px ;
+.next .con1 {
+  margin-top: 20px;
+  padding-top: 20px;
 }
-.next .con1{
+.next .con1 {
   word-spacing: 2px;
   letter-spacing: 5px;
   /* font-size: 30px;
   font-weight: 700; */
-color:#e0e0e0 ;
+  color: #e0e0e0;
 }
-.next .con2{
+.next .con2 {
   letter-spacing: 10px;
   font-weight: 500;
   font-size: 50px;
- color: rgb(233, 207, 207);
+  color: rgb(233, 207, 207);
 }
-.next .con3{
-
+.next .con3 {
   padding-top: 150px;
   height: 350px;
   margin-left: 150px;
-margin-right: 150px;
+  margin-right: 150px;
   display: flex;
   /* background-color: aqua; */
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.next .con3 a i{
- color: #fff;
-  
+.next .con3 a i {
+  color: #fff;
 }
-.next .con3 h6{
- color: #ffff;
-
+.next .con3 h6 {
+  color: #ffff;
 }
 
-.next .con3 .first-3 a{
+.next .con3 .first-3 a {
   /* font-size: 200px; */
 }

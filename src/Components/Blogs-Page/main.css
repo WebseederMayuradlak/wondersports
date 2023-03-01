@@ -269,12 +269,14 @@
 
 .places .span-india-china span {
     position: relative;
-    left: -25%;
+    margin: 4%;
+    /* left: -25%; */
 }
 
 .places .turkey-canada span {
     position: relative;
-    left: -25%;
+    /* left: -25%; */
+    margin:4% ;
 }
 
 .place-destination {
