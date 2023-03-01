@@ -44,14 +44,14 @@ function App() {
     <div className="App">
       <Navbar/>
       {/* <ForestBlog/> */}
-      <Mountain />
+      {/* <Mountain /> */}
       {/* <FaimilyBlog/> */}
       {/* <Crossocean/> */}
       {/* <CultureBlog/> */}
       {/* <AdvantureBlog/> */}
       {/* <AdvantureBlog/> */}
     {/* <AdvantureBlog/> */}
-{/* <MainBlogPage/> */}
+<MainBlogPage/>
 {/* <Solotravel/> */}
 {/* <AdvantureBlog/> */}
      <Footer />
