@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Navbar from './Components/Navbar';
 import HomePage from './Components/HomePage';
 import NewFooter from './Components/Footer';
@@ -8,7 +7,6 @@ import Footer from "./Components/Footer"
 import Middle_East from './Components/Country/Middle_East';
 import InterestPage from './Components/Interest/InterestPage';
 // import Kenya from './Components/Tour-Guide/Kenya';
-import Blogs1 from './Components/Blogs-Page/Blogs1';
 import MainBlogPage from './Components/Blogs-Page/MainBlogPage';
 import AfricatourGuide from './Components/TourGuide/Africa/AfricatourGuide';
 import EuroptourGuide from './Components/TourGuide/Europe/EuroptourGuide';
@@ -23,6 +21,7 @@ import FoodandDrink from './Components/TourGuide/Food-and-Drinks/FoodandDrink';
 import HistoryandHeritage from './Components/TourGuide/History-Guide/HistoryandHeritage';
 import Solotravel from './Components/TourGuide/Solo-Travel/Solotravel';
 import PhotoGraphy from './Components/TourGuide/Photography/PhotoGraphy';
+import Mountain from './Components/Blogs-Page/Mountain/Mountain';
 // import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
 // import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
 // import MiddleEast from './Components/TourGuide/MiddleEast';
@@ -35,15 +34,15 @@ import PhotoGraphy from './Components/TourGuide/Photography/PhotoGraphy';
 function App() {
   return (
     <div className="App">
-   <Navbar />
+   {/* <Navbar /> */}
    {/* <MainBlogPage /> */}
-   <PhotoGraphy/>
+   {/* <PhotoGraphy/> */}
    {/* <Solotravel/> */}
    {/* <BeachandDiving/> */}
    {/* <SnowtourGuide/> */}
    {/* <SpringtourGuide/>? */}
    {/* <WintertourGuide/> */}
-   {/* <Blogs1/> */}
+   <Mountain/>
    {/* <HistoryandHeritage/> */}
    {/* <FoodandDrink/> */}
 

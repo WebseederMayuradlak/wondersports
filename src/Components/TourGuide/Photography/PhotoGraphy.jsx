@@ -64,7 +64,6 @@ function PhotoGraphy() {
                         <a href="">Explore </a>
                     </div>
                 </div>
-
                 <div className="photo-content">
                     <div className="photo-content-1">
 
