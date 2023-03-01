@@ -1,0 +1,282 @@
+.middle-page {
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../CountriesImage/backgraoundImage.png);
+    height: 1000px;
+}
+
+.middle-page .middle-text {
+    color: white;
+    padding-top: 20%;
+}
+
+.middle-page .middle-text a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(255, 183, 0);
+    /* width: 100px; */
+
+}
+
+.middle-page .middle-text h3 {
+    padding-top: 1%;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+
+.middle-page .middle-text span {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.middle-guide-1 {
+    background-color: #01090B;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    /* margin-top: 3%; */
+    height: auto;
+}
+
+.middle-guide-1 .middle-guide-text-1 {
+    padding-top: 3%;
+    width: 40%;
+    margin: 3%;
+}
+
+.middle-guide-1 .middle-guide-text-1 span {
+
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.middle-guide-1 .middle-guide-text-1 h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.middle-guide-1 .middle-guide-text-1 p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.middle-guide-1 .middle-guide-text-1 p {
+    margin-left: 10%;
+    width: 600px;
+}
+
+.middle-guide-1 .middle-guide-img-1 img {
+    border-radius: 10px;
+}
+
+.middle-guide-1 .middle-guide-img-1 {
+    margin: 2%;
+    width: 45%;
+}
+
+.middle-guide-1 .middle-guide-img-2 {
+    width: 40%;
+    margin: 2%;
+
+}
+
+.middle-guide-1 .middle-guide-img-2 img {
+    border-radius: 10px;
+}
+
+.middle-guide-1 .middle-guide-text-2 {
+    padding-top: 3%;
+    width: 40%;
+    margin: 3%;
+    /* width: 45%; */
+}
+
+.middle-guide-1 .middle-guide-text-2 span {
+
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.middle-guide-1 .middle-guide-text-2 h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.middle-guide-1 .middle-guide-text-2 p {
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.middle-guide-1 .middle-guide-img-3 {
+    width: 45%;
+
+}
+
+.middle-guide-1 .middle-guide-img-3 img {
+    border-radius: 10px;
+}
+
+.middle-guide-1 .middle-guide-text-3 {
+    width: 40%;
+    margin: 3%;
+}
+
+.middle-guide-1 .middle-guide-text-3 span {
+
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.middle-guide-1 .middle-guide-text-3 p {
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.middle-guide-1 .middle-guide-img-4 {
+    margin: 3%;
+    width: 45%;
+}
+
+.middle-guide-1 .middle-guide-img-4 img {
+    border-radius: 10px;
+}
+
+.middle-guide-1 .middle-guide-text-4 {
+    padding-top: 3%;
+    width: 40%;
+    margin: 3%;
+}
+
+.middle-guide-1 .middle-guide-text-4 span {
+    font-size: 25px;
+    color: #FF6C00;
+}
+
+.middle-guide-1 .middle-guide-text-3 h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.middle-guide-1 .middle-guide-text-4 h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.middle-guide-1 .middle-guide-text-4 p {
+    margin-left: 10%;
+    width: 600px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.middle-guide-1 .middle-guide-img-5 {
+    background-image: url(../CountriesImage/sunset.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.middle-guide-1 .middle-guide-img-5 .middle-mytext {
+    margin-top: 8%;
+    margin-left: 30%;
+    width: 40%;
+}
+
+.middle-guide-1 .middle-guide-img-5 p {
+    margin-top: 2%;
+    text-align: justify;
+    font-size: 18px;
+    color: black;
+}
+
+.middle-guide-1 .middle-guide-img-5 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: #FF6C00;
+}
+
+.middle-guide-text {
+    width: 40%;
+    margin-left: 30%;
+    height: 230px;
+}
+
+.middle-guide-text span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.middle-guide-text p {
+    font-size: 18px;
+}
+
+.middle-guide-text a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+    background-color: #FF6C00;
+}
+
+.middle-guide-1 .collapse {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 950px;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.middle-content .middle-content-1 {
+    padding-top: 13%;
+    margin: 1%;
+}
+
+.middle-content .middle-content-2 {
+    margin: 1%;
+    height: auto;
+}
+
+.middle-content .middle-content-2 .middle-content2-img-1 {
+    /* margin: 1%; */
+    position: relative;
+    top: 13%;
+}
+
+.middle-content .middle-content-2 .middle-content2-img-2 {
+    padding-top: 40%;
+}
+
+.middle-content .middle-content-3 {
+    margin: 1%;
+
+}
+
+.middle-content .middle-content-3 .middle-content3-img-1 {
+    margin-top: 5%;
+}
+
+.middle-content .middle-content-4 {
+    margin: 1%;
+    padding-top: 10%;
+}
+
+/* .guide-1  */

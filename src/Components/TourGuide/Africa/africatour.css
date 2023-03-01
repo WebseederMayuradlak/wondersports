@@ -1,0 +1,240 @@
+.kenya-container{
+    min-width: 100%;
+height: 800px;
+background-image: url(../../TourGuide/CountriesImage/backgraoundImage.png);
+    /* background-image: url(../../Components/TourGuide/CountriesImage/backgraoundImage.png); */
+}
+.kenya-container .kenya-page  {
+    padding-top: 15%;
+    color: white;
+}
+.kenya-container .kenya-page .travel-guide{
+    font-size: 30px;
+    font-weight: 500;
+}
+.kenya-container .kenya-page .adavanture{
+    font-size: 40px;
+    font-weight: 600;
+}
+.kenya-container .kenya-page a{
+    text-transform: uppercase;
+text-decoration: none;
+font-size: 20px;
+color: white;
+}
+.kenya-container .kenya-page a:hover{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(244, 174, 43);
+   transition: 0.2s ease;
+}
+.blogs-container{
+    background-color: 	#01090B;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 100px; */
+}
+.blogs-container .blogs-container-1{
+    width: 45%;
+    margin: 20px;
+}
+.blogs-container .blogs-container-1 .header-content{
+    /* text-transform: uppercase; */
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+.blogs-container .blogs-container-1 h5{
+    padding-top: 5%;
+    color: #FF6C00;
+}
+.blogs-container  .blogs-container-2 {
+position: relative;
+/* left: 100px; */
+margin: 20px;
+  width: 45%;
+}
+.blogs-container .blogs-container-1 .text{
+    position: relative;
+    top: 0px;
+    left: 200px;
+    /* margin-top: 540px; */
+    text-align: justify;
+    width: 500px;
+}
+.blogs-container .blogs-container-1 span{
+ 
+    font-size: 18px;
+    color: white;
+}
+.blogs-container .blogs-container-3{
+    width: 45%;
+    margin: 20px;
+    margin-left: 100px;
+}
+.blogs-container .blogs-container-4{
+    margin: 20px;
+width: 45%;
+}
+.blogs-container .blogs-container-4 h5{
+    padding-top: 100px;
+    color: #FF6C00;
+}
+.blogs-container .blogs-container-4 p{
+    font-size: 18px;
+margin-left: 200px;
+color: white;
+    width: 500px;
+    text-align: justify;
+}
+.blogs-container .blogs-container-4 span {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.blogs-container .blogs-container-5{
+    margin: 20px;
+    width: 45%;
+}
+.blogs-container .blogs-container-6{
+    width: 45%;
+    margin: 20px;
+}
+.blogs-container .blogs-container-5 h5{
+    padding-top: 100px;
+    color: #FF6C00;
+}
+.blogs-container .blogs-container-5 span{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.blogs-container .blogs-container-5 p {
+    margin-left: 200px;
+    font-size: 18px;
+    font-weight: 300;
+    width: 500px;
+    text-align: justify;
+    color: white;
+}
+.blogs-container .blogs-container-7{
+    width: 45%;
+    margin: 20px;
+}
+.blogs-container .blogs-container-8{
+    width: 45%;
+
+}
+.blogs-container .blogs-container-8 h5{
+    padding-top: 100px;
+    color: #FF6C00;
+}
+.blogs-container .blogs-container-8 span{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.blogs-container .blogs-container-8 p{
+  
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+margin-left: 200px;
+    width: 500px;
+    color: white;
+}
+.see-tour{
+    margin-top: 50px;
+width: 100%;
+height: 500px;
+background-image: url(../../TourGuide/CountriesImage/sunset.jpg);
+}
+.see-tour .wrapper{
+color: white;
+   width: 600px;
+   margin-top: 150px;
+   position: relative;
+   left: 650px;
+   justify-content: center;
+}
+.see-tour .wrapper h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.see-tour .wrapper p{
+    font-size: 18px;
+    
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.see-tour .wrapper a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: #FF6C00;
+    padding: 10px;
+} 
+.explore-content{
+     width: 100%;
+     height: 300px;
+}
+.explore-content span{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+.explore-content p{
+    color: white;
+    font-size: 18px;
+ width: 600px;    
+ margin-left: 40rem;
+}
+.explore-content a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF6C00;
+    padding: 15px;
+}
+.imagination{
+    width: 100%;
+    height: 100%;
+    /* height: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.imagination .imagination-1{
+margin: 20px;
+margin-top: 150px;
+}
+.imagination .imagination-2{
+    display: block;
+margin: 20px;
+
+}
+.imagination .imagination-2 .image-1{
+    margin: 20px;
+/* margin-top: 100px; */
+}
+.imagination .imagination-2 .image-2{
+    margin: 20px;
+
+}
+.imagination .imagination-3{
+    display: block;
+margin: 20px;
+
+}
+.imagination .imagination-3 .image3-1{
+    margin: 20px;
+
+}
+.imagination .imagination-3 .image3-2{
+margin: 20px;
+ 
+}
+.imagination .imagination-4{
+margin: 20px;
+margin-top: 150px;
+}
