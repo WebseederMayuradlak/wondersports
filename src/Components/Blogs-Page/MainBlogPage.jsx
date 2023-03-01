@@ -1,5 +1,6 @@
 import React from 'react'
 import "./main.css"
+import {useState,} from 'react'
 import IndiaImage from './BlogsImage/IndiaImage.jpg'
 import spanImage from './BlogsImage/Span.jpg'
 import chinaImage from './BlogsImage/China.jpg'
@@ -7,9 +8,9 @@ import canadaImage from './BlogsImage/Canada.jpg'
 import TurkeyImage from './BlogsImage/Turkey.jpg'
 import NewsImage from './BlogsImage/morning-news.jpg'
 import BlogImage from './BlogsImage/BlogImage.jpg'
-
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 export default function MainBlogPage() {
+  
   return (
     <div className='main-blog-page'>
       <div className="blog-content" style={{paddingLeft:'30%'}}>
