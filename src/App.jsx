@@ -42,14 +42,6 @@ function App() {
   
   return (
     <div className="App">
-<<<<<<< HEAD
-   
-   <Navbar/>
-   {/* <Destination /> */}
-  <InterestPage/>
-   <NewFooter/>
-   {/* <Footer /> */}
-=======
       <Navbar/>
       <ForestBlog/>
       {/* <FaimilyBlog/> */}
@@ -62,7 +54,6 @@ function App() {
 {/* <Solotravel/> */}
 {/* <AdvantureBlog/> */}
      <Footer />
->>>>>>> bugfix
     </div>
   );
 }
