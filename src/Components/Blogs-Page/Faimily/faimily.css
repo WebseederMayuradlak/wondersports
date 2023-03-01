@@ -1,0 +1,199 @@
+.faimily-blog {
+    width: 100%;
+    height: auto;
+    /* color: white; */
+    /* display: flex; */
+}
+
+.faimily-blog .faimily-blog-2 {
+    margin: 0% 0% 10% 10%;
+    /* justify-content: space-around; */
+    display: flex;
+    /* width: 100%; */
+}
+
+.faimily-blog .faimily-blog-1 {
+    height: 650px;
+    width: 100%;
+    background-image: url(../BlogsImage/China.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faimily-blog .faimily-blog-1 {
+    padding-top: 8%;
+}
+
+.faimily-blog .faimily-blog-1 .blogtext {
+    position: relative;
+    top: 5%;
+    left: 30%;
+    /* padding-left: 30%; */
+    max-width: 600px;
+}
+
+.faimily-blog .faimily-blog-1 span {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.faimily-blog .faimily-blog-2 p {
+    max-width: 500px;
+}
+
+.faimily-blog .faimily-blog-2 {
+    height: 350px;
+}
+
+/* .faimily-blog .faimily-blog-2 .faimily-text, */
+.faimily-blog .faimily-img {
+    max-width: 35vw;
+    margin: 5%;
+}
+
+.faimily-blog .faimily-blog-2 .faimily-text {
+    margin: 3%;
+    max-width: 35vw;
+}
+
+.faimily-blog .faimily-blog-2 .faimily-text {
+    font-size: 18px;
+    text-align: right;
+    position: relative;
+    /* left: 10%; */
+}
+
+.faimily-blog .faimily-blog-2 .faimily-text h3 {
+    text-transform: uppercase;
+
+    color: rgb(205, 10, 240);
+}
+
+.faimily-blog .faimily-blog .faimily-blog-2 .faimily-img {
+    border-radius: 10px;
+    position: relative;
+    /* right: 30%; */
+}
+
+.faimily-blog .faimily-blog-2 .faimily-img img {
+    border-radius: 10px;
+}
+
+.faimily-blog .faimily-blog-3 {
+    background-image: url(../BlogsImage/Mountaine2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.faimily-blog .faimily-blog-3 .blog-text-3 {
+    width: 60vh;
+    top: 5vw;
+    position: relative;
+    left: 70vh;
+}
+
+.faimily-blog .faimily-blog-3 .blog-text-3 h3 {
+    text-transform: uppercase;
+
+    color: rgb(205, 10, 240);
+}
+
+.faimily-blog .faimily-blog-4 {
+    max-width: 100%;
+    display: flex;
+    margin: 2% 0% 10% 10%;
+    height: 300px;
+    /* height: 400px; */
+}
+
+.culure-blog .faimily-blog-4 .faimily-img-4 {
+    max-width: 35vw;
+}
+
+.faimily-blog .faimily-blog-4 .faimily-text-4 {
+    max-width: 35vw;
+    position: relative;
+    left: 8%;
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.faimily-blog .faimily-blog-4 .faimily-text-4 h3 {
+    text-transform: uppercase;
+    color: rgb(205, 10, 240);
+}
+
+.faimily-blog .faimily-blog-5 {
+    background-image: url(../BlogsImage/Mountaine2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+
+.faimily-blog .faimily-blog-5 h3 {
+    text-transform: uppercase;
+
+    color: rgb(205, 10, 240);
+}
+
+.faimily-blog .faimily-blog-5 .blog-text-5 {
+    width: 60vh;
+    top: 5vw;
+    position: relative;
+    left: 70vh;
+}
+
+.faimily-blog .faimily-blog-6 {
+    max-width: 100%;
+    display: flex;
+    margin: 2% 0% 10% 10%;
+    height: 300px;
+}
+
+.faimily-blog .faimily-blog-6 .faimily-img-6 {
+    width: 35vw;
+}
+
+.faimily-blog .faimily-blog-6 .faimily-img-6 img {
+    border-radius: 10px;
+}
+
+.faimily-blog .faimily-blog-6 .faimily-text-6 {
+    max-width: 35vw;
+    position: relative;
+    /* left: 8%; */
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: right;
+}
+
+.faimily-blog .faimily-blog-6 .faimily-text-6 h3 {
+    color: rgb(205, 10, 240);
+    text-transform: uppercase;
+}
+
+.faimily-blog .faimily-blog-7 {
+    background-image: url(../BlogsImage/ForestImage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+}
+
+.faimily-blog .faimily-blog-7 h3 {
+    color: rgb(205, 10, 240);
+    text-transform: uppercase;
+}
+
+.faimily-blog .faimily-blog-7 .blog-text-7 {
+    width: 60vh;
+    top: 5vw;
+    position: relative;
+    left: 70vh;
+}

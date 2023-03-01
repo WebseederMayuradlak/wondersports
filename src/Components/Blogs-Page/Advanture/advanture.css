@@ -2,7 +2,7 @@
     width: 100%;
     height: 700px;
     color: white;
-    background-image: url(./BlogsImage/Mountaine2.jpg);
+    background-image: url(../BlogsImage/Mountaine2.jpg);
 
 }
 
@@ -97,7 +97,7 @@ height: 500px;
 
 .blogs-page-4 {
     margin-top: 30px;
-    background-image: url(../Blogs-Page/BlogsImage/Blogs4.jpg);
+    background-image:url(../BlogsImage/Blogs4.jpg);
     height: 500px;
     width: 100%;
 }
@@ -152,7 +152,7 @@ font-size: 18px;
 .blogs-page-6{
     height: 450px;
     width: 100%;
-    background-image: url(./BlogsImage/statue.jpg);
+    background-image: url(../BlogsImage/statue.jpg);
 }
 .blogs-page-6 .text-blogs-6{
     top: 28%;
@@ -172,7 +172,7 @@ font-size: 18px;
 .blogs-page-7{
     width: 100%;
     height: 500px;
-    background-image: url(./BlogsImage/mount1.jpg);
+    background-image: url(../BlogsImage/mount1.jpg);
 }
 .blogs-page-7 .text-blogs-7{
     top: 25%;
