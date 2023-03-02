@@ -21,35 +21,35 @@ export default function Features() {
       </div>
       <div className="features">
         <div className="destination2 card">
-          <a href=""> <img src={Image} height='150px' width='175px' alt="" /> </a>
+          <a href="/"> <img src={Image} height='150px' width='175px' alt="" /> </a>
           <p>Lorem ipsum dolor sit amet </p>
-          <a href="" className='btn btn-outline-danger btn-sm'>Let's Go</a>
+          <a href="/" className='btn btn-outline-danger btn-sm'>Let's Go</a>
         </div> 
         <div className="destination3 card">
-          <a href=""> <img alt="" src={Image} height='150px' width='175px' /> </a>
+          <a href="/"> <img alt="" src={Image} height='150px' width='175px' /> </a>
 
           <p>Lorem ipsum, dolor sit amet </p>
-          <a href="" className='btn btn-outline-danger btn-sm'>Let's Go</a>
+          <a href="/" className='btn btn-outline-danger btn-sm'>Let's Go</a>
 
         </div>
         <div className="destination4 card">
-          <a href=""> <img alt="" src={Image} height='150px' width='175px' /> </a>
+          <a href="/"> <img alt="" src={Image} height='150px' width='175px' /> </a>
 
           <p>Lorem ipsum dolor sit, amet consectetur</p>
-          <a href="" className='btn btn-outline-danger btn-sm'>Let's Go</a>
+          <a href="/" className='btn btn-outline-danger btn-sm'>Let's Go</a>
         </div>
         <div className="destination5 card ">
-          <a href=""> <img alt="" src={Image} height='150px' width='175px' /> </a>
+          <a href="/"> <img alt="" src={Image} height='150px' width='175px' /> </a>
 
           <p> Lorem ipsum dolor sit amet consectetur  </p>
-          <a href="" className='btn btn-outline-danger btn-sm '>Let's Go</a>
+          <a href="/" className='btn btn-outline-danger btn-sm '>Let's Go</a>
 
         </div>
         <div className="destination6 card">
-          <a href=""> <img alt="" src={Image} height='150px' width='175px' /> </a>
+          <a href="/"> <img alt="" src={Image} height='150px' width='175px' /> </a>
 
           <p> Lorem ipsum dolor sit amet consectetur . </p>
-          <a href="" className='btn btn-outline-danger btn-sm'>Let's Go</a>
+          <a href="/" className='btn btn-outline-danger btn-sm'>Let's Go</a>
 
         </div>
       </div>

@@ -8,26 +8,26 @@ var Middle_East =()=>{
     <div className="head-container">
         <div className="middle">
             <h3>Middle East</h3>
-            <a href="" className="anc">guide</a>
-            <a href="" className="anc">trips</a>
-            <a href="" className="anc">articles</a>
+            <a href="/" className="anc">guide</a>
+            <a href="/" className="anc">trips</a>
+            <a href="/" className="anc">articles</a>
         </div>
     </div> 
     <div className="middle-country">
       <div className="countries">
-        <a href="">
+        <a href="/">
             <img src={Malasia} height='300px' width='500px' alt="" />
             <h5>Dubai</h5>
         </a>
       </div>
       <div className="countries">
-        <a href="">
+        <a href="/">
             <img src={Malasia} height='300px' width='500px' alt="" />
             <h5>Jordan</h5>
         </a>
       </div>
       <div className="countries">
-        <a href="">
+        <a href="/">
             <img src={Malasia} height='300px' width='500px' alt="" />
             <h5>Turkey</h5>
         </a>

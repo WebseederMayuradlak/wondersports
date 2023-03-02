@@ -54,14 +54,14 @@ export default function FoodandDrink() {
                         <div className="food-mytext">
                             <h3> For Travel Experience Book Online Today</h3>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime vel ratione est adipisci pariatur culpa, earum veniam suscipit itaque expedita. Porro, nobis excepturi. Maiores beatae amet, eos earum vel saepe quas facere impedit magnam libero expedita fuga officia molestias. Reiciendis, commodi officia!</p>
-                            <a href="">See Tour </a>
+                            <a href="/">See Tour </a>
                         </div>
                     </div>
                     <div className="food-guide-text">
                         <span>Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
                         </span>
                         <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, saepe. adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quos? Eaque impedit esse fuga repudiandae expedita. Error accusantium quo optio temporibus expedita.</p>
-                        <a href="">Explore </a>
+                        <a href="/">Explore </a>
                     </div>
                 </div>
 

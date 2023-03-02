@@ -12,15 +12,15 @@ const InterestPage = () => {
                                     <h3>Winter </h3>
                                 </div>
                                 <div className="winter-item guide">
-                                    <a href="">guide</a>
+                                    <a href="/">guide</a>
                                 </div>
                             </div>
                             <div className="winter-container">
                                 <div className="winter-item winter-article">
-                                    <a href="">Article</a>
+                                    <a href="/">Article</a>
                                 </div>
                                 <div className="winter-item winter-trips ">
-                                    <a href="">trips</a>
+                                    <a href="/">trips</a>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const InterestPage = () => {
                         <div className="summer-container">
 
                             <div className="summer-item guide">
-                                <a href="">guide</a>
+                                <a href="/">guide</a>
                             </div>
                             <div className="winter-text">
                                 <h3>Summer </h3>
@@ -38,10 +38,10 @@ const InterestPage = () => {
                         </div>
                         <div className="summer-container">
                             <div className="summer-item">
-                                <a href="">Aritcle</a>
+                                <a href="/">Aritcle</a>
                             </div>
                             <div className="summer-item summer-trips">
-                                <a href="">trips</a>
+                                <a href="/">trips</a>
                             </div>
                         </div>
                     </div>
@@ -51,10 +51,10 @@ const InterestPage = () => {
                         <div className="spring-container">
                             <div className="spring-item">
                                 <div className="list-item spring-article">
-                                    <a href="">article</a>
+                                    <a href="/">article</a>
                                 </div>
                                 <div className="list-item spring-trips">
-                                    <a href="">Trips</a>
+                                    <a href="/">Trips</a>
                                 </div>
                             </div>
                             <div className="spring-item">
@@ -62,7 +62,7 @@ const InterestPage = () => {
                                     <h3>Spring </h3>
                                 </div>
                                 <div className="list-item spring-guide">
-                                    <a href="">guide</a>
+                                    <a href="/">guide</a>
                                 </div>
                             </div>
                         </div>
@@ -71,15 +71,15 @@ const InterestPage = () => {
                         <div className="snow-container">
                             <div className="snow-item">
                                 <div className="list-item snow-article">
-                                    <a href="">article</a>
+                                    <a href="/">article</a>
                                 </div>
                                 <div className="list-item snow-trips">
-                                    <a href="">Trips</a>
+                                    <a href="/">Trips</a>
                                 </div>
                             </div>
                             <div className="snow-item">
                                 <div className="list-item snow-guide">
-                                    <a href="">guide</a>
+                                    <a href="/">guide</a>
                                 </div>
                                 <div className="snow-text">
                                     <h3>Snow </h3>
@@ -94,7 +94,7 @@ const InterestPage = () => {
                         <div className="beach-container">
                             <div className="beach-item">
                                 <div className="list-item beach-guide">
-                                    <a href="">Guide</a>
+                                    <a href="/">Guide</a>
                                 </div>
                                 <div className="beach-text">
                                     <h3>Beach And Diving </h3>
@@ -102,11 +102,11 @@ const InterestPage = () => {
                             </div>
                             <div className="beach-item">
                                 <div className="list-item beach-article">
-                                    <a href="">article</a>
+                                    <a href="/">article</a>
                                 </div>
 
                                 <div className="list-item beach-trips">
-                                    <a href="">trips</a>
+                                    <a href="/">trips</a>
                                 </div>
                             </div>
                         </div>
@@ -121,15 +121,15 @@ const InterestPage = () => {
                                     </h3>
                                 </div>
                                 <div className="list-item food-guide">
-                                    <a href="">Guide</a>
+                                    <a href="/">Guide</a>
                                 </div>
                             </div>
                             <div className="food-item">
                                 <div className="list-item food-trips">
-                                    <a href="">trips</a>
+                                    <a href="/">trips</a>
                                 </div>
                                 <div className="list-item food-article">
-                                    <a href="">article</a>
+                                    <a href="/">article</a>
                                 </div>
                             </div>
                         </div>
@@ -141,10 +141,10 @@ const InterestPage = () => {
                         <div className="history-container">
                             <div className="history-item">
                                 <div className="list-item history-guide">
-                                    <a href="">guide</a>
+                                    <a href="/">guide</a>
                                 </div>
                                 <div className="list-item history-trips">
-                                    <a href="">trips</a>
+                                    <a href="/">trips</a>
                                 </div>
                             </div>
                             <div className="history-item">
@@ -152,7 +152,7 @@ const InterestPage = () => {
                                     <h3>History and Heritage </h3>
                                 </div>
                                 <div className="list-item history-article">
-                                    <a href="">article</a>
+                                    <a href="/">article</a>
                                 </div>
                             </div>
                         </div>
@@ -161,16 +161,16 @@ const InterestPage = () => {
                         <div className="solo-container">
                             <div className="solo-item">
                                 <div className="list-item solo-guide">
-                                    <a href="">guide</a>
+                                    <a href="/">guide</a>
                                 </div>
                                 <div className="list-item solo-article">
-                                    <a href=""> article</a>
+                                    <a href="/"> article</a>
                                 </div>
 
                             </div>
                             <div className="solo-item">
                                 <div className="list-item solo-trips">
-                                    <a href=""> trips</a>
+                                    <a href="/"> trips</a>
                                 </div>
                                 <div className="solo-text">
                                     <h3>Solo Travel </h3>
@@ -183,31 +183,31 @@ const InterestPage = () => {
             </div>
             <div className="photography">
                 <div className="photo-item">
-                    <a href="">guide </a>
+                    <a href="/">guide </a>
                 </div>
                 <div className="photo-item">
-                    <a href="">article</a>
+                    <a href="/">article</a>
                 </div>
                 <div className="photo-text">
                     <h3>Photography</h3>
                 </div>
                 <div className="photo-item">
-                    <a href="">trips</a>
+                    <a href="/">trips</a>
                 </div>
 
             </div>
             <div className="photography">
                 <div className="photo-item">
-                    <a href="">guide </a>
+                    <a href="/">guide </a>
                 </div>
                 <div className="photo-item">
-                    <a href="">article</a>
+                    <a href="/">article</a>
                 </div>
                 <div className="photo-text">
                     <h3>Photography</h3>
                 </div>
                 <div className="photo-item">
-                    <a href="">trips</a>
+                    <a href="/">trips</a>
                 </div>
 
             </div>

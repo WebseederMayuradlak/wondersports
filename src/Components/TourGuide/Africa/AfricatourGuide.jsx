@@ -18,7 +18,7 @@ const AfricatourGuide = () => {
                 <div className="kenya-page">
                     <p className="travel-guide">Africa - Tour Guide </p>
                     <p className="adavanture ">Prepare For The Advanture!</p>
-                    <a href=""> Let's Go </a>
+                    <a href="/"> Let's Go </a>
                 </div>
             </div>
             <div className="blogs-container">
@@ -63,14 +63,14 @@ const AfricatourGuide = () => {
                     <div className="wrapper">
                         <h3>For travel Experience Book Online Today </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellat in libero? Repellendus repudiandae recusandae reiciendis eos quae. Debitis, repudiandae fugit ducimus nostrum magnam placeat! Eaque nobis nisi harum provident!</p>
-                        <a href="">See Tours</a>
+                        <a href="/">See Tours</a>
                     </div>
                 </div>
                 <div className="explore-content">
                     <div className="text-data">
                         <span>Lorem ipsum dolor sit amet,  adipisicing <br />, dolore. Lorem ipsum </span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quidem porro aperiam ipsam, ad praesentium! Esse veritatis, aspernatur ipsum, ut eaque optio excepturi ex, nemo dolorem iure quidem suscipit amet.</p>
-                        <a href="">Explore</a>
+                        <a href="/">Explore</a>
                     </div>
                 </div>
                 <div className="imagination">

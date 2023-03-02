@@ -25,6 +25,10 @@ const Mountain = () => {
       <div className="mountain">
         <Blog data={data} />
         <Info data2={data2} />
+        <Blog data={data} />
+        <Info data2={data2} />
+        <Blog data={data} />
+        <Info data2={data2} />
       </div>
     </>
   );
