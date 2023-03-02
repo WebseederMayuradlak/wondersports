@@ -75,7 +75,6 @@
 .mountain-info-left{
     height: 100%;
     width: 50%;
-    text-align: end;
     padding: 5%;
     display: flex;
     flex-direction: column;
