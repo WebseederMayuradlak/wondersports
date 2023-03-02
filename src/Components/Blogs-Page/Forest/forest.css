@@ -6,7 +6,9 @@
 }
 
 .forest-blog .forest-blog-2 {
-  margin: 0% 0% 10% 10%;
+  /* margin: 0% 0% 10% 10%; */
+  margin: 0% 10%;
+  /* background-color: firebrick; */
   /* justify-content: space-around; */
   display: flex;
   /* width: 100%; */
@@ -31,7 +33,7 @@
   top: 5%;
   left: 30%;
   /* padding-left: 30%; */
-  max-width: 60vh;
+  max-width: 50vh;
 }
 
 .forest-blog .forest-blog-1 span {
@@ -41,9 +43,9 @@
 }
 .forest-blog .forest-blog-2 {
   padding: 3% 0% 0% 0%;
-  height: auto;
+  height: 60vh;
   width: 100%;
-
+  /* background-color: blue; */
   display: flex;
 }
 .forest-blog .forest-blog-2 .forest-text {
@@ -56,6 +58,10 @@
   height: 25vh;
   width: 35%;
 }
+.forest-blog .forest-blog-2 h3 {
+  color: rgb(217, 38, 190);
+  text-transform: uppercase;
+}
 .forest-blog img {
   height: 37vh;
   width: 86%;
@@ -63,6 +69,36 @@
 .forest-blog .forest-blog-2 .forest-img img {
   border-radius: 10px;
 }
+
+.forest-blog .forest-blog-3 {
+  background-image: url(../BlogsImage/Mountaine2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
+
+.forest-blog .forest-blog-3 .blog-text-3 {
+  width: 60vh;
+  top: 5vw;
+
+  left: 70vh;
+}
+
+.forest-blog .forest-blog-3 .blog-text-3 h3 {
+  text-transform: uppercase;
+
+  color: rgb(205, 10, 240);
+}
+
+.forest-blog .forest-blog-4 {
+  max-width: 100%;
+  display: flex;
+  margin: 2% 0% 10% 10%;
+  height: 30vh;
+  /* height: 400px; */
+}
+
 /* 
 .forest-blog .forest-blog-2 p {
   max-width: 60vh;

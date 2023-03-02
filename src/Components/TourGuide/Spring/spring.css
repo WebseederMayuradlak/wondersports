@@ -1,281 +1,270 @@
 .spring-guide-page {
-    width: 100%;
-    min-height: 100%;
-    background-image: url(../CountriesImage/backgraoundImage.png);
-    height: 1000px;
+  width: 100%;
+  min-height: 100%;
+  background-image: url(../CountriesImage/backgraoundImage.png);
+  height: 1000px;
 }
 
 .spring-guide-page .spring-guide-text {
-    color: white;
-    padding-top: 20%;
+  padding-top: 20%;
+
+  width: 100%;
+
+  /* background-color: #ff6c00; */
 }
 
 .spring-guide-page .spring-guide-text a {
-
-    text-transform: uppercase;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    border-radius: 10px;
-    background-color: rgb(255, 183, 0);
-    /* width: 100px; */
-
+  margin-left: 15%;
 }
 
 .spring-guide-page .spring-guide-text h3 {
-    padding-top: 1%;
-    font-size: 60px;
-    color: white;
-    font-weight: 700;
+  padding-top: 1%;
+  font-size: 45px;
+  color: black;
+  font-weight: 700;
 }
 
 .spring-guide-page .spring-guide-text span {
-    font-size: 30px;
-    color: white;
-    font-weight: 500;
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  padding-left: 10%;
 }
 
 .spring-guide-1 {
-    background-color: #01090B;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    color: white;
-    /* margin-top: 3%; */
-    height: auto;
+  background-color: #01090b;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+  /* margin-top: 3%; */
+  height: auto;
 }
 
 .spring-guide-1 .spring-guide-text-1 {
-    padding-top: 3%;
-    width: 40%;
-    margin: 3%;
+  padding-top: 3%;
+  width: 40%;
+  margin: 3%;
 }
 
 .spring-guide-1 .spring-guide-text-1 span {
-
-    font-size: 25px;
-    color: #FF6C00;
+  font-size: 25px;
+  color: #ff6c00;
 }
 
 .spring-guide-1 .spring-guide-text-1 h3 {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .spring-guide-1 .spring-guide-text-1 p {
-    text-align: justify;
-    font-size: 18px;
-    font-weight: 300;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .spring-guide-1 .spring-guide-text-1 p {
-    margin-left: 10%;
-    width: 600px;
+  margin-left: 10%;
+  width: 600px;
 }
 
 .spring-guide-1 .spring-guide-img-1 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .spring-guide-1 .spring-guide-img-1 {
-    margin: 2%;
-    width: 45%;
+  margin: 2%;
+  width: 45%;
 }
 
 .spring-guide-1 .spring-guide-img-2 {
-    width: 40%;
-    margin: 2%;
-
+  width: 40%;
+  margin: 2%;
 }
 
 .spring-guide-1 .spring-guide-img-2 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .spring-guide-1 .spring-guide-text-2 {
-    padding-top: 3%;
-    width: 40%;
-    margin: 3%;
-    /* width: 45%; */
+  padding-top: 3%;
+  width: 40%;
+  margin: 3%;
+  /* width: 45%; */
 }
 
 .spring-guide-1 .spring-guide-text-2 span {
-
-    font-size: 25px;
-    color: #FF6C00;
+  font-size: 25px;
+  color: #ff6c00;
 }
 
 .spring-guide-1 .spring-guide-text-2 h3 {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .spring-guide-1 .spring-guide-text-2 p {
-    margin-left: 10%;
-    width: 600px;
-    text-align: justify;
-    font-size: 18px;
+  margin-left: 10%;
+  width: 600px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .spring-guide-1 .spring-guide-img-3 {
-    width: 45%;
-
+  width: 45%;
 }
 
 .spring-guide-1 .spring-guide-img-3 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .spring-guide-1 .spring-guide-text-3 {
-    width: 40%;
-    margin: 3%;
+  width: 40%;
+  margin: 3%;
 }
 
 .spring-guide-1 .spring-guide-text-3 span {
-
-    font-size: 25px;
-    color: #FF6C00;
+  font-size: 25px;
+  color: #ff6c00;
 }
 
 .spring-guide-1 .spring-guide-text-3 p {
-    margin-left: 10%;
-    width: 600px;
-    text-align: justify;
-    font-size: 18px;
+  margin-left: 10%;
+  width: 600px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .spring-guide-1 .spring-guide-img-4 {
-    margin: 3%;
-    width: 45%;
+  margin: 3%;
+  width: 45%;
 }
 
 .spring-guide-1 .spring-guide-img-4 img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .spring-guide-1 .spring-guide-text-4 {
-    padding-top: 3%;
-    width: 40%;
-    margin: 3%;
+  padding-top: 3%;
+  width: 40%;
+  margin: 3%;
 }
 
 .spring-guide-1 .spring-guide-text-4 span {
-    font-size: 25px;
-    color: #FF6C00;
+  font-size: 25px;
+  color: #ff6c00;
 }
 
 .spring-guide-1 .spring-guide-text-3 h3 {
-    font-size: 35px;
-    font-weight: 600;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .spring-guide-1 .spring-guide-text-4 h3 {
-    font-size: 35px;
-    font-weight: 600;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .spring-guide-1 .spring-guide-text-4 p {
-    margin-left: 10%;
-    width: 600px;
-    text-align: justify;
-    font-size: 18px;
+  margin-left: 10%;
+  width: 600px;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .spring-guide-1 .spring-guide-img-5 {
-    background-image: url(../CountriesImage/sunset.jpg);
-    width: 100%;
-    height: 500px;
+  background-image: url(../CountriesImage/sunset.jpg);
+  width: 100%;
+  height: 500px;
 }
 
 .spring-guide-1 .spring-guide-img-5 .spring-mytext {
-    margin-top: 8%;
-    margin-left: 30%;
-    width: 40%;
+  margin-top: 8%;
+  margin-left: 30%;
+  width: 40%;
 }
 
 .spring-guide-1 .spring-guide-img-5 p {
-    margin-top: 2%;
-    text-align: justify;
-    font-size: 18px;
-    color: black;
+  margin-top: 2%;
+  text-align: justify;
+  font-size: 18px;
+  color: black;
 }
 
 .spring-guide-1 .spring-guide-img-5 a {
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    font-size: 18px;
-    background-color: #FF6C00;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  background-color: #ff6c00;
 }
 
 .spring-guide-text {
-    width: 40%;
-    margin-left: 30%;
-    height: 230px;
+  width: 40%;
+  margin-left: 30%;
+  height: 230px;
 }
 
 .spring-guide-text span {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .spring-guide-text p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .spring-guide-text a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
-    padding: 10px;
-    background-color: #FF6C00;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px;
+  background-color: #ff6c00;
 }
 
 .spring-guide-1 .collapse {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .spring-content {
-    display: flex;
-    flex-wrap: wrap;
-    height: 950px;
-    text-align: center;
-    margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 950px;
+  text-align: center;
+  margin-left: 5%;
 }
 
 .spring-content .spring-content-1 {
-    padding-top: 13%;
-    margin: 1%;
+  padding-top: 13%;
+  margin: 1%;
 }
 
 .spring-content .spring-content-2 {
-    margin: 1%;
-    height: auto;
+  margin: 1%;
+  height: auto;
 }
 
 .spring-content .spring-content-2 .spring-content2-img-1 {
-    /* margin: 1%; */
-    position: relative;
-    top: 13%;
+  /* margin: 1%; */
+  position: relative;
+  top: 13%;
 }
 
 .spring-content .spring-content-2 .spring-content2-img-2 {
-    padding-top: 40%;
+  padding-top: 40%;
 }
 
 .spring-content .spring-content-3 {
-    margin: 1%;
-
+  margin: 1%;
 }
 
 .spring-content .spring-content-3 .spring-content3-img-1 {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .spring-content .spring-content-4 {
-    margin: 1%;
-    padding-top: 10%;
+  margin: 1%;
+  padding-top: 10%;
 }
-

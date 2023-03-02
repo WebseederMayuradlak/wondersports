@@ -11,19 +11,10 @@ const SpringtourGuide = () => {
         <div className="spring-guide-page">
           <div className="spring-guide-text">
             <span>spring Tour Guide - Tour Guide </span>
-            <h3>
-              Prepare for The <br /> Advanture
-            </h3>{" "}
+            <h3>Prepare for The Advanture</h3>
+
             <br />
-            <Button
-              variant="contained"
-              color="warning"
-              size="large"
-              href=""
-              sx={{ width: "200px", height: "50px" }}
-            >
-              Let' Go
-            </Button>
+            <a href="">Let's Go</a>
           </div>
         </div>
         <div className="spring-guide-1">
