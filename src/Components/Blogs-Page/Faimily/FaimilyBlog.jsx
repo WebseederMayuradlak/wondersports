@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import faimilyImage from "../BlogsImage/Canada.jpg";
-import "./faimily.css"
+import "./faimily.css";
 export default function FaimilyBlog() {
   return (
-    <div className='faimily-blog'>
-        <div className="faimily-blog-1">
+    <div className="faimily-blog">
+      <div className="faimily-blog-1">
         <span>travel blogs</span>
 
         <p className="blogtext">
@@ -35,7 +35,7 @@ export default function FaimilyBlog() {
           </span>
         </div>
         <div className="faimily-img">
-          <img src={faimilyImage} alt="" height="400px" width="500px" />
+          <img src={faimilyImage} alt="My Image" height="400px" width="500px" />
         </div>
       </div>
       <div className="faimily-blog-3">
@@ -57,7 +57,7 @@ export default function FaimilyBlog() {
         <div className="faimily-img-4">
           <img
             src={faimilyImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -119,7 +119,7 @@ export default function FaimilyBlog() {
         <div className="faimily-img-6">
           <img
             src={faimilyImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -163,7 +163,7 @@ export default function FaimilyBlog() {
         <div className="faimily-img-6">
           <img
             src={faimilyImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -185,7 +185,6 @@ export default function FaimilyBlog() {
           </p>
         </div>
       </div>
-
     </div>
-  )
+  );
 }

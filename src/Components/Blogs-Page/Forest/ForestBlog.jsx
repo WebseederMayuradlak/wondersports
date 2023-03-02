@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 import forestImage from "../BlogsImage/Canada.jpg";
-import "./forest.css"
+import "./forest.css";
 export default function ForestBlog() {
   return (
-    <div className='forest-blog'>
-        <div className="forest-blog-1">
+    <div className="forest-blog">
+      <div className="forest-blog-1">
         <span>travel blogs</span>
 
         <p className="blogtext">
@@ -35,7 +35,7 @@ export default function ForestBlog() {
           </span>
         </div>
         <div className="forest-img">
-          <img src={forestImage} alt="" height="400px" width="500px" />
+          <img src={forestImage} alt="My Image" />
         </div>
       </div>
       <div className="forest-blog-3">
@@ -57,9 +57,7 @@ export default function ForestBlog() {
         <div className="forest-img-4">
           <img
             src={forestImage}
-            alt=""
-            height="400px"
-            width="500px"
+            alt="My Image"
             style={{ borderRadius: "10px" }}
           />
         </div>
@@ -119,9 +117,7 @@ export default function ForestBlog() {
         <div className="forest-img-6">
           <img
             src={forestImage}
-            alt=""
-            height="400px"
-            width="500px"
+            alt="My Image"
             style={{ borderRadius: "10px" }}
           />
         </div>
@@ -163,9 +159,7 @@ export default function ForestBlog() {
         <div className="forest-img-6">
           <img
             src={forestImage}
-            alt=""
-            height="400px"
-            width="500px"
+            alt="My Image"
             style={{ borderRadius: "10px" }}
           />
         </div>
@@ -185,7 +179,6 @@ export default function ForestBlog() {
           </p>
         </div>
       </div>
-
     </div>
-  )
+  );
 }

@@ -1,13 +1,13 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import Video from "../Images/Video.mp4";
 import DubaiImage from "../Images/Dubai.jpg";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import PanoramaFishEyeIcon from '@mui/icons-material/PanoramaFishEye';
-import ImportContactsIcon from '@mui/icons-material/ImportContacts';
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import PanoramaFishEyeIcon from "@mui/icons-material/PanoramaFishEye";
+import ImportContactsIcon from "@mui/icons-material/ImportContacts";
 import "./home.css";
-import ShareIcon from '@mui/icons-material/Share';
-import PublicIcon from '@mui/icons-material/Public';
-import LightModeIcon from '@mui/icons-material/LightMode';
+import ShareIcon from "@mui/icons-material/Share";
+import PublicIcon from "@mui/icons-material/Public";
+import LightModeIcon from "@mui/icons-material/LightMode";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 import Logo from "../Images/mylogo.jpg";
@@ -25,7 +25,6 @@ const HomePage = () => {
   var [dest, setDest] = useState(0);
   var [tour, setTour] = useState(0);
   var [tourtype, setTourtype] = useState(0);
-
 
   return (
     <>
@@ -67,27 +66,27 @@ const HomePage = () => {
 
       <div className="continents">
         <div className="col1 ">
-          <a href="" className="">
+          <a href="/" className="">
             <p>Africa</p>
           </a>
         </div>
         <div className="col2 ">
-          <a href="" className="">
+          <a href="/" className="">
             <p>Asia</p>
           </a>
         </div>
         <div className="col3">
-          <a href="" className="">
+          <a href="/" className="">
             <p>Europe</p>
           </a>
         </div>
         <div className="col4">
-          <a href="" className="">
+          <a href="/" className="">
             <p>North America</p>
           </a>
         </div>
         <div className="col5">
-          <a href="" className="">
+          <a href="/" className="">
             <p>Middle East</p>
           </a>
         </div>
@@ -96,90 +95,126 @@ const HomePage = () => {
         {/* <h3>What's Trending </h3> */}
         <h4>What's Trending</h4>
         <div className="trending">
-        <div className="blog1">
-          <button className="btn btn-light rounded-pill btn-sm">
-            READ MORE
-          </button>
+          <div className="blog1">
+            <button className="btn btn-light rounded-pill btn-sm">
+              READ MORE
+            </button>
 
-          <p> Lorem ipsum dolor sit amet, consectetur </p>
-          {/* <button className="btn btn-light rounded-pill btn-sm">READ MORE</button> */}
+            <p> Lorem ipsum dolor sit amet, consectetur </p>
+            {/* <button className="btn btn-light rounded-pill btn-sm">READ MORE</button> */}
 
-          <a href="" className="cn">
-            Asia
-          </a>
-        </div>
-        <div className="blog2">
+            <a href="/" className="cn">
+              Asia
+            </a>
+          </div>
+          <div className="blog2">
+            <button className="btn btn-light rounded-pill btn-sm">
+              READ MORE
+            </button>
 
-          <button className="btn btn-light rounded-pill btn-sm">
-            READ MORE
-          </button>
+            <p> Lorem ipsum dolor sit amet consectetur</p>
 
-          <p> Lorem ipsum dolor sit amet consectetur</p>
+            <a href="/" className="cn">
+              Africa
+            </a>
+          </div>
+          <div className="blog3">
+            <button className="btn btn-light  rounded-pill btn-sm">
+              READ MORE
+            </button>
 
-          <a href="" className="cn">
-            Africa
-          </a>
-        </div>
-        <div className="blog3">
-          <button className="btn btn-light  rounded-pill btn-sm">
-            READ MORE
-          </button>
+            <p> Lorem ipsum dolor sit amet consectetur</p>
 
-          <p> Lorem ipsum dolor sit amet consectetur</p>
+            <a href="/" className="cn">
+              Europe
+            </a>
+          </div>
+          <div className="blog">
+            <button className="btn btn-light rounded-pill btn-sm">
+              READ MORE
+            </button>
 
-          <a href="" className="cn">
-            Europe
-          </a>
-        </div>
-        <div className="blog">
-          <button className="btn btn-light rounded-pill btn-sm">
-            READ MORE
-          </button>
-
-          <p> Lorem ipsum dolor, sit amet consectetur </p>
-          <a href="" className="cn">
-            North
-          </a>
-        </div>
+            <p> Lorem ipsum dolor, sit amet consectetur </p>
+            <a href="/" className="cn">
+              North
+            </a>
+          </div>
         </div>
       </div>
       <div className="next">
         <div className="con1">
-    <p>WHAT NEXT ?</p>
+          <p>WHAT NEXT ?</p>
         </div>
-        <div className="con2">
-INSEPERATION
-        </div>
-        <div className="con3"> 
-           <div className="first-3" > 
-   <a href=""> <i> <ImportContactsIcon sx={style}/> </i> </a>
-   <h6>OFFBEATS</h6>
-   </div> &nbsp; &nbsp; 
-   <div className="first-4">
-       <a href="">    <i> <LocationOnIcon sx={style}/> </i> </a>
-       <h6>CITY & BREAKS</h6>
-       </div> &nbsp; &nbsp; 
-       <div className="first-5">
-       <a href="">    <i> <LightModeIcon sx={style}/> </i> </a>
-       <h6>ISLAND & BEACHES</h6>
-       </div> &nbsp; &nbsp; 
-       <div className="first-5">
-     <a href="">      <i> <ShareIcon sx={style}/> </i>  </a>
-     <h6>ROAD TRIPS & </h6>
-     </div> &nbsp; &nbsp; &nbsp;
-     <div className="first-6">
-          <a href=""> <i> <PanoramaFishEyeIcon sx={style}/></i> </a>
-          <h6>ADVENTURES</h6>
-          </div> &nbsp; &nbsp; 
+        <div className="con2">INSEPERATION</div>
+        <div className="con3">
+          <div className="first-3">
+            <a href="/">
+              {" "}
+              <i>
+                {" "}
+                <ImportContactsIcon sx={style} />{" "}
+              </i>{" "}
+            </a>
+            <h6>OFFBEATS</h6>
+          </div>{" "}
+          &nbsp; &nbsp;
+          <div className="first-4">
+            <a href="/">
+              {" "}
+              <i>
+                {" "}
+                <LocationOnIcon sx={style} />{" "}
+              </i>{" "}
+            </a>
+            <h6>CITY & BREAKS</h6>
+          </div>{" "}
+          &nbsp; &nbsp;
+          <div className="first-5">
+            <a href="/">
+              {" "}
+              <i>
+                {" "}
+                <LightModeIcon sx={style} />{" "}
+              </i>{" "}
+            </a>
+            <h6>ISLAND & BEACHES</h6>
+          </div>{" "}
+          &nbsp; &nbsp;
+          <div className="first-5">
+            <a href="/">
+              {" "}
+              <i>
+                {" "}
+                <ShareIcon sx={style} />{" "}
+              </i>{" "}
+            </a>
+            <h6>ROAD TRIPS & </h6>
+          </div>{" "}
+          &nbsp; &nbsp; &nbsp;
+          <div className="first-6">
+            <a href="/">
+              {" "}
+              <i>
+                {" "}
+                <PanoramaFishEyeIcon sx={style} />
+              </i>{" "}
+            </a>
+            <h6>ADVENTURES</h6>
+          </div>{" "}
+          &nbsp; &nbsp;
           <div className="first-7">
-       <a href="">    <i> <PublicIcon sx={style}/> </i> </a>
-     
-       </div>
-           </div>
-           
+            <a href="/">
+              {" "}
+              <i>
+                {" "}
+                <PublicIcon sx={style} />{" "}
+              </i>{" "}
+            </a>
+          </div>
+        </div>
       </div>
-      <Features/>
-      
+      <Features />
+
       {/*<div className="experience">
         <div className="column1">
           <h4>Experience Posts </h4>
@@ -190,10 +225,10 @@ INSEPERATION
             esse deleniti hic qui tempora maiores error ea sapiente suscipit ex
             odit!
           </p>
-          <a href="">Explore</a>
+          <a href="/">Explore</a>
         </div>
         <div className="column2">
-          <img src={DubaiImage} alt="" height="250px" width="400px" />
+          <img src={DubaiImage} alt="My Image" height="250px" width="400px" />
         </div>
       </div>
       <div className="counter">
@@ -242,7 +277,7 @@ INSEPERATION
         {/* <h4>User Rating </h4> */}
 
       {/*  <div className="box1">
-          <img src={Logo} alt="" height="50px" width="50px" />
+          <img src={Logo} alt="My Image" height="50px" width="50px" />
           <h5>User name </h5>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quaerat
@@ -259,7 +294,7 @@ INSEPERATION
           </span>
         </div>
         <div className="box2">
-          <img src={Logo} alt="" height="50px" width="50px" />
+          <img src={Logo} alt="My Image" height="50px" width="50px" />
           <h5>Mayur Adlak</h5>
           <p>
             Lorem ipsum dolor sit amet consecteturquisquam officia alias
@@ -277,7 +312,7 @@ INSEPERATION
           </span>
         </div>
         <div className="box3">
-          <img src={Logo} alt="" height="50px" width="50px" />
+          <img src={Logo} alt="My Image" height="50px" width="50px" />
           <h5>New user</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur

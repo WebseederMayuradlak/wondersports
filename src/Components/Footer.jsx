@@ -41,10 +41,10 @@ const NewFooter = () => {
                 <ul className="list-unstyled mb-0 text-start">
                   <h4>Contact Details</h4>
                   <li>
-                    <a href="">
+                    <a href="/">
                       <img
                         src={Logo}
-                        alt=""
+                        alt="My Image"
                         height="40px"
                         width="40px"
                         className="rounded left"
@@ -82,7 +82,7 @@ const NewFooter = () => {
                     <a href="/">About Us</a>
                   </li>
                   <li>
-                    <a href="">Contact Us</a>
+                    <a href="/">Contact Us</a>
                   </li>
                   <li>
                     <a href="/">FAQ</a>
@@ -94,7 +94,7 @@ const NewFooter = () => {
 
                 <ul className="list-unstyled mb-0 text-start" id="destination">
                   <li>
-                    <a href="">
+                    <a href="/">
                       <h4> Destination </h4>
                     </a>
                   </li>
@@ -120,7 +120,7 @@ const NewFooter = () => {
 
                 <ul className="list-unstyled mb-0 text-start">
                   <li>
-                    <a href="">
+                    <a href="/">
                       <h4>Blogs</h4>
                     </a>
                   </li>

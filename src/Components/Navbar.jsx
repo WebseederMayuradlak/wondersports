@@ -18,7 +18,7 @@ Cursor.innerText='X';
   return (
     <>
       <div className="logo">
-        <a href="" id="img" onClick={showData}>
+        <a href="/" id="img" onClick={showData}>
           
           ☰
         </a>
@@ -27,22 +27,22 @@ Cursor.innerText='X';
       <div className="content" id="content">
         <ul className="list-item ">
           <li>
-            <a href="">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="">About Us</a>
+            <a href="/">About Us</a>
           </li>
           <li>
-            <a href="">Contact Us</a>
+            <a href="/">Contact Us</a>
           </li>
           <li>
-            <a href="">Destination</a>
+            <a href="/">Destination</a>
           </li>
           <li>
-            <a href="">Trips Finder</a>
+            <a href="/">Trips Finder</a>
           </li>
           <li>
-            <a href="">Interest</a>
+            <a href="/">Interest</a>
           </li>
         </ul>
       </div>

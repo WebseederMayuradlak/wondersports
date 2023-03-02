@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import crossImage from "../BlogsImage/Canada.jpg";
-import "./cross.css"
+import "./cross.css";
 export default function Crossocean() {
   return (
-    <div className='cross-blog'>
+    <div className="cross-blog">
       <div className="cross-blog-1">
-        <span>Cross  blogs</span>
+        <span>Cross blogs</span>
 
         <p className="blogtext">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quis
@@ -35,7 +35,7 @@ export default function Crossocean() {
           </span>
         </div>
         <div className="cross-img">
-          <img src={crossImage} alt="" height="400px" width="500px" />
+          <img src={crossImage} alt="My Image" height="400px" width="500px" />
         </div>
       </div>
       <div className="cross-blog-3">
@@ -57,7 +57,7 @@ export default function Crossocean() {
         <div className="cross-img-4">
           <img
             src={crossImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -119,7 +119,7 @@ export default function Crossocean() {
         <div className="cross-img-6">
           <img
             src={crossImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -163,7 +163,7 @@ export default function Crossocean() {
         <div className="cross-img-6">
           <img
             src={crossImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -185,7 +185,6 @@ export default function Crossocean() {
           </p>
         </div>
       </div>
-
     </div>
-  )
+  );
 }

@@ -35,7 +35,7 @@ export default function CultureBlog() {
           </span>
         </div>
         <div className="culture-img">
-          <img src={CultureImage} alt="" height="400px" width="500px" />
+          <img src={CultureImage} alt="My Image" height="400px" width="500px" />
         </div>
       </div>
       <div className="culture-blog-3">
@@ -57,7 +57,7 @@ export default function CultureBlog() {
         <div className="culture-img-4">
           <img
             src={CultureImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -119,7 +119,7 @@ export default function CultureBlog() {
         <div className="culture-img-6">
           <img
             src={CultureImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}
@@ -163,7 +163,7 @@ export default function CultureBlog() {
         <div className="culture-img-6">
           <img
             src={CultureImage}
-            alt=""
+            alt="My Image"
             height="400px"
             width="500px"
             style={{ borderRadius: "10px" }}

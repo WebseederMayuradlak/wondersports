@@ -62,11 +62,11 @@
     display: block;
     align-items: center;
   } */
-  .content .list-item li a:hover {
+  /* .content .list-item li a:hover {
 
     transition: 1s ease;
 
     color: rgb(15, 141, 231);
     border-bottom: 1.5px solid whitesmoke;
-  }
+  } */
 }
