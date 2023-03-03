@@ -33,7 +33,7 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/" element={<Mountain />} />
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />
           <Route exact path="/blog" element={<MainBlogPage />} />
@@ -42,7 +42,7 @@ function App() {
           <Route exact path="/cultureblog" element={<CultureBlog />} />
           <Route exact path="/faimilyblog" element={<FaimilyBlog />} />
           <Route exact path="/forestblog" element={<ForestBlog />} />
-          <Route exactm path="/mountainblog" element={<Mountain />} />
+
           <Route exact path="/afrciatourguide" element={<AfricatourGuide />} />
           <Route
             exact
@@ -62,6 +62,7 @@ function App() {
             path="/beachdivingtourguide"
             element={<BeachandDiving />}
           />
+
           <Route exact path="/northtourguide" element={<NorthTourGuide />} />
           <Route exact path="/photographytourguide" element={<PhotoGraphy />} />
           <Route exact path="/snowtourguide" element={<SnowtourGuide />} />
@@ -69,6 +70,7 @@ function App() {
           <Route exact path="/springtourguide" element={<SpringtourGuide />} />
           <Route exact path="/summertourguide" element={<SummertourGuide />} />
           <Route exact path="/wintertourguide" element={<WintertourGuide />} />
+          <Route exact path="/mountainblog" element={<Mountain />} />
         </Routes>
       </Router>
       <Footer />
