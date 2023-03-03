@@ -1,8 +1,28 @@
 import React from "react";
 import crossImage from "../BlogsImage/Canada.jpg";
+import Blog from "../Mountain/components/Blog";
+import Info from "../Mountain/components/Info";
 import "./cross.css";
 export default function Crossocean() {
+  let cross = {
+    heading: "Cross Ocean Blog ",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt porro sint inventore explicabo magnam culpa reiciendis obcaecati magni hic sapiente. Totam suscipit dolor libero obcaecati asperiores, natus esse incidunt quibusdam numquam iusto vero molestiae ad consectetur debitis quasi deleniti quas possimus fugit consequuntur magni. Debitis nesciunt officia maxime sed obcaecati amet non atque est? Veritatis ex, quia, voluptates maxime, inventore iure sint aliquam amet aliquid sit optio quis illum quas! Aliquam minus perferendis, corrupti, possimus unde exercitationem voluptates eligendi deleniti, facilis aliquid perspiciatis. Aut quibusdam sunt tempora perferendis earum aliquid sequi deleniti! Dolor, repellendus harum sapiente possimus culpa in ipsum.",
+  };
+  let crossImg = {
+    reverse: true,
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt porro sint inventore explicabo magnam culpa reiciendis obcaecati magni hic sapiente. Totam suscipit dolor libero obcaecati asperiores, natus esse incidunt quibusdam numquam iusto vero molestiae ad consectetur debitis quasi deleniti quas possimus fugit consequuntur magni. Debitis nesciunt officia maxime sed obcaecati amet non atque est? Veritatis ex, quia, voluptates maxime, inventore iure sint aliquam amet aliquid sit optio quis illum quas! Aliquam minus perferendis, corrupti, possimus unde exercitationem voluptates eligendi deleniti, facilis aliquid perspiciatis. Aut quibusdam sunt tempora perferendis earum aliquid sequi deleniti! Dolor, repellendus harum sapiente possimus culpa in ipsum.",
+    text: "end",
+    img: crossImage,
+  };
   return (
+    <>
+      <div className="mountain">
+        <Blog data={cross} />
+        <Info data2={crossImg} />
+      </div>
+      {/*     
     <div className="cross-blog">
       <div className="cross-blog-1">
         <span>Cross blogs</span>
@@ -185,6 +205,7 @@ export default function Crossocean() {
           </p>
         </div>
       </div>
-    </div>
+    </div> */}
+    </>
   );
 }

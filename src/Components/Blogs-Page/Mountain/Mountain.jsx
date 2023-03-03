@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Mountain.css";
 import Icemountain from "../BlogsImage/icemountaine.jpg";
 import Blog from "./components/Blog";
 import Info from "./components/Info";

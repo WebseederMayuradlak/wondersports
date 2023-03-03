@@ -33,7 +33,7 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/" element={<Mountain />} />
+          <Route exact path="/" element={<HomePage />} />
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />
           <Route exact path="/blog" element={<MainBlogPage />} />
@@ -73,7 +73,7 @@ function App() {
           <Route exact path="/mountainblog" element={<Mountain />} />
         </Routes>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -18,19 +18,17 @@
   color: black;
   padding-top: 3px;
   padding: 5px;
- 
 }
 
 .content .list-item {
-  transition: 1.0s ease;
+  transition: 1s ease;
   position: relative;
   transform: translate(X);
   text-align: center;
-  
+
   list-style-type: none;
 }
 .content .list-item li a {
-
   color: whitesmoke;
   font-weight: 500;
   font-size: 15px;

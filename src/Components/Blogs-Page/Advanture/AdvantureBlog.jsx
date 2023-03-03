@@ -1,11 +1,36 @@
 import React from "react";
-import "./advanture.css";
+// import "./advanture.css";
+// import "../Mountain/Mountain.css";
 import Icemountain from "../BlogsImage/icemountaine.jpg";
 import MountImage from "../BlogsImage/mount1.jpg";
+import Blog from "../Mountain/components/Blog";
+import Info from "../Mountain/components/Info";
 export default function AdvantureBlog() {
+  var data = {
+    heading: "Advanture Blog ",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam molestias, omnis officia blanditiis excepturi modi deleniti, dicta est a tempore pariatur explicabo aspernatur dolorem. Tempore dolorem atque ratione nam officia placeat quod nesciunt, non, doloremque amet, dolor animi dolores nobis at alias expedita facilis aut commodi vel! Aperiam facilis nulla asperiores similique et libero reprehenderit repudiandae iste. Cupiditate labore minima molestiae alias animi vitae consequatur soluta voluptatum voluptas natus et, optio ut esse quidem culpa aliquid cumque ad iusto maxime illum. Beatae nam possimus, veniam voluptatibus sunt blanditiis. Perspiciatis adipisci fugit repellat vero nemo doloribus iusto tempore quam labore!",
+  };
+  let data2 = {
+    img: Icemountain,
+    text: "end",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis omnis vero voluptas doloribus rerum? Accusamus recusandae, ex, voluptatum voluptatem ipsa illum nesciunt perferendis animi autem sapiente optio eaque quasi tempora! Obcaecati, minima? Dolorem reprehenderit nobis at, voluptatem in, id odit quia eligendi sequi beatae aut accusamus unde nisi animi magnam nesciunt? Facere, enim assumenda! Corporis dignissimos, eius quae placeat animi praesentium amet minima! Magnam aspernatur eligendi eos dolorem earum laboriosam vitae iste aliquam nihil ipsum, repellat quod? Laudantium beatae sint ad numquam provident, quo modi debitis velit, consequatur, labore deleniti perspiciatis ipsam officia veritatis recusandae quam! Architecto temporibus eaque ipsam.    content: ",
+    reverse: false,
+  };
   return (
     <>
-      <div className="blogs-page">
+      <div className="mountain">
+        <Blog data={data} />
+        <Info data2={data2} />
+        <Blog data={data} />
+        <Info data2={data2} />
+        <Blog data={data} />
+        <Info data2={data2} />
+        <Blog data={data} />
+        <Info data2={data2} />
+      </div>
+      {/* <div className="blogs-page">
         <div className="blogs-page-1">
           <span>Advanture blogs</span>
           <p>
@@ -185,7 +210,7 @@ export default function AdvantureBlog() {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
