@@ -5,12 +5,16 @@ import "./event.css";
 const Event = () => {
   return (
     <>
-      <div>
-        A Comprehensive Platform For
+      <div className="event">
+        <h2>A Comprehensive Platform For</h2>
         <br></br>
-        <b>Your Shows & Events Lectus duis tortor</b>
-        vitae enim ultrices tincidunt quam euismod tincidunt enim id commodo
-        Lectus duis.
+        <h1>
+          <b>Your Shows & Events</b>
+        </h1>
+        <p>
+          Lectus duis tortor vitae enim ultrices tincidunt quam euismod
+          tincidunt enim id commodo Lectus duis.
+        </p>
         <button>FIND YOUR NEXT EVENT</button>
       </div>
     </>

@@ -1,0 +1,30 @@
+
+.event{
+    padding-left: 10vw;
+    height: 100vh;
+    width: 100%;
+    background-color: #000c14;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.event h2{
+    font-weight: 100;
+    margin-bottom: -1vh;
+}
+
+.event p{
+    margin: 8vh 0;
+    max-width: 300px;
+}
+
+.event button{
+    padding: 2vh 2vw;
+    background-color: #ff4646;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
