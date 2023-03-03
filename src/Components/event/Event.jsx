@@ -1,6 +1,6 @@
-import Slider from "./components/Slider";
 import React from "react";
 import "./event.css";
+import Carousel from "../SimpleSlider";
 
 const Event = () => {
   return (
@@ -16,6 +16,12 @@ const Event = () => {
           tincidunt enim id commodo Lectus duis.
         </p>
         <button>FIND YOUR NEXT EVENT</button>
+      </div>
+      <div className="upcoming">
+        <div className="slider-nav">
+          <h1>Upcoming Events</h1>
+        </div>
+        <Carousel />
       </div>
     </>
   );

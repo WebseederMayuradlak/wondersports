@@ -28,6 +28,7 @@ import FaimilyBlog from "./Components/Blogs-Page/Faimily/FaimilyBlog";
 import ForestBlog from "./Components/Blogs-Page/Forest/ForestBlog";
 import Mountain from "./Components/Blogs-Page/Mountain/Mountain";
 import Event from "./Components/event/Event";
+import { useState } from "react";
 // import AdvantureBlog from './Components/Blogs-Page/AdvantureBlog';
 // import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
 // import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
@@ -38,10 +39,16 @@ import Event from "./Components/event/Event";
 // import SummertourGuide from './Components/TourGuide/SummertourGuide';
 
 function App() {
+  let [show, setShow] = useState(true);
+
   return (
     <div className="App">
-      <Navbar />
-      <Event />
+      <Navbar show={show} setShow={setShow} />
+      {show && (
+        <>
+          <Event />
+        </>
+      )}
       {/* <HomePage /> */}
       {/* <Mountain /> */}
       {/* <Destination /> */}

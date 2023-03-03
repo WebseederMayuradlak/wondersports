@@ -1,4 +1,6 @@
 
+/* TOP SECTION */
+
 .event{
     padding-left: 10vw;
     height: 100vh;
@@ -9,6 +11,9 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1589519160732-57fc498494f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-position: center;
+    background-size: cover;
 }
 
 .event h2{
@@ -27,4 +32,74 @@
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* UPCOMING EVENTS */
+
+.upcoming{
+    height: 100vh;
+    width: 100%;
+    background-color: #06141e;
+    border-top: .5px solid transparent;
+}
+
+.slider-nav{
+    margin-top: 5%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.slider-nav h1{
+    padding-bottom: 5px;
+    color : #fff;
+    margin-left: 5%;
+    font-size: 20px;
+    border-bottom: 2px solid #ff4646;
+    cursor: pointer;
+}
+
+/* .car {
+    height: 50vh;
+    color: #fff;
+} */
+
+/* .caro {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+}
+
+.h{
+    height: 50%;
+    width: 50%;
+} */
+
+.slideCopntainer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide {
+    /* height: 100%; */
+    width: 80%;
+}
+
+.boxx{
+    height: 40vh;
+    /* width: 50px; */
+    /* background-color: #232323; */
+    padding: 20px;
+}
+
+.cardd{
+    height: 100%;
+    width: 100%;
+    background-color: #232323;
+    border: 1px solid #fff;
 }

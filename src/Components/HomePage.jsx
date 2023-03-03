@@ -136,7 +136,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-
         <div className="features">
           <h1>Features & Destinations</h1>
           <p>Lorem ipsum dolor sit amet.</p>

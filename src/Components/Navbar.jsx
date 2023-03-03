@@ -1,32 +1,41 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.css";
-export default function Navbar() {
-  var showData = (e) => {
-    e.preventDefault();
-    var content = document.getElementById("content");
-    var Cursor = document.getElementById("img");
-    let flag = 1;
+export default function Navbar({ show, setShow }) {
+  const [nav, setNav] = useState(false);
+  const [change, setChange] = useState(false);
 
-    if(flag === 0){
-        content.style.left = "-100%"
-        Cursor.innerText='☰';
-        flag = 1;
-    }
-    else{
-        content.style.left = 0;
-        Cursor.innerText='X';
-        flag = 0;
-    }
-   
+  let handleClick = () => {
+    setNav(!nav);
+    setShow(!show);
   };
+
+  const changeBackground = () => {
+    console.log(window.scrollY);
+    if (window.scrollY >= 66) {
+      setChange(true);
+    } else {
+      setChange(false);
+    }
+  };
+
+  useEffect(() => {
+    changeBackground();
+    window.addEventListener("scroll", changeBackground);
+  });
+
   return (
     <>
-      <div className="logo">
-        <a href="/" id="img" onClick={showData}>
-          ☰
-        </a>
+      <div
+        className={`logo ${change ? "scroll-color" : ""}`}
+        onClick={handleClick}
+      >
+        {!nav ? "☰" : "X"}
       </div>
-      <div className="content" id="content">
+      <div
+        className="content"
+        id="content"
+        style={{ left: !nav ? "-100%" : 0 }}
+      >
         <ul className="list-item ">
           <li>
             <a href="/">Home</a>
@@ -48,7 +57,6 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
-      
     </>
   );
 }
