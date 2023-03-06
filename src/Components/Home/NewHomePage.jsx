@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./newHome.css";
 import CropSquareIcon from "@mui/icons-material/CropSquare";
 import PaymentIcon from "@mui/icons-material/Payment";
@@ -12,7 +12,27 @@ import Image1 from "./CountriesImage/2.jpeg";
 import Image2 from "./CountriesImage/3.jpeg";
 import Image3 from "./CountriesImage/4.jpeg";
 import Image4 from "./CountriesImage/5.jpeg";
+
 export default function NewHomePage() {
+  const [input, setInput] = useState();
+  console.log(input);
+  const handleClick = async (e) => {
+    e.preventDefault();
+    var URL = "localhost:4000/subscribe";
+    var option = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(input),
+    };
+   await fetch(URL,option).then(() => {
+        alert("Subscribed ");
+      })
+      .catch(function () {
+        alert("Failed to Subscribe");
+      });
+  };
   return (
     <div>
       <div className="home-page">
@@ -193,9 +213,8 @@ export default function NewHomePage() {
         <h1>Here's What Our Costumer SaY </h1>
         <div className="feedback-container"></div>
         <div className="feed-container">
-          
           <div className="feed-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             sed reprehenderit, eum quis odit quo mollitia molestias facere iure
             distinctio eos possimus minus facilis inventore accusamus in hic
             totam dolorem saepe blanditiis architecto ratione corporis?
@@ -212,12 +231,20 @@ export default function NewHomePage() {
       <div className="newslatter">
         <div className="news-item">
           <h1>Subscribe for Update </h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, placeat.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            placeat.
+          </p>
           <div className="news-input">
-        
-            <input type="text" placeholder="please enter your email address" />
-            <a href="" >Subscribe </a>
-          
+            <input
+              type="text"
+              value={input}
+              placeholder="please enter your email address"
+              onChange={(e) => setInput(e.target.value)}
+            />
+            <a href="" onClick={handleClick}>
+              Subscribe{" "}
+            </a>
           </div>
         </div>
       </div>
