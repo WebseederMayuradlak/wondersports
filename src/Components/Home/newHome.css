@@ -1,0 +1,286 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.home-header {
+  background-image: url(./CountriesImage/kenya.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-header .home-text {
+  margin-top: -9%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+}
+.home-text h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+.home-header .home-text p {
+  padding: 1%;
+  font-size: 17px;
+}
+.home-header .home-text a {
+  text-decoration: none;
+  color: black;
+  background-color: #ffa53a;
+  width: 15%;
+  text-align: center;
+  padding: 1%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+}
+.home-header .home-text i {
+  font-size: 20px;
+}
+.best-destination {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-top: 2%;
+}
+.best-destination .destination-countries .destination-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.best-destination .destination-countries .destination-title h1 {
+  font-size: 40px;
+  color: #ffa53a;
+  font-weight: 900;
+}
+.best-destination .destination-countries .destination-title p {
+  font-size: 17px;
+  font-weight: 400;
+}
+.best-destination .destination-countries {
+  display: flex;
+  flex-direction: column;
+}
+
+.destination-images {
+  width: 100%;
+
+  height: 30vh;
+  display: flex;
+}
+
+.destination-images .top-destination {
+  width: 19%;
+
+  padding: 0.5%;
+
+  margin: 1%;
+}
+.destination-images .top-destination .text-option {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.destination-images .top-destination img {
+  border-radius: 3%;
+  object-fit: cover;
+  object-position: c;
+  height: 22vh;
+}
+.start-trip {
+  display: flex;
+  width: 100%;
+}
+.start-trip .trip-text {
+  width: 50%;
+  margin: 2% 5%;
+  display: block;
+}
+.start-trip .trip-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #12173d;
+  margin: 1%;
+}
+
+.start-trip .trip-text .option-1 {
+  display: flex;
+  margin-top: 5%;
+}
+.start-trip .option-1 .icons {
+  font-size: 20px;
+  margin: 2%;
+}
+.start-trip .trip-image {
+  padding: 3%;
+  margin: 2% 5%;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-trip .trip-image .img-1 {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.start-trip .trip-image .img-1 img {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.top-tour .tour-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.top-tour .tour-container {
+  margin: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-tour .tour-container .tour-card .tour-img {
+  width: 90%;
+}
+.top-tour .tour-container .tour-card .tour-img img {
+  height: 16rem;
+  width: 100%;
+  border-radius: 15px;
+}
+.top-tour .tour-card {
+  margin: 1% 1%;
+  width: 23%;
+}
+.top-tour .tour-card .tour-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-tour .tour-card .tour-title p {
+  margin: 1%;
+  width: 80%;
+}
+.svis-tour {
+  margin: 1% 10%;
+  text-align: center;
+  justify-content: center;
+}
+.svis-tour h1{
+  margin: 2%;
+}
+.svis{
+  width: 100%;
+  display: flex;
+}
+.svis-tour .svis .svis-img img{
+  width: 70%;
+  height: 20rem;
+  border-radius: 5%;
+}
+.svis-tour .svis .svis-img {
+  width: 50%;
+}
+.svis-tour .svis .svis-text{
+  margin-top: 3%;
+  text-align: justify;
+  width: 40%;
+}
+.svis-tour h1{
+  
+  font-weight: 600;
+}
+.feedback {
+  /* text-align: center; */
+  justify-content: center;
+  margin: 1% 10%;
+  width: 100%;
+
+}
+.feedback h1{
+  text-align: center;
+  margin: 1%;
+}
+.feedback .feed-container{
+  display: flex;
+  /* background-color: #ffa53a; */
+  /* width: 100%; */
+}
+.feedback .feed-container .feed-text {
+  
+   margin-top: 3%;
+   padding-left:5% ;
+   text-align: justify;
+   width: 40%;
+}
+.feedback .feed-container .feedback-img {
+  width: 30%;
+  margin: 0% 3%;
+}
+.feedback .feed-container .feedback-img img{
+  height: 20rem;
+  border-radius: 15px;
+  width: 100%;
+}
+.newslatter{
+  width: 80%;
+  margin: 2% 10%;
+ 
+  background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  /* filter: blur(0.5px); */
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  text-align: center;
+  padding: 6% 0%;
+  border-radius: 20px;
+}
+.newslatter .news-input{
+  width: 50%;
+  
+  padding: 10px;
+ display: flex;
+ margin-top: 1% ;
+ justify-content: center;
+  margin-left: 25%;
+  background-color: #efece7;
+  border-radius: 25px;
+}
+.newslatter .news-input input {
+  border: none;
+  outline: none;
+  background-color: #efece7;
+  width: 80%;
+
+height: 2rem;
+}
+.newslatter .news-input a{
+  padding: 5px;
+  width: 100px;
+  border-radius: 15px;
+  background-color:#ffa53a ;
+}
+
+.news-item h1{
+filter: invert(1);
+}
+
+.news-item p{
+  mix-blend-mode: difference;
+filter: invert(1);
+color: black;
+}

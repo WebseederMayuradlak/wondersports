@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
-import HomePage from "./Components/HomePage";
+import NewHomePage from "./Components/Home/NewHomePage";
+// import HomePage from "./Components/Home/HomePage";
 import NewFooter from "./Components/Footer";
 import Destination from "./Components/Destination/Destination";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -33,7 +34,7 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
+          <Route exact path="/" element={<NewHomePage />} />
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />
           <Route exact path="/blog" element={<MainBlogPage />} />
