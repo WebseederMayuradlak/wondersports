@@ -1,7 +1,6 @@
 import Navbar from "./Components/Navbar";
 import HomePage from "./Components/HomePage";
 import NewFooter from "./Components/Footer";
-import Destination from "./Components/Destination";
 import Footer from "./Components/Footer";
 import Middle_East from "./Components/Country/Middle_East";
 import InterestPage from "./Components/Interest/InterestPage";
@@ -29,6 +28,7 @@ import ForestBlog from "./Components/Blogs-Page/Forest/ForestBlog";
 import Mountain from "./Components/Blogs-Page/Mountain/Mountain";
 import Event from "./Components/event/Event";
 import { useState } from "react";
+import Destination from "./Components/destination-page/Destination";
 // import AdvantureBlog from './Components/Blogs-Page/AdvantureBlog';
 // import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
 // import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
@@ -46,7 +46,8 @@ function App() {
       <Navbar show={show} setShow={setShow} />
       {show && (
         <>
-          <Event />
+          <Destination />
+          {/* <Event /> */}
         </>
       )}
       {/* <HomePage /> */}

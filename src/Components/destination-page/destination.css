@@ -1,0 +1,136 @@
+/* TOP PAGE */
+
+.trip-top {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.trip-top img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(50%);
+}
+
+.trip-top-text {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.trip-top-text h1 {
+  font-size: 100px;
+  color: #e9cba0;
+}
+
+.trip-top-text p {
+  color: #fff;
+}
+
+/* MID SECTION */
+
+.trip-mid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.trip-mid button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  height: 20%;
+  padding: 15px 20px;
+  background-color: #232323;
+  color: #fff;
+  cursor: pointer;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+.trip-mid button:hover {
+  background-color: #282828ce;
+}
+
+/* COUNTRIES */
+
+.trip-bottom {
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10%;
+}
+
+.trip-bottom h1 {
+  border-bottom: 1px solid rgb(221, 188, 146);
+  width: 20%;
+}
+
+/* TRIP CARD CONTAINER */
+
+.trip-cards {
+  margin-top: 5%;
+  height: 80%;
+  width: 100%;
+}
+
+/* TRIP CARD */
+
+.trip-card {
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #dadada;
+  border: 1px solid #232323;
+}
+
+.trip-card-top {
+  height: 100%;
+  width: 100%;
+}
+
+.trip-card-top img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.trip-card-mid {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.trip-card-mid-top {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .trip-bottom {
+    height: 40vh;
+  }
+}

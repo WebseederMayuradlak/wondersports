@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
+import "swiper/css/effect-fade";
 import "./newSlider.css";
 
 // import required modules
@@ -13,9 +14,10 @@ import {
   EffectCards,
   EffectCreative,
   EffectCoverflow,
+  EffectFade,
 } from "swiper";
 
-export default () => {
+export default ({ Card, setSlideNum, setAutoPlay = true, setEffect }) => {
   let arr = [1, 2, 3, 4, 5, 6];
 
   let settings = {
@@ -26,6 +28,7 @@ export default () => {
       EffectCards,
       EffectCreative,
       EffectCoverflow,
+      EffectFade,
     ],
     // navigation: true,
     navigation: {
@@ -33,18 +36,22 @@ export default () => {
       prevEl: ".prev",
       // clickable: true
     },
-    effect: "slide",
+    effect: setEffect ? setEffect : "slide",
     fadeEffect: {
       crossFade: true,
     },
-    slidesPerView: 3,
+    speed: 1000,
+    slidesPerView: 1,
     loop: true,
     // centeredSlides: true,
-    autoplay: {
-      delay: 1000,
-      pauseOnMouseEnter: true,
-      disableOnInteraction: false,
-    },
+    autoplay: setAutoPlay
+      ? {
+          delay: 1000,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: false,
+        }
+      : setAutoPlay,
+    // autoplay: setAutoPlay ? setAutoPlay : true,
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
@@ -59,12 +66,12 @@ export default () => {
         spaceBetween: 0,
       },
       768: {
-        slidesPerView: 2,
+        slidesPerView: setSlideNum,
         spaceBetween: 40,
       },
       1024: {
         centeredSlides: true,
-        slidesPerView: 3,
+        slidesPerView: setSlideNum ? setSlideNum : 3,
         spaceBetween: 50,
       },
     },
@@ -76,13 +83,17 @@ export default () => {
         {arr.map((e, i) => {
           return (
             <SwiperSlide className="slide" key={i}>
-              <div className="cardd">slide {e}</div>
+              {Card ? <Card /> : <div>Slide {i}</div>}
             </SwiperSlide>
           );
         })}
         <div className="swiper-buttons">
-          <button className="prev">prev</button>
-          <button className="next">next</button>
+          <button className="prev">
+            <i class="ri-arrow-left-s-fill"></i>
+          </button>
+          <button className="next">
+            <i class="ri-arrow-right-s-fill"></i>
+          </button>
         </div>
       </Swiper>
     </div>
