@@ -4,6 +4,7 @@ import Image01 from "../CountriesImage/Image1.jpeg";
 import { Button } from "@mui/material";
 import Image02 from "../CountriesImage/Image1.jpeg";
 import Image03 from "../CountriesImage/6.jpeg";
+import CollapseTour from "../CollapseTour";
 function Solotravel() {
   return (
     <>
@@ -131,7 +132,7 @@ function Solotravel() {
           </div>
         </div>
 
-        <div className="solo-content">
+        {/* <div className="solo-content">
           <div className="solo-content-1">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
@@ -156,7 +157,8 @@ function Solotravel() {
           <div className="solo-content-4">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
-        </div>
+        </div> */}
+        <CollapseTour />
       </div>
     </>
   );

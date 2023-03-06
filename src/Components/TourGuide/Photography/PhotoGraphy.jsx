@@ -4,6 +4,7 @@ import Image01 from "../CountriesImage/Image1.jpeg";
 import { Button } from "@mui/material";
 import Image02 from "../CountriesImage/Image1.jpeg";
 import Image03 from "../CountriesImage/6.jpeg";
+import CollapseTour from "../CollapseTour";
 function PhotoGraphy() {
   return (
     <div>
@@ -130,7 +131,7 @@ function PhotoGraphy() {
             <a href="/">Explore </a>
           </div>
         </div>
-        <div className="photo-content">
+        {/* <div className="photo-content">
           <div className="photo-content-1">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
@@ -155,7 +156,8 @@ function PhotoGraphy() {
           <div className="photo-content-4">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
-        </div>
+        </div> */}
+        <CollapseTour />
       </div>
     </div>
   );

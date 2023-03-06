@@ -216,7 +216,7 @@ export default function NewHomePage() {
           <div className="news-input">
         
             <input type="text" placeholder="please enter your email address" />
-            <a href="">Subscribe </a>
+            <a href="" >Subscribe </a>
           
           </div>
         </div>

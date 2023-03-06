@@ -4,6 +4,7 @@ import Image01 from "../CountriesImage/Image1.jpeg";
 import { Button } from "@mui/material";
 import Image02 from "../CountriesImage/Image1.jpeg";
 import Image03 from "../CountriesImage/6.jpeg";
+import CollapseTour from "../CollapseTour";
 const SpringtourGuide = () => {
   return (
     <>
@@ -122,7 +123,7 @@ const SpringtourGuide = () => {
           </div>
         </div>
 
-        <div className="spring-content">
+        {/* <div className="spring-content">
           <div className="spring-content-1">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
@@ -147,7 +148,8 @@ const SpringtourGuide = () => {
           <div className="spring-content-4">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
-        </div>
+        </div> */}
+        <CollapseTour />
       </div>
     </>
   );

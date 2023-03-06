@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 // import Image02 from '../CountriesImage/Image1.jpeg';
 import Image02 from "../../TourGuide/CountriesImage/Image1.jpeg";
 import Image03 from "../../TourGuide/CountriesImage/6.jpeg";
+import CollapseTour from "../CollapseTour";
 const EuroptourGuide = () => {
   return (
     <>
@@ -132,7 +133,7 @@ const EuroptourGuide = () => {
           </div>
         </div>
 
-        <div className="europe-content">
+        {/* <div className="europe-content">
           <div className="europ-content-1">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
@@ -157,7 +158,8 @@ const EuroptourGuide = () => {
           <div className="europ-content-4">
             <img src={Image03} alt="My Image" height="450px" width="380px" />
           </div>
-        </div>
+        </div> */}
+        <CollapseTour />
       </div>
     </>
   );

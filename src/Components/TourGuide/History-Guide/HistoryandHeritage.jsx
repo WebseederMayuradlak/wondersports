@@ -4,6 +4,7 @@ import Image01 from "../CountriesImage/Image1.jpeg";
 import { Button } from "@mui/material";
 import Image02 from "../CountriesImage/Image1.jpeg";
 import Image03 from "../CountriesImage/6.jpeg";
+import CollapseTour from "../CollapseTour";
 function HistoryandHeritage() {
   return (
     <div>
@@ -129,7 +130,7 @@ function HistoryandHeritage() {
         </div>
       </div>
 
-      <div className="history-content">
+      {/* <div className="history-content">
         <div className="history-content-1">
           <img src={Image03} alt="My Image" height="450px" width="380px" />
         </div>
@@ -154,7 +155,8 @@ function HistoryandHeritage() {
         <div className="history-content-4">
           <img src={Image03} alt="My Image" height="450px" width="380px" />
         </div>
-      </div>
+      </div> */}
+      <CollapseTour />
     </div>
   );
 }
