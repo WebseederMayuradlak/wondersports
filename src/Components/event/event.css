@@ -41,6 +41,7 @@
     width: 100%;
     background-color: #06141e;
     border-top: .5px solid transparent;
+    padding: 0 20px;
 }
 
 .slider-nav{
@@ -88,18 +89,4 @@
 .slide {
     /* height: 100%; */
     width: 80%;
-}
-
-.boxx{
-    height: 40vh;
-    /* width: 50px; */
-    /* background-color: #232323; */
-    padding: 20px;
-}
-
-.cardd{
-    height: 100%;
-    width: 100%;
-    background-color: #232323;
-    border: 1px solid #fff;
 }

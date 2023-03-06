@@ -1,0 +1,66 @@
+.container {
+    background-color: #232323;
+    height: 40vh;
+    width: 100%;
+    color: black;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardd {
+    height: 100%;
+    /* width: 400%; */
+    width: 80%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  }
+  
+  .swiper-slide-active .cardd {
+    background-color: black;
+    color: orange;
+    width: 100%;
+  }
+  
+  .swiper-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+  }
+  
+  .next,
+  .prev {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 155, 0, 0.5);
+    color: #232323;
+    box-shadow: 2px 0px rgba(0, 0, 0, 0.5);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(255, 155, 0, 1);
+    box-shadow: -2px 2px rgba(0, 0, 0, 1);
+    color: #fff;
+  }
+  
+  .parent:hover .child:not(:hover) {
+    /* this style affects all the children except the one you're hovering over */
+  }
+  

@@ -1,6 +1,6 @@
 import React from "react";
 import "./event.css";
-import Carousel from "../SimpleSlider";
+import Carousel from "../simpleSlider/newSlider";
 
 const Event = () => {
   return (
