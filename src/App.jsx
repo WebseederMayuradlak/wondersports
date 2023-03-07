@@ -29,6 +29,8 @@ import Mountain from "./Components/Blogs-Page/Mountain/Mountain";
 import Event from "./Components/event/Event";
 import { useState } from "react";
 import Destination from "./Components/destination-page/Destination";
+import NewTripFinder from "./Components/trip-finder/NewTripFinder";
+
 // import AdvantureBlog from './Components/Blogs-Page/AdvantureBlog';
 // import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
 // import EuroptourGuide from './Components/TourGuide/EuroptourGuide';
@@ -46,7 +48,8 @@ function App() {
       <Navbar show={show} setShow={setShow} />
       {show && (
         <>
-          <Destination />
+          <NewTripFinder />
+          {/* <Destination /> */}
           {/* <Event /> */}
         </>
       )}

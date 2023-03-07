@@ -2,18 +2,18 @@ import React from "react";
 import "./destination.css";
 import Carousel from "../../Components/simpleSlider/newSlider";
 
-let tripCard = () => {
+let destinationCard = () => {
   return (
     <>
-      <div className="trip-card">
-        <div className="trip-card-top">
+      <div className="destination-card">
+        <div className="destination-card-top">
           <img
             src="https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
             alt=""
           />
         </div>
-        <div className="trip-card-mid">
-          <p className="trip-card-mid-top">Lorem, ipsum dolor.</p>
+        <div className="destination-card-mid">
+          <p className="destination-card-mid-top">Lorem, ipsum dolor.</p>
         </div>
       </div>
     </>
@@ -23,17 +23,17 @@ let tripCard = () => {
 const newDestination = () => {
   return (
     <>
-      <div className="trip-top">
+      <div className="destination-top">
         <img
           src="https://images.unsplash.com/photo-1520513455472-b259f1ec720a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
           alt=""
         />
-        <div className="trip-top-text">
+        <div className="destination-top-text">
           <h1>AFRICA</h1>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
       </div>
-      <div className="trip-mid">
+      <div className="destination-mid">
         <button>
           Article <i class="ri-external-link-fill"></i>
         </button>
@@ -41,15 +41,15 @@ const newDestination = () => {
           Tour Guide <i class="ri-external-link-fill"></i>
         </button>
         <button>
-          Trip Finder <i class="ri-external-link-fill"></i>
+          destination Finder <i class="ri-external-link-fill"></i>
         </button>
       </div>
-      <div className="trip-bottom">
+      <div className="destination-bottom">
         <h1>COUNTRIES</h1>
-        <div className="trip-cards">
+        <div className="destination-cards">
           <Carousel
             setAutoPlay={true}
-            Card={tripCard}
+            Card={destinationCard}
             setEffect={"coverflow"}
           />
         </div>

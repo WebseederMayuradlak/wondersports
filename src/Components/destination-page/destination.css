@@ -1,13 +1,13 @@
 /* TOP PAGE */
 
-.trip-top {
+.destination-top {
   height: 100vh;
   width: 100%;
   margin: 0;
   position: relative;
 }
 
-.trip-top img {
+.destination-top img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -15,7 +15,7 @@
   filter: brightness(50%);
 }
 
-.trip-top-text {
+.destination-top-text {
   height: 50%;
   width: 50%;
   display: flex;
@@ -29,18 +29,18 @@
   z-index: 2;
 }
 
-.trip-top-text h1 {
+.destination-top-text h1 {
   font-size: 100px;
   color: #e9cba0;
 }
 
-.trip-top-text p {
+.destination-top-text p {
   color: #fff;
 }
 
 /* MID SECTION */
 
-.trip-mid {
+.destination-mid {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,26 +49,34 @@
   background-color: #fff;
 }
 
-.trip-mid button {
+.destination-mid button {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 130px;
-  height: 20%;
+  height: 130px;
   padding: 15px 20px;
   background-color: #232323;
   color: #fff;
   cursor: pointer;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  margin-top: 10%;
 }
 
-.trip-mid button:hover {
-  background-color: #282828ce;
+.destination-mid button:nth-child(1) {
+  padding: 0 35px;
+}
+
+.destination-mid button:hover {
+  border-radius: 50%;
+  background-color: transparent;
+  color: black;
+  font-weight: 900;
 }
 
 /* COUNTRIES */
 
-.trip-bottom {
+.destination-bottom {
   background-color: rgb(255, 255, 255);
   height: 70vh;
   width: 100%;
@@ -78,22 +86,22 @@
   padding: 10%;
 }
 
-.trip-bottom h1 {
+.destination-bottom h1 {
   border-bottom: 1px solid rgb(221, 188, 146);
   width: 20%;
 }
 
-/* TRIP CARD CONTAINER */
+/* destination CARD CONTAINER */
 
-.trip-cards {
+.destination-cards {
   margin-top: 5%;
   height: 80%;
   width: 100%;
 }
 
-/* TRIP CARD */
+/* destination CARD */
 
-.trip-card {
+.destination-card {
   border-radius: 5px;
   overflow: hidden;
   height: 100%;
@@ -104,19 +112,19 @@
   border: 1px solid #232323;
 }
 
-.trip-card-top {
+.destination-card-top {
   height: 100%;
   width: 100%;
 }
 
-.trip-card-top img {
+.destination-card-top img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
-.trip-card-mid {
+.destination-card-mid {
   height: 30px;
   width: 100%;
   display: flex;
@@ -125,12 +133,12 @@
   padding: 0 5px;
 }
 
-.trip-card-mid-top {
+.destination-card-mid-top {
   width: 100%;
 }
 
 @media screen and (max-width: 480px) {
-  .trip-bottom {
+  .destination-bottom {
     height: 40vh;
   }
 }
