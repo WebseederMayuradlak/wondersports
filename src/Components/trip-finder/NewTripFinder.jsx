@@ -1,12 +1,33 @@
 import React from "react";
 import "./newTripFinder.css";
 import vid from "../../Images/landscape.mp4";
+import Carousel from "../simpleSlider/newSlider";
+import NewForm from "../form/NewForm";
+
+let TripCard = () => {
+  return (
+    <div className="trip-card">
+      <div className="trip-card-img">
+        <img
+          src="https://images.unsplash.com/photo-1444492417251-9c84a5fa18e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          alt=""
+        />
+      </div>
+      <h4>Lorem, ipsum dolor.</h4>
+      <div className="trip-card-film">
+        <h1>
+          <i class="ri-external-link-fill"></i>
+        </h1>
+      </div>
+    </div>
+  );
+};
 
 const NewTripFinder = () => {
   return (
     <>
       <div className="trip-top">
-        <video src={vid} autoPlay loop></video>
+        <video src={vid} autoPlay loop muted></video>
         <div className="trip-top-text">
           <h1>hehe</h1>
           <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -31,6 +52,15 @@ const NewTripFinder = () => {
           />
         </div>
       </div>
+      <div className="trip-bottom">
+        <Carousel
+          setEffect={"slide"}
+          setSlideNum={3}
+          setAutoPlay={true}
+          Card={TripCard}
+        />
+      </div>
+      <NewForm />
     </>
   );
 };

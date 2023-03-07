@@ -30,6 +30,7 @@ import Event from "./Components/event/Event";
 import { useState } from "react";
 import Destination from "./Components/destination-page/Destination";
 import NewTripFinder from "./Components/trip-finder/NewTripFinder";
+import { ToastContainer } from "react-toastify";
 
 // import AdvantureBlog from './Components/Blogs-Page/AdvantureBlog';
 // import AfricatourGuide from './Components/TourGuide/AfricatourGuide';
@@ -57,6 +58,7 @@ function App() {
       {/* <Mountain /> */}
       {/* <Destination /> */}
       {/* <Footer /> */}
+      <ToastContainer limit={4} />
     </div>
   );
 }

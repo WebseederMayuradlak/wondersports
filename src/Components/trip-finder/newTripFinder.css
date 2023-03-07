@@ -73,6 +73,12 @@
   border: 1px solid #232323;
   border-radius: 5px;
   font-size: 150%;
+  cursor: pointer;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.trip-mid-left button:hover {
+  background-color: #e73a3f;
 }
 
 .trip-mid-right {
@@ -98,5 +104,85 @@
   .trip-mid-left,
   .trip-mid-right {
     width: 100%;
+    padding: 10%;
+  }
+}
+
+/* TRIP BOTTOM */
+
+.trip-bottom {
+  height: 60vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.trip-card {
+  height: 50vh;
+  width: 80%;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #232323;
+  position: relative;
+}
+
+.trip-card-img {
+  height: 90%;
+  width: 100%;
+}
+
+.trip-card-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.trip-card h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+  padding: 2%;
+}
+
+.trip-card-film {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 5000s;
+  pointer-events: none;
+}
+
+.trip-card:hover .trip-card-film {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+  bottom: 0;
+}
+
+@media screen and (max-width: 686px) {
+  .trip-bottom {
+    height: 100vh;
+  }
+  .trip-card {
+    margin-top: 40%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .trip-card {
+    margin-top: 70%;
+    height: 30vh;
   }
 }

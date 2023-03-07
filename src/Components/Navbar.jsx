@@ -10,7 +10,6 @@ export default function Navbar({ show, setShow }) {
   };
 
   const changeBackground = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 66) {
       setChange(true);
     } else {

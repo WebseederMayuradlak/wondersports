@@ -1,0 +1,56 @@
+::selection {
+  background-color: #e47073;
+  color: #fff;
+}
+
+.newForm {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1466096115517-bceecbfb6fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+form h1 {
+  color: #fff;
+}
+
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: saturate(180%) blur(2px);
+}
+
+form input {
+  padding: 10px 30px;
+  font-weight: 600;
+}
+
+form input:focus {
+  outline: 1px solid #367e2e;
+}
+
+form button {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  font-weight: 600;
+}
+
+form button:hover {
+  background-color: #5283378a;
+  color: #fff;
+  letter-spacing: 2px;
+  border: 1px solid #367e2e;
+}
