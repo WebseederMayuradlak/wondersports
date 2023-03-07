@@ -1,17 +1,110 @@
-.interest-container {
+.interest-parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.interest-page {
+  display: flex;
+  width: 48%;
+
+  margin: 1%;
+  margin-top: 2%;
+  height: 33rem;
+}
+#page {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.interest-page .interest-vertical {
+  width: 50%;
+  margin: 0%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.interest-page .interest-horizontal {
+  display: flex;
+  width: 50%;
+  margin: 0%;
+  flex-direction: column;
+}
+.interest-page .interest-vertical .vertical-1 {
+  height: 12rem;
+  width: 80%;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.interest-page .interest-vertical .vertical-1:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.interest-page .interest-vertical .vertical-2 {
+  background-image: url(../../Images/Tree.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 19rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 90%;
+  border-radius: 15px;
+}
+.interest-page .interest-horizontal .vertical-3,
+.vertical-4 {
+  margin: 1%;
+  border-radius: 15px;
+
+  background-image: url(../../Images/Tree.PNG);
+  background-size: cover;
+  background-position: center;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 90%;
+}
+
+.interest-page .interest-horizontal .vertical-4:hover a {
+  margin-bottom: 25%;
+}
+.interest-page .interest-horizontal .vertical-3:hover a {
+  margin-bottom: 25%;
+}
+.interest-page .interest-vertical .vertical-2:hover a {
+  margin-bottom: 25%;
+}
+.interest-page a {
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: 1px solid black;
+  margin-bottom: 2%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.7s;
+}
+.interest-page a:hover {
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(37, 166, 216);
+}
+#rev {
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* .interest-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
   margin-top: 50px;
-  /* margin: 50px; */
+
 }
 
 .interest {
-  /* min-height: 100%;
-        max-width: 100%; 
-    */
-  /* background-image: url(../../Images/white.jpg); */
+ 
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -24,7 +117,6 @@
 }
 
 .page-container .winter {
-  /* border: 2px solid grey; */
   display: flex;
   border-radius: 10px;
 
@@ -41,7 +133,6 @@
   align-items: center;
   margin: 10px;
   width: 350px;
-  /* margin-left: 50px; */
   font-size: 25px;
   border-radius: 10px;
   font-weight: 500px;
@@ -102,13 +193,10 @@
 }
 
 .summer {
-  /* margin: 10px; */
   border-radius: 10px;
-  /* border: 2px solid rgb(142, 137, 137); */
   display: flex;
   flex-wrap: wrap;
   width: 45%;
-  /* height: 60%; */
 }
 
 .summer .summer-container {
@@ -167,7 +255,6 @@
 
 .second-row .spring {
   width: 48%;
-  /* border: 2px solid black; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -232,7 +319,6 @@
 
 .second-row .snow {
   width: 48%;
-  /* border: 2px solid black; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -328,7 +414,6 @@
 
   .second-row .snow .snow-container {
     display: block;
-    /* flex-wrap: wrap; */
   }
 
   .second-row .snow .snow-container .snow-item .list-item {
@@ -360,7 +445,6 @@
   margin: 50px;
   margin-top: 50px;
   justify-content: space-between;
-  /* background-color: #0066FF; */
 }
 
 .third-page .beach {
@@ -520,7 +604,6 @@
   .third-page .beach .beach-container .beach-item .list-item:hover a {
     position: relative;
     top: 85px;
-    /* background-color: #0066FF; */
     border-radius: 10px;
     border: 1px solid grey;
     padding: 5px;
@@ -569,11 +652,9 @@
   margin: 50px;
   margin-top: 50px;
   justify-content: space-between;
-  /* background-color: aqua; */
 }
 
 .history-solo .history {
-  /* border: 1px solid black; */
   width: 48%;
   display: flex;
   flex-wrap: wrap;
@@ -757,7 +838,6 @@
   .history-solo .solo-travel .solo-container .solo-item .solo-text {
     width: 300px;
     height: 150px;
-    /* text-align: center; */
     margin-left: 40px;
     margin-bottom: 20px;
   }
@@ -766,8 +846,7 @@
     width: 350px;
     display: block;
     width: 80%;
-    /* margin-top: 20px; */
-    /* margin: 50px; */
+  
     margin-left: 0px;
   }
 
@@ -786,7 +865,6 @@
     margin: 5px;
     width: 350px;
     height: 200px;
-    /* background-image: url(../../Images/Country-Image/lack.jpg); */
     border-radius: 10px;
   }
 
@@ -813,7 +891,6 @@
 
     margin-left: 60px;
     width: 250px;
-    /* margin-left: 50px; */
     font-size: 18px;
     border-radius: 10px;
     font-weight: 400px;
@@ -821,7 +898,6 @@
   }
 
   .summer {
-    /* margin: 10px; */
     margin-top: 20px;
     border-radius: 10px;
     border: none;
@@ -835,7 +911,6 @@
   }
 
   .summer .summer-container .summer-item {
-    /* background-image: url(../../Images/Tree.PNG); */
     width: 350px;
     height: 200px;
     margin: 10px;
@@ -895,7 +970,6 @@
 
 .photography .photo-item:hover a {
   display: block;
-  /* padding-top: 100px; */
   position: relative;
   top: 100px;
 
@@ -921,3 +995,5 @@
   color: white;
   display: none;
 }
+ */
+

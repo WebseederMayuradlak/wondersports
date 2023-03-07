@@ -1,31 +1,77 @@
 import React from "react";
-import "./interest.css"
+import "./interest.css";
+import InterestCard from "./InterestCard";
 const InterestPage = () => {
-    return (
-        <>
-            <div className="interest">
-                <div className="interest-container">
-                    <div className="page-container">
-                        <div className="winter">
-                            <div className="winter-container">
-                                <div className="winter-text">
-                                    <h3>Winter </h3>
-                                </div>
-                                <div className="winter-item guide">
-                                    <a href="/">guide</a>
-                                </div>
-                            </div>
-                            <div className="winter-container">
-                                <div className="winter-item winter-article">
-                                    <a href="/">Article</a>
-                                </div>
-                                <div className="winter-item winter-trips ">
-                                    <a href="/">trips</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="summer">
+  let title = [
+    "Winter",
+    "Summer",
+    "Spring",
+    "Snow",
+    "Beach and Diving",
+    "Solo Travel",
+    "Middle East",
+    "Europe",
+    "Photography",
+    "Food and Drinks",
+    "Africa",
+    "North America"
+  ];
+  let Column=[true,false,true,false,true,false,true,false,true,false,true,false];
+  var i=0;
+ 
+ 
+  let Row= [false,true,false,false,true,false,true,false,true,false,true,false];
+  return (
+    <>
+      {/* <div className="interest">
+        <div className="interest-container">
+          <div className="page-container">
+            <div className="winter">
+              <div className="winter-container">
+                <div className="winter-text">
+                  <h3>Winter </h3>
+                </div>
+                <div className="winter-item guide">
+                  <a href="/">guide</a>
+                </div>
+              </div>
+              <div className="winter-container">
+                <div className="winter-item winter-article">
+                  <a href="/">Article</a>
+                </div>
+                <div className="winter-item winter-trips ">
+                  <a href="/">trips</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+      <div className="interest-parent">
+        {/* <div className="interest-page">
+          <div className="interest-vertical">
+            <div className="vertical-1">
+              <h1> Winter </h1>
+            </div>
+            <div className="vertical-2">
+              <a href="">Article</a>
+            </div>
+          </div>
+          <div className="interest-horizontal">
+            <div className="vertical-3">
+              <a href="">Guide</a>
+            </div>
+            <div className="vertical-4">
+              <a href="">Blogs</a>
+            </div>
+          </div>
+        </div> */}
+        {title.map((event) => {
+            i++;
+          return <InterestCard Title={event} revv={Column.at(i)} row={Row.at(i)} />;
+        })}
+      </div>
+      {/* <InterestCard /> */}
+      {/* <div className="summer">
                         <hr />
                         <div className="summer-container">
 
@@ -208,10 +254,8 @@ const InterestPage = () => {
                 </div>
                 <div className="photo-item">
                     <a href="/">trips</a>
-                </div>
-
-            </div>
-        </>
-    )
-}
+                </div> */}
+    </>
+  );
+};
 export default InterestPage;

@@ -5,7 +5,7 @@ import NewFooter from "./Components/Footer";
 import Destination from "./Components/Destination/Destination";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Footer from "./Components/Footer";
-import InterestPage from "./Components/Interest/InterestPage";
+// import InterestPage from "./Components/Interest/InterestPage";
 import MainBlogPage from "./Components/Blogs-Page/MainBlogPage";
 import BeachandDiving from "./Components/TourGuide/Beach-and-Diving/BeachandDiving";
 import AfricatourGuide from "./Components/TourGuide/Africa/AfricatourGuide";
@@ -26,8 +26,12 @@ import CultureBlog from "./Components/Blogs-Page/Culture/CultureBlog";
 import FaimilyBlog from "./Components/Blogs-Page/Faimily/FaimilyBlog";
 import ForestBlog from "./Components/Blogs-Page/Forest/ForestBlog";
 import Mountain from "./Components/Blogs-Page/Mountain/Mountain";
+import InterestPage from "./Components/Interest/InterestPage";
 import Event from "./Components/Event/Event";
+import TourGuide from "./Components/TourGuide/MainPage/TourGuide";
+import Categories from "./Components/Categories/Categories";
 // wifi password of Webseeder Webseeder@01
+// import EuroptourGuide from "./Components/TourGuide/Europe/EuroptourGuide";
 function App() {
   return (
     <div className="App">
@@ -35,7 +39,7 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/" element={<NewHomePage />} />
+          <Route exact path="/" element={<Categories/>} />
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />
           <Route exact path="/blog" element={<MainBlogPage />} />
