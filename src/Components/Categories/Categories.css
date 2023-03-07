@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: blue; */
+
   background-image: url(../../Images/Africa.jpg);
   background-position: center;
   background-size: cover;
@@ -157,4 +157,42 @@ border-radius: 10px;
 .category .destination-place .cat h3{
   margin: 1% 3%;
   font-size: 22px;
+}
+.category .blog-cat {
+    margin: 2% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.category .blog-cat h1{
+    text-align: center;
+}
+.blog-cat .category-option{
+
+  margin-top: 2%;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+ 
+background-color: rgba(59, 231, 231, 0.319);
+padding: 1%;
+}
+.blog-cat .category-option ul{
+   
+  display: flex;
+  list-style: none;
+align-items: center;
+justify-content: center;
+}
+.blog-cat .category-option ul li{
+    color: white;
+   margin-left:3%;
+}
+
+.blog-cat .category-option ul li a:hover{
+  color: #4285f4;
+  border-bottom: 1px solid black;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.0s;
 }

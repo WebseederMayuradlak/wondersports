@@ -74,6 +74,28 @@ function Categories() {
             </div>
           </div>
         </div>
+        <div className="blog-cat">
+          <div className="blog-header">
+            <h1>Travel Categories</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
+              earum alias accusamus aliquam <br /> non saepe sint blanditiis
+              asperiores sapiente ducimus.
+            </p>
+          </div>
+          <div className="category-option">
+            <ul>
+                <li><a href="">All</a></li>
+                <li> <a href="">Africa</a> </li>
+                <li> <a href="">Aisa</a> </li>
+                <li> <a href="">Europe</a> </li>
+                <li> <a href="">Middle East</a> </li>
+                <li> <a href="">North America</a> </li>
+
+            </ul>
+          </div>
+        </div>
+        sanik01
       </div>
     </>
   );
