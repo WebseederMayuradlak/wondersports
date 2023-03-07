@@ -12,7 +12,6 @@ import Image1 from "./CountriesImage/2.jpeg";
 import Image2 from "./CountriesImage/3.jpeg";
 import Image3 from "./CountriesImage/4.jpeg";
 import Image4 from "./CountriesImage/5.jpeg";
-
 export default function NewHomePage() {
   const [email, setEmail] = useState();
   console.log(email);
@@ -28,6 +27,7 @@ export default function NewHomePage() {
     };
    await fetch(URL,option).then(() => {
         alert("Subscribed ");
+        setEmail("")
       })
       .catch(function () {
         alert("Failed to Subscribe");

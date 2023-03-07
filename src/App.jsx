@@ -26,6 +26,7 @@ import CultureBlog from "./Components/Blogs-Page/Culture/CultureBlog";
 import FaimilyBlog from "./Components/Blogs-Page/Faimily/FaimilyBlog";
 import ForestBlog from "./Components/Blogs-Page/Forest/ForestBlog";
 import Mountain from "./Components/Blogs-Page/Mountain/Mountain";
+import Event from "./Components/Event/Event";
 // wifi password of Webseeder Webseeder@01
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
           <Route exact path="/cultureblog" element={<CultureBlog />} />
           <Route exact path="/faimilyblog" element={<FaimilyBlog />} />
           <Route exact path="/forestblog" element={<ForestBlog />} />
-
+          <Route exact path="/event" />
           <Route exact path="/afrciatourguide" element={<AfricatourGuide />} />
           <Route
             exact
@@ -57,6 +58,7 @@ function App() {
             path="/historytourguide"
             element={<HistoryandHeritage />}
           />
+          <Route exact path="/event" element={<Event />} />
           <Route exact path="/middletourguide" element={<MiddleEast />} />
           <Route
             exact
