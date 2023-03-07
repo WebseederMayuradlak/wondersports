@@ -14,17 +14,17 @@ import Image3 from "./CountriesImage/4.jpeg";
 import Image4 from "./CountriesImage/5.jpeg";
 
 export default function NewHomePage() {
-  const [input, setInput] = useState();
-  console.log(input);
+  const [email, setEmail] = useState();
+  console.log(email);
   const handleClick = async (e) => {
     e.preventDefault();
-    var URL = "localhost:4000/subscribe";
+    var URL = "http://localhost:4000/subscribe";
     var option = {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(input),
+      body: JSON.stringify({email}),
     };
    await fetch(URL,option).then(() => {
         alert("Subscribed ");
@@ -238,12 +238,12 @@ export default function NewHomePage() {
           <div className="news-input">
             <input
               type="text"
-              value={input}
+              value={email}
               placeholder="please enter your email address"
-              onChange={(e) => setInput(e.target.value)}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <a href="" onClick={handleClick}>
-              Subscribe{" "}
+              Subscribe
             </a>
           </div>
         </div>
