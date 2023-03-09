@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
 
-  background-image: url(../../Images/Africa.jpg);
+  background-image: url(../../../Images/Africa.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -84,7 +84,7 @@
 .category .cat-image {
   margin: 3% 2%;
   border-radius: 15px;
-  background-image: url(../../Images/Country-Image/Germany.jpg);
+  background-image: url(../../../Images/Country-Image/Germany.jpg);
   background-position: center;
   background-size: cover;
   width: 25%;
@@ -128,7 +128,7 @@
 .category .destination-place .cat .two-row .cat-2 {
   width: 30%;
   margin-left: 2%;
-  background-image: url(../../Images/Country-Image/Greece.jpg);
+  background-image: url(../../../Images/../Images/Country-Image/Greece.jpg);
   background-position: center;
   background-size: cover;
   height: 30vh;
@@ -149,7 +149,7 @@
   background-position: center;
   background-size: cover;
   border-radius: 10px;
-  background-image: url(../../Images/Country-Image/Georgia.jpg);
+  background-image: url(../../../Images/Country-Image/Georgia.jpg);
 }
 .category .destination-place .cat h3 {
   margin: 1% 3%;

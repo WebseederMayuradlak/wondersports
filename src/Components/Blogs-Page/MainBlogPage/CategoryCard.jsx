@@ -1,7 +1,7 @@
 import React from "react";
 import "./Categories.css"
-import BlogsImage from "../../Images/Country-Image/Austria.jpg";
-function CategoryCard() {
+import BlogsImage from "../../../Images/Country-Image/Austria.jpg";
+function CategoryCard(props) {
   return (
     <>
       <div className="cat-card">
@@ -14,7 +14,7 @@ function CategoryCard() {
           </p>
          
         </div>
-        <a href="" className="btn"> Technology </a>
+        <a href="" className="btn"> {props.category} </a>
       </div>
     </>
   );

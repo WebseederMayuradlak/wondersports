@@ -1,5 +1,6 @@
 import React from 'react'
-import BlogImage from "../../Images/Country-Image/Finland.jpg"
+import BlogImage from "../../../Images/Country-Image/Finland.jpg"
+
 function BlogCard() {
    
   return (

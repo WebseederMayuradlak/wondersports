@@ -1,10 +1,65 @@
-import React from "react";
+import React, { useState } from "react";
 import BlogCard from "./BlogCard";
-import BlogImage from "../../Images/Country-Image/Finland.jpg";
-
+import BlogImage from "../../../Images/Country-Image/Finland.jpg";
+import InfiniteScroll from "react-infinite-scroller";
 import "./Categories.css";
 import CategoryCard from "./CategoryCard";
+
 function Categories() {
+  var arr = [
+    "Africa",
+    "Africa",
+    "Africa",
+    "Africa",
+    "Africa",
+    "Africa",
+    "Asia",
+    "Asia",
+    "Asia",
+    "Asia",
+    "Asia",
+    "Europe",
+    "Europe",
+    "Europe",
+    "Europe",
+    "Europe",
+    "Middle East",
+    "Middle East",
+    "Middle East",
+    "Middle East",
+    "Middle East",
+    "North America",
+    "North America",
+    "North America",
+    "North America",
+    "North America",
+  ];
+  const [category, setCategory] = useState("All");
+  var handleClick = (e) => {
+    e.preventDefault();
+
+    setCategory("All");
+  };
+  var Africa = (e) => {
+    e.preventDefault();
+    setCategory("Africa");
+  };
+  var Asia = (e) => {
+    e.preventDefault();
+    setCategory("Asia");
+  };
+  var Europe = (e) => {
+    e.preventDefault();
+    setCategory("Europe");
+  };
+  var MiddleEast = (e) => {
+    e.preventDefault();
+    setCategory("Middle East");
+  };
+  var northAmerica = (e) => {
+    e.preventDefault();
+    setCategory("North America");
+  };
   return (
     <>
       <div className="category">
@@ -86,27 +141,52 @@ function Categories() {
           </div>
           <div className="category-option">
             <ul>
-                <li><a href="">All</a></li>
-                <li> <a href="">Africa</a> </li>
-                <li> <a href="">Aisa</a> </li>
-                <li> <a href="">Europe</a> </li>
-                <li> <a href="">Middle East</a> </li>
-                <li> <a href="">North America</a> </li>
-
+              <li>
+                <a href="" value="All" onClick={handleClick}>
+                  All
+                </a>
+              </li>
+              <li>
+                <a href="" onClick={Africa}>
+                  Africa
+                </a>
+              </li>
+              <li>
+                <a href="" onClick={Asia}>
+                  Asia
+                </a>
+              </li>
+              <li>
+                <a href="" onClick={Europe}>
+                  Europe
+                </a>
+              </li>
+              <li>
+                <a href="" onClick={MiddleEast}>
+                  Middle East
+                </a>
+              </li>
+              <li>
+                <a href="" onClick={northAmerica}>
+                  North America
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-       <div className="blogs-option">
- <CategoryCard/>
- <CategoryCard />
- <CategoryCard />
- <CategoryCard />
- <CategoryCard/>
- <CategoryCard/>
- <CategoryCard />
- <CategoryCard/>
- <CategoryCard/>
-       </div>
+        <div className="blogs-option">
+          {category === "All"
+            ? arr.map((e) => {
+                return <CategoryCard category={e} />;
+              })
+            : arr
+                .filter((f) => {
+                  return f === category;
+                })
+                .map((cat) => {
+                  return <CategoryCard category={category} />;
+                })}
+        </div>
       </div>
     </>
   );
