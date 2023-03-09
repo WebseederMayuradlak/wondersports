@@ -28,6 +28,7 @@ import InterestPage from "./Components/Interest/InterestPage";
 import Event from "./Components/Event/Event";
 import TourGuide from "./Components/TourGuide/MainPage/TourGuide";
 import Categories from "./Components/Blogs-Page/MainBlogPage/Categories";
+import CarouselExperience from "./Components/Home/CarouselExperience";
 // wifi password of Webseeder Webseeder@01
 // import EuroptourGuide from "./Components/TourGuide/Europe/EuroptourGuide";
 function App() {
