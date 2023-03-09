@@ -180,14 +180,14 @@ a {
   text-align: center;
   justify-content: center;
 }
-.svis-tour h1{
+.svis-tour h1 {
   margin: 2%;
 }
-.svis{
+.svis {
   width: 100%;
   display: flex;
 }
-.svis-tour .svis .svis-img img{
+.svis-tour .svis .svis-img img {
   width: 70%;
   height: 20rem;
   border-radius: 5%;
@@ -195,13 +195,12 @@ a {
 .svis-tour .svis .svis-img {
   width: 50%;
 }
-.svis-tour .svis .svis-text{
+.svis-tour .svis .svis-text {
   margin-top: 3%;
   text-align: justify;
   width: 40%;
 }
-.svis-tour h1{
-  
+.svis-tour h1 {
   font-weight: 600;
 }
 .feedback {
@@ -209,40 +208,38 @@ a {
   display: flex;
 
   justify-content: center;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-
 }
-.feedback h1{
+.feedback h1 {
   text-align: center;
   margin: 1%;
 }
-.feedback .feed-container{
+.feedback .feed-container {
   display: flex;
   /* background-color: #ffa53a; */
   /* width: 100%; */
 }
 .feedback .feed-container .feed-text {
-  
-   margin-top: 3%;
-   padding-left:5% ;
-   text-align: justify;
-   width: 40%;
+  margin-top: 3%;
+  padding-left: 5%;
+  text-align: justify;
+  width: 40%;
 }
 .feedback .feed-container .feedback-img {
   width: 30%;
   margin: 0% 3%;
 }
-.feedback .feed-container .feedback-img img{
+.feedback .feed-container .feedback-img img {
   height: 20rem;
   border-radius: 15px;
   width: 100%;
 }
-.newslatter{
+.newslatter {
   width: 80%;
   margin: 2% 10%;
- 
+
   background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
   /* filter: blur(0.5px); */
   background-size: cover;
@@ -252,13 +249,13 @@ align-items: center;
   padding: 6% 0%;
   border-radius: 20px;
 }
-.newslatter .news-input{
+.newslatter .news-input {
   width: 50%;
-  
+
   padding: 10px;
- display: flex;
- margin-top: 1% ;
- justify-content: center;
+  display: flex;
+  margin-top: 1%;
+  justify-content: center;
   margin-left: 25%;
   background-color: #efece7;
   border-radius: 25px;
@@ -269,57 +266,61 @@ align-items: center;
   background-color: #efece7;
   width: 80%;
 
-height: 2rem;
+  height: 2rem;
 }
-.newslatter .news-input a{
+.newslatter .news-input a {
   padding: 5px;
   width: 100px;
   border-radius: 15px;
-  background-color:#ffa53a ;
+  background-color: #ffa53a;
 }
 
-.news-item h1{
-filter: invert(1);
+.news-item h1 {
+  filter: invert(1);
 }
 
-.news-item p{
+.news-item p {
   mix-blend-mode: difference;
-filter: invert(1);
-color: black;
+  filter: invert(1);
+  color: black;
 }
 
-.carosel{
+.carosel {
   padding: 0.5%;
   margin: 1%;
   width: 22%;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-justify-content: center;
-align-items: center;
-border-radius: 35px;
-}
-.carosel i{
-  padding: 2% 5%;
-  display: flex;
   justify-content: center;
-font-size: 16px;
-align-items: center;
-  color: rgb(224, 214, 17);
-  background-color: #2b2016;
+  align-items: center;
+  border-radius: 35px;
+}
+.carosel h1 {
+  height: 50px;
+  width: 50px;
+  /* display: flex; */
+  justify-content: center;
+  font-size: 50px;
+  align-items: center;
+  color: #2b2016;
+  background-color: #dd9d4f;
   border-radius: 20px;
 }
-.carosel p{
+.carosel p {
   font-size: 14px;
   /* padding: 1%; */
   text-align: justify;
-
 }
-.carosel .title{
+.carosel .title {
   display: flex;
   justify-content: space-between;
 }
 .feedback button {
   cursor: pointer;
-
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

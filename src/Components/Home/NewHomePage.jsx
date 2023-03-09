@@ -227,7 +227,10 @@ export default function NewHomePage() {
           </div>
         </div>
       </div>
+    
+      <h2>What Our Client Say</h2>
       <div className="feedback">
+     
        <button> <ArrowBackIosNewIcon fontSize="large" /> </button>
         <CarouselExperience />
         <CarouselExperience />

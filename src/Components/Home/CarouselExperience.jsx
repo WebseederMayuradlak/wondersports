@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 function CarouselExperience() {
   return (
     <div className="carosel">
-      <h2>What Our Client Say</h2>
-      <i>❝</i>
+   
+      <h1>❝</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
         necessitatibus quia sapiente quibusdam in ipsum qui laboriosam libero.
