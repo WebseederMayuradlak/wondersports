@@ -97,102 +97,130 @@
   width: 15%;
   margin: 55% 5%;
 }
-.category .destination-place{
-    width: 100%;
-
+.category .destination-place {
+  width: 100%;
 }
-.category .destination-place .place-heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 3%;
-}
-.category .destination-place .place-heading h1{
-    text-transform: uppercase;
-    text-align: center;
-}
-.category .destination-place .cat{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.category .destination-place .cat .two-row{
-    display: flex;
-    width: 100%;
+.category .destination-place .place-heading {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  margin: 3%;
+}
+.category .destination-place .place-heading h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.category .destination-place .cat {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.category .destination-place .cat .two-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.category .destination-place .cat .two-row .cat-2{
-    width: 30%;
-    margin-left: 2%;
-    background-image: url(../../Images/Country-Image/Greece.jpg);
-    background-position: center;
-    background-size: cover;
-height: 30vh;
-border-radius: 10px;
-
+.category .destination-place .cat .two-row .cat-2 {
+  width: 30%;
+  margin-left: 2%;
+  background-image: url(../../Images/Country-Image/Greece.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+  border-radius: 10px;
 }
 .category .destination-place .cat .three-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 2%;
-    height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2%;
+  height: 30vh;
 }
-.category .destination-place .cat .three-row .cat-3{
-    height: 27vh;
-   width: 19.3%;
-   margin-left: 2%;
-   background-position: center;
-   background-size: cover;
-   border-radius: 10px;
-   background-image: url(../../Images/Country-Image/Georgia.jpg);
+.category .destination-place .cat .three-row .cat-3 {
+  height: 27vh;
+  width: 19.3%;
+  margin-left: 2%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  background-image: url(../../Images/Country-Image/Georgia.jpg);
 }
-.category .destination-place .cat h3{
+.category .destination-place .cat h3 {
   margin: 1% 3%;
   font-size: 22px;
 }
 .category .blog-cat {
-    margin: 2% 0%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  margin: 2% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-.category .blog-cat h1{
-    text-align: center;
+.category .blog-cat h1 {
+  text-align: center;
 }
-.blog-cat .category-option{
-
+.blog-cat .category-option {
   margin-top: 2%;
   width: 60%;
   justify-content: center;
   align-items: center;
- 
-background-color: rgba(59, 231, 231, 0.319);
-padding: 1%;
+
+  background-color: rgba(59, 231, 231, 0.319);
+  padding: 1%;
 }
-.blog-cat .category-option ul{
-   
+.blog-cat .category-option ul {
   display: flex;
   list-style: none;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-.blog-cat .category-option ul li{
-    color: white;
-   margin-left:3%;
+.blog-cat .category-option ul li {
+  color: white;
+  margin-left: 3%;
 }
 
-.blog-cat .category-option ul li a:hover{
+.blog-cat .category-option ul li a:hover {
   color: #4285f4;
   border-bottom: 1px solid black;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.0s;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.category .blogs-option {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+ /* text-align: center; */
+ margin-left: 14%;
+}
+.cat-card {
+  width: 30%;
+}
+.cat-card img {
+  height: 15rem;
+  width: 92%;
+  border-radius: 10px;
+}
+.cat-text {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cat-text p {
+  font-size: 13px;
+}
+
+.cat-card a {
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 1% 2%;
 }

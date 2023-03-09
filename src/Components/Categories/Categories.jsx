@@ -3,6 +3,7 @@ import BlogCard from "./BlogCard";
 import BlogImage from "../../Images/Country-Image/Finland.jpg";
 
 import "./Categories.css";
+import CategoryCard from "./CategoryCard";
 function Categories() {
   return (
     <>
@@ -95,7 +96,17 @@ function Categories() {
             </ul>
           </div>
         </div>
-        sanik01
+       <div className="blogs-option">
+ <CategoryCard/>
+ <CategoryCard />
+ <CategoryCard />
+ <CategoryCard />
+ <CategoryCard/>
+ <CategoryCard/>
+ <CategoryCard />
+ <CategoryCard/>
+ <CategoryCard/>
+       </div>
       </div>
     </>
   );
