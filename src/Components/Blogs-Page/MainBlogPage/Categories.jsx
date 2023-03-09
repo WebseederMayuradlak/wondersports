@@ -34,6 +34,28 @@ function Categories() {
     "North America",
     "North America",
   ];
+var   fetchMoreData = () => {
+
+    setTimeout(() => {
+     arr.length=6;
+    }, 1500);
+  };
+  /**
+   * 
+   * 
+   *   <InfiniteScroll
+          dataLength={this.state.items.length}
+          next={this.fetchMoreData}
+          hasMore={true}
+          loader={<h4>Loading...</h4>}
+        >
+          {this.state.items.map((i, index) => (
+            <div style={style} key={index}>
+              div - #{index}
+            </div>
+          ))}
+        </InfiniteScroll>
+   */
   const [category, setCategory] = useState("All");
   var handleClick = (e) => {
     e.preventDefault();
@@ -177,7 +199,9 @@ function Categories() {
         <div className="blogs-option">
           {category === "All"
             ? arr.map((e) => {
-                return <CategoryCard category={e} />;
+                return (
+                <CategoryCard category={e} />
+                  )
               })
             : arr
                 .filter((f) => {
