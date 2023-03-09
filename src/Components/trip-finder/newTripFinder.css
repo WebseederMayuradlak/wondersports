@@ -3,6 +3,7 @@
 .trip-top {
   height: 100vh;
   width: 100%;
+  position: relative;
 }
 
 .trip-top video {

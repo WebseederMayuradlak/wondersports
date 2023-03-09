@@ -1,106 +1,104 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
-    display: none;
+::-webkit-scrollbar {
+  display: none;
 }
 
-.mountain{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.mountain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.mountain-blog{
-    position: relative;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+.mountain-blog {
+  position: relative;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
-.film{
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    z-index: 1;
+.film {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  z-index: 1;
 }
 
-.mountain-blog-img{
-    background-image: url('../BlogsImage/mount1.jpg');
+.mountain-blog-img {
+  background-image: url("../BlogsImage/mount1.jpg");
 }
-.mountain-blog-img2{
-    background-image: url('../BlogsImage/LightImage.jpg');
+.mountain-blog-img2 {
+  background-image: url("../BlogsImage/LightImage.jpg");
 }
-.mountain-blog-img3{
-    background-image: url('../BlogsImage/statue.jpg');
+.mountain-blog-img3 {
+  background-image: url("../BlogsImage/statue.jpg");
 }
-.mountain-blog-img4{
-    background-image: url('../BlogsImage/Turkey.jpg');
+.mountain-blog-img4 {
+  background-image: url("../BlogsImage/Turkey.jpg");
 }
 
-.mountain-heading{
- z-index: 2;
+.mountain-heading {
+  z-index: 2;
 }
 
 .mountain-content {
-    max-width: 600px;
-    text-align: center;
-    z-index: 2;
+  max-width: 600px;
+  text-align: center;
+  z-index: 2;
 }
-
 
 /* Mountain info */
 
-
-.mountain-info{
-    position: relative;
-    background-size: cover;
-    height: 70vh;
-    width: 100%;
-    display: flex;
+.mountain-info {
+  position: relative;
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+  display: flex;
 }
 
-.mountain-info-left{
-    height: 100%;
-    width: 50%;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    transform: translateX(7%);
+.mountain-info-left {
+  height: 100%;
+  width: 50%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(7%);
 }
 
 .mountain-info-rev {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
-.mountain-info-left h1{
-    color: rgb(205, 10, 240);
+.mountain-info-left h1 {
+  color: rgb(205, 10, 240);
 }
 
-.mountain-info-right{
-    height: 100%;
-    width: 50%;
-    padding: 5%;
-    transform: translateX(-7%);
+.mountain-info-right {
+  height: 100%;
+  width: 50%;
+  padding: 5%;
+  transform: translateX(-7%);
 }
 
-.mountain-info-right img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px;
+.mountain-info-right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
 }

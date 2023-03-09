@@ -27,7 +27,7 @@ import FaimilyBlog from "./Components/Blogs-Page/Faimily/FaimilyBlog";
 import ForestBlog from "./Components/Blogs-Page/Forest/ForestBlog";
 import Mountain from "./Components/Blogs-Page/Mountain/Mountain";
 import Event from "./Components/event/Event";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Destination from "./Components/destination-page/Destination";
 import NewTripFinder from "./Components/trip-finder/NewTripFinder";
 import { ToastContainer } from "react-toastify";
@@ -45,19 +45,13 @@ function App() {
   let [show, setShow] = useState(true);
 
   return (
-    <div className="App">
+    <div className="App" style={{ position: show ? "" : "fixed" }}>
       <Navbar show={show} setShow={setShow} />
-      {show && (
-        <>
-          <NewTripFinder />
-          {/* <Destination /> */}
-          {/* <Event /> */}
-        </>
-      )}
-      {/* <HomePage /> */}
+      <NewTripFinder />
+      <Destination />
+      <Event />
       {/* <Mountain /> */}
-      {/* <Destination /> */}
-      {/* <Footer /> */}
+      <Footer />
       <ToastContainer limit={4} />
     </div>
   );
