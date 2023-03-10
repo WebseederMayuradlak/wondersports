@@ -18,7 +18,17 @@ import Image3 from "./CountriesImage/4.jpeg";
 import CardTravelIcon from "@mui/icons-material/CardTravel";
 import Image4 from "./CountriesImage/5.jpeg";
 import CarouselExperience from "./CarouselExperience";
+import Carousel from "./Carousel/Carousel";
+
 export default function NewHomePage() {
+  var summary1=`I stumbled upon this blog and it has completely changed the way I travel. The articles are insightful and packed with useful tips, and the stunning photography always leaves me in awe. Thanks to them, I've discovered hidden gems I never would have found on my own. Highly recommended!`;
+  var auth1="Salim Sheikh";
+var summary2=`Their articles are not only informative but also engaging and inspiring, making me want to pack my bags and explore the world. I'm grateful for their expertise and highly recommend their services to anyone looking for travel inspiration.`
+var auth2="Wasim Wahid";
+var summary3=`I've learned so much about different cultures and destinations through the articles and videos. They have a wealth of knowledge and experience and I always come away with new ideas and inspiration for my next trip.`;
+var auth3="Serif Rashmi";
+var summary4=``;
+var auth4="";
   const [email, setEmail] = useState();
   console.log(email);
   const handleClick = async (e) => {
@@ -53,7 +63,7 @@ export default function NewHomePage() {
               along as we inspire you to pack your bags and embark on your own
               unforgettable journeys with Wanderspots.
             </p>
-            <a href="">
+            <a href="" style={{width:'20%'}}>
               Explore More <i class="ri-arrow-right-circle-line"></i>
             </a>
           </div>
@@ -230,11 +240,12 @@ export default function NewHomePage() {
     
       <h2>What Our Client Say</h2>
       <div className="feedback">
-     
-       <button> <ArrowBackIosNewIcon fontSize="large" /> </button>
-        <CarouselExperience />
-        <CarouselExperience />
-        <CarouselExperience/>
+     {/* <Carousel  Card={CarouselExperience} setSlideNum={3}/> */}
+ <button> <ArrowBackIosNewIcon fontSize="large" /> </button>
+        <CarouselExperience about={summary1} author={auth1}/>
+        <CarouselExperience about={summary2} author={auth2} />
+        <CarouselExperience about={summary3} author={auth3}/>
+
        <button>  <ArrowForwardIosIcon fontSize="large" /> </button>
       </div>
       <div className="newslatter">

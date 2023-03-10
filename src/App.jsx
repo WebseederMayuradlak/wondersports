@@ -29,6 +29,7 @@ import Event from "./Components/Event/Event";
 import TourGuide from "./Components/TourGuide/MainPage/TourGuide";
 import Categories from "./Components/Blogs-Page/MainBlogPage/Categories";
 import CarouselExperience from "./Components/Home/CarouselExperience";
+import PrivacyPolicy from "./Components/FooterItem/PrivacyPolicy";
 // wifi password of Webseeder Webseeder@01
 // import EuroptourGuide from "./Components/TourGuide/Europe/EuroptourGuide";
 function App() {
@@ -38,7 +39,7 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/" element={<NewHomePage/>} />
+          <Route exact path="/" element={<PrivacyPolicy/>} />
           <Route exact path="/blog" element={<Categories/>}/>
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />
@@ -48,6 +49,7 @@ function App() {
           <Route exact path="/faimilyblog" element={<FaimilyBlog />} />
           <Route exact path="/forestblog" element={<ForestBlog />} />
           <Route exact path="/event" />
+
           <Route exact path="/afrciatourguide" element={<AfricatourGuide />} />
           <Route
             exact

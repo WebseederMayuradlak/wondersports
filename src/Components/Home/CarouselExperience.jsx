@@ -5,21 +5,17 @@ import Swiper, { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-function CarouselExperience() {
+function CarouselExperience(props) {
   return (
     <div className="carosel">
-   
       <h1>❝</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-        necessitatibus quia sapiente quibusdam in ipsum qui laboriosam libero.
-        Culpa, facere quam aspernatur reprehenderit aperiam commodi ipsam vero
-        est magnam ex?
+       {props.about}
       </p>
       <Rating precision="2.5" />
       <div className="title">
-        <h4> There is Author </h4> &nbsp; &nbsp; &nbsp;
-        <p> Content Writer </p>
+        <h4>  {props.author} </h4>
+        {/* <p> Content Writer </p> */}
       </div>
     </div>
   );

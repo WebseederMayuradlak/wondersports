@@ -9,14 +9,21 @@
   background-position: center;
   height: 50rem;
   width: 100%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+ 
 }
 .home-header .home-text {
   margin-top: -9%;
-  padding: 0 10%;
+  padding: 5% 10%;
   display: flex;
+width: 80%;
+  background: rgba(38, 38, 49, 0.5);
+  backdrop-filter: saturate(180%) blur(2px);
+ 
   flex-direction: column;
 }
 .home-text h3 {
@@ -75,19 +82,23 @@
 
   height: 30vh;
   display: flex;
+  align-items: center;
+  /* margin-left: 5%; */
+  justify-content: center;
 }
 
 .destination-images .top-destination {
-  width: 19%;
+  width: 16%;
 
   padding: 0.5%;
 
-  margin: 1%;
+  margin-left: 1%;
 }
 .destination-images .top-destination .text-option {
   display: flex;
   justify-content: space-between;
   max-width: 90%;
+  padding: 0% 1%;
 }
 a {
   text-decoration: none;
@@ -98,6 +109,8 @@ a {
   object-fit: cover;
   object-position: c;
   height: 22vh;
+  width: 90%;
+  
 }
 .start-trip {
   display: flex;
@@ -299,6 +312,7 @@ a {
 .carosel h1 {
   height: 50px;
   width: 50px;
+  margin-top: -7%;
   /* display: flex; */
   justify-content: center;
   font-size: 50px;
