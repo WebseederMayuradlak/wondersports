@@ -7,10 +7,10 @@ import Pinterest from "@mui/icons-material/Pinterest";
 import Instagram from "@mui/icons-material/Instagram";
 import Email from "@mui/icons-material/Email";
 import GitHub from "@mui/icons-material/GitHub";
-import Logo from "../Images/images.png";
+import Logo from "../../Images/images.png";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Phone from "@mui/icons-material/Phone";
-import "./footer.css";
+import "./footer.css"
 // import { padding } from "@mui/system";
 const NewFooter = () => {
   return (
@@ -125,13 +125,13 @@ const NewFooter = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#!">This is Our Africa Blog</a>
+                    <a href="#!">Privacy & Policy </a>
                   </li>
                   <li>
-                    <a href="#!">This is Our Asia Blog</a>
+                    <a href="#!">Decleration </a>
                   </li>
                   <li>
-                    <a href="#!">This is North Ameriaca Blog</a>
+                    <a href="#!">Term & Condition </a>
                   </li>
                   <li>
                     <a href="#!">This is Middle East Blog</a>

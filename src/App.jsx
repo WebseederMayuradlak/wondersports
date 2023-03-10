@@ -1,10 +1,10 @@
 import Navbar from "./Components/Navbar";
 import NewHomePage from "./Components/Home/NewHomePage";
 
-import NewFooter from "./Components/Footer";
+import NewFooter from "./Components/FooterItem/Footer";
 import Destination from "./Components/Destination/Destination";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Footer from "./Components/Footer";
+import Footer from "./Components/FooterItem/Footer";
 import BeachandDiving from "./Components/TourGuide/Beach-and-Diving/BeachandDiving";
 import AfricatourGuide from "./Components/TourGuide/Africa/AfricatourGuide";
 import EuroptourGuide from "./Components/TourGuide/Europe/EuroptourGuide";
@@ -30,17 +30,17 @@ import TourGuide from "./Components/TourGuide/MainPage/TourGuide";
 import Categories from "./Components/Blogs-Page/MainBlogPage/Categories";
 import CarouselExperience from "./Components/Home/CarouselExperience";
 import PrivacyPolicy from "./Components/FooterItem/PrivacyPolicy";
+import SiteMap from "./Components/FooterItem/SiteMap";
 // wifi password of Webseeder Webseeder@01
-// import EuroptourGuide from "./Components/TourGuide/Europe/EuroptourGuide";
 function App() {
   return (
     <div className="App">
       <Navbar />
-   
+
       <Router>
         <Routes>
-          <Route exact path="/home" element={<PrivacyPolicy/>} />
-          <Route exact path="/blog" element={<Categories/>}/>
+          <Route exact path="/" element={<NewHomePage />} />
+          <Route exact path="/blog" element={<Categories />} />
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />
           <Route exact path="/advantureblog" element={<AdvantureBlog />} />
@@ -70,7 +70,7 @@ function App() {
             path="/beachdivingtourguide"
             element={<BeachandDiving />}
           />
-
+   <Route exact path="/sitemap" element={<SiteMap />}/>
           <Route exact path="/northtourguide" element={<NorthTourGuide />} />
           <Route exact path="/photographytourguide" element={<PhotoGraphy />} />
           <Route exact path="/snowtourguide" element={<SnowtourGuide />} />
@@ -81,7 +81,7 @@ function App() {
           <Route exact path="/mountainblog" element={<Mountain />} />
         </Routes>
       </Router>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

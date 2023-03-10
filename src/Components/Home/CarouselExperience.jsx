@@ -12,7 +12,7 @@ function CarouselExperience(props) {
       <p>
        {props.about}
       </p>
-      <Rating precision="2.5" />
+      <Rating  value={5} readOnly />
       <div className="title">
         <h4>  {props.author} </h4>
         {/* <p> Content Writer </p> */}

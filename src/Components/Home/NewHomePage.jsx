@@ -21,14 +21,14 @@ import CarouselExperience from "./CarouselExperience";
 import Carousel from "./Carousel/Carousel";
 
 export default function NewHomePage() {
-  var summary1=`I stumbled upon this blog and it has completely changed the way I travel. The articles are insightful and packed with useful tips, and the stunning photography always leaves me in awe. Thanks to them, I've discovered hidden gems I never would have found on my own. Highly recommended!`;
-  var auth1="Salim Sheikh";
-var summary2=`Their articles are not only informative but also engaging and inspiring, making me want to pack my bags and explore the world. I'm grateful for their expertise and highly recommend their services to anyone looking for travel inspiration.`
-var auth2="Wasim Wahid";
-var summary3=`I've learned so much about different cultures and destinations through the articles and videos. They have a wealth of knowledge and experience and I always come away with new ideas and inspiration for my next trip.`;
-var auth3="Serif Rashmi";
-var summary4=``;
-var auth4="";
+  var summary1 = `I stumbled upon this blog and it has completely changed the way I travel. The articles are insightful and packed with useful tips, and the stunning photography always leaves me in awe. Thanks to them, I've discovered hidden gems I never would have found on my own. Highly recommended!`;
+  var auth1 = "Salim Sheikh";
+  var summary2 = `Their articles are not only informative but also engaging and inspiring, making me want to pack my bags and explore the world. I'm grateful for their expertise and highly recommend their services to anyone looking for travel inspiration.`;
+  var auth2 = "Wasim Wahid";
+  var summary3 = `I've learned so much about different cultures and destinations through the articles and videos. They have a wealth of knowledge and experience and I always come away with new ideas and inspiration for my next trip.`;
+  var auth3 = "Serif Rashmi";
+  var summary4 = ``;
+  var auth4 = "";
   const [email, setEmail] = useState();
   console.log(email);
   const handleClick = async (e) => {
@@ -58,12 +58,12 @@ var auth4="";
             <h3>Travel is a lifelong journey, Start yours today.</h3>
             <p style={{ color: "white" }}>
               Our passion for exploring new destinations, trying out unique
-              experiences, and immersing ourselves in different cultures. Follow{" "}
+              experiences, and immersing ourselves in different cultures. Follow
               <br />
               along as we inspire you to pack your bags and embark on your own
               unforgettable journeys with Wanderspots.
             </p>
-            <a href="" style={{width:'20%'}}>
+            <a href="" style={{ width: "20%" }}>
               Explore More <i class="ri-arrow-right-circle-line"></i>
             </a>
           </div>
@@ -75,14 +75,14 @@ var auth4="";
             <h1>Unlock Wonders of the World </h1>
             <p>
               Showcasing the most incredible places in the world that are sure
-              to leave you breathless. From the vibrant cityscapes of Tokyo and{" "}
+              to leave you breathless. From the vibrant cityscapes of Tokyo and
               <br />
               New York to the pristine beaches of the Maldives and Bali, we have
-              scoured the globe to bring you the very best in travel. Whether{" "}
+              scoured the globe to bring you the very best in travel. Whether is
               <br />
               you're seeking adventure, culture, or simply a place to relax and
-              unwind, we have something for everyone. Browse our collection of{" "}
-              <br />
+              unwind, we have something for everyone. Browse our collection of
+           <br />
               destinations and get ready to start on the journey of a lifetime.
             </p>
           </div>
@@ -165,15 +165,17 @@ var auth4="";
           <div className="img-1">
             <img src={Destination} alt="" />
           </div>
+          <br />
           <h3>Top to India </h3>
         </div>
       </div>
       <div className="top-tour">
         <div className="tour-text">
           <h1>
-            Best of the best tours, attractions, and activities you won’t want
+            Best of the best tours, attractions, and activities <br /> you won’t want
             to miss!
           </h1>
+          <br />
           <p>
             Top destinations for your next holiday, Here's where your fellow
             travelers are headed…
@@ -237,16 +239,23 @@ var auth4="";
           </div>
         </div>
       </div>
-    
+      <br /> <br />
+
       <h2>What Our Client Say</h2>
       <div className="feedback">
-     {/* <Carousel  Card={CarouselExperience} setSlideNum={3}/> */}
- <button> <ArrowBackIosNewIcon fontSize="large" /> </button>
-        <CarouselExperience about={summary1} author={auth1}/>
+        {/* <Carousel  Card={CarouselExperience} setSlideNum={3}/> */}
+        <button>
+          
+          <ArrowBackIosNewIcon fontSize="large" />
+        </button>
+        <CarouselExperience about={summary1} author={auth1} />
         <CarouselExperience about={summary2} author={auth2} />
-        <CarouselExperience about={summary3} author={auth3}/>
+        <CarouselExperience about={summary3} author={auth3} />
 
-       <button>  <ArrowForwardIosIcon fontSize="large" /> </button>
+        <button>
+       
+          <ArrowForwardIosIcon fontSize="large" />
+        </button>
       </div>
       <div className="newslatter">
         <div className="news-item">
