@@ -3,10 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-/* ::-webkit-scrollbar {
+ ::-webkit-scrollbar {
   display: none;
-} */
+}
 
 .mountain {
   height: 100%;
