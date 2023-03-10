@@ -50,7 +50,7 @@ function App() {
       <NewTripFinder />
       <Destination />
       <Event />
-      {/* <Mountain /> */}
+      <Mountain />
       <Footer />
       <ToastContainer limit={4} />
     </div>
