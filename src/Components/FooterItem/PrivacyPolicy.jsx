@@ -1,7 +1,9 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Privacy.css"
 import PrivacyCard from './PrivacyCard';
+import { Button } from '@mui/material';
 
 function PrivacyPolicy() {
 
@@ -23,6 +25,7 @@ var Title="Reasponsblity of Visitor ",text= " Lorem ipsum dolor sit amet consect
              <PrivacyCard content={text} title={Title} />
              <PrivacyCard content={text} title={Title} />
              <PrivacyCard content={text} title={Title} />
+             <Button variant='contained' href='/home' sx={{margin:"3% 0%"}} >Go Back</Button>
         </div>
       </div>
     </>

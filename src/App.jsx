@@ -36,10 +36,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
+   
       <Router>
         <Routes>
-          <Route exact path="/" element={<PrivacyPolicy/>} />
+          <Route exact path="/home" element={<PrivacyPolicy/>} />
           <Route exact path="/blog" element={<Categories/>}/>
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />

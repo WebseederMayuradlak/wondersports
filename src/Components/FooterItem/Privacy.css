@@ -18,8 +18,8 @@
   padding-bottom: 2%;
 }
 .privacy-main {
-    height: 70vh;
- overflow-y: auto;
+    /* height: 70vh;
+ overflow-y: auto; */
   box-shadow: 5px 5px 10px #0e0e0e8c ;
   width: 80%;
   display: flex;
@@ -37,3 +37,4 @@
   margin-top: 1%;
   padding: 1%;
 }
+
