@@ -3,6 +3,7 @@ import BlogCard from "./BlogCard";
 import BlogImage from "../../../Images/Country-Image/Finland.jpg";
 import InfiniteScroll from "react-infinite-scroller";
 import "./Categories.css";
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import CategoryCard from "./CategoryCard";
 
 function Categories() {
@@ -90,9 +91,9 @@ var   fetchMoreData = () => {
             TRAVELLING TURNS YOU INTO A <br /> GREAT STORYTELLER
           </h1>
           <div className="cat-link">
-            <a href="">Read Blog</a>
-            <a href="" className="select">
-              Destination
+            <a href="" className="target">Read Blog</a>
+            <a href="" className="select"> 
+              Destination <ArrowRightAltIcon/>
             </a>
           </div>
         </div>
@@ -103,7 +104,7 @@ var   fetchMoreData = () => {
         </div>
         <div className="cat-article">
           <div className="cat-text">
-            <p>About Us</p>
+            <p className="about" >About Us</p>
             <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse
@@ -123,10 +124,10 @@ var   fetchMoreData = () => {
         <div className="destination-place">
           <div className="place-heading">
             <h1>polular destination </h1>
-            <p>
+            <p >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              consectetur <br /> consequatur doloribus est quos cupiditate?
-              Lorem ipsum dolor <br /> sit amet consectetur adipisicing elit.
+              consectetur  consequatur doloribus est quos cupiditate?
+              Lorem ipsum dolor  sit amet consectetur adipisicing elit.
               Atque, illum?
             </p>
           </div>

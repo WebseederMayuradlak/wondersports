@@ -120,14 +120,19 @@
 .start-trip .trip-text {
   width: 55%;
   margin: 2% 5%;
+  margin-top: 5%;
   display: block;
 }
 .start-trip .trip-text h2 {
   font-size: 35px;
   font-weight: 600;
   color: #12173dea;
-  margin: 1%;
-  margin-left: 2%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-left: 6%;
+  /* margin: 1%; */
+  /* margin-left: 2%; */
 }
 
 .start-trip .trip-text .option-1 {
@@ -167,9 +172,17 @@
 }
 .top-tour .tour-text {
   display: flex;
+  margin-top: 4%;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
+}
+.tour-text h1{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
 }
 .top-tour .tour-container {
   /* margin: 1%; */
@@ -196,11 +209,13 @@
 .top-tour .tour-card .tour-title {
   display: flex;
   flex-direction: column;
+  margin-top: 2%;
   justify-content: center;
   align-items: center;
 }
 .top-tour .tour-card .tour-title p {
   margin: 1%;
+  
   width: 80%;
   text-align: center;
 }

@@ -6,7 +6,7 @@ function BlogCard() {
   return (
    <div className='blog-card'>
           <img src={BlogImage} alt=""  />
-          <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+          <h4>Lorem ipsum dolor sit amet consectetur.</h4>
     </div>
   )
 }

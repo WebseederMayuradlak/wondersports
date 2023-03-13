@@ -7,14 +7,13 @@ function CategoryCard(props) {
       <div className="cat-card">
         <img src={BlogsImage} alt="" />
         <div className="cat-text">
-          <h3>Lorem ipsum dolor sit amet.</h3>
+          <h4>The Title</h4>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel quas
             expedita
           </p>
-         
+         <a href=""> {props.category} </a>
         </div>
-        <a href="" className="btn"> {props.category} </a>
       </div>
     </>
   );

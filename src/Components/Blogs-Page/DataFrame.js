@@ -383,7 +383,7 @@ const data = {
       },
       {
         title: "Córdoba",
-        para: `This old city in the Andalusian domain on the west side when facing north of Spain admits you to investigate Spain's annals breaking promises from various thousand ages to the moment of truth when it was any of the Roman Empire. Córdoba was a main Roman city (named Corduba), and many ruins and maintained Roman sites wait, containing a 16-arch bridge across the Guadalquivir River.
+        para: `This old city  in the Andalusian domain on the west side when facing north of Spain admits you to investigate Spain's annals breaking promises from various thousand ages to the moment of truth when it was any of the Roman Empire. Córdoba was a main Roman city (named Corduba), and many ruins and maintained Roman sites wait, containing a 16-arch bridge across the Guadalquivir River.
 
          Córdoba was an important Islamic center all during the Middle Ages and has a few marvelous constructions, therefore, ending, the focal point is the city's abundant temple. Called La Mezquita, the temple was innate in the 8th century and later convinced into a Christian temple in the 13th century. There are further long Jewish experiences in the city (and so forth over Spain), and a 14th-century church may be bothered in the old Judería or Jewish quarter.
          
@@ -403,3 +403,4 @@ const data = {
     ],
   ],
 };
+

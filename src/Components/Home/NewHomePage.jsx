@@ -118,7 +118,7 @@ export default function NewHomePage() {
       <div className="start-trip">
         <div className="trip-text">
           <div className="heading">
-            <h2> Start your next trip in 3 Upcoming Day</h2>
+            <h2> Travel with Wanderspots!!</h2>
           </div>
           <div className="option-1">
             <div className="icons">
@@ -166,13 +166,13 @@ export default function NewHomePage() {
             <img src={Destination} alt="" />
           </div>
           <br />
-          <h3>Top to India </h3>
+          {/* <h3>Top to India </h3> */}
         </div>
       </div>
       <div className="top-tour">
         <div className="tour-text">
           <h1>
-            Best of the best tours, attractions, and activities <br /> you won’t want
+            Best of the best tours, attractions, and activities <br />   you won’t want
             to miss!
           </h1>
           <br />
@@ -261,8 +261,8 @@ export default function NewHomePage() {
         <div className="news-item">
           <h1>Subscribe for Update </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-            placeat.
+          Be the first to know about our latest travel deals, insider tips, and more. Sign up for our 
+newsletter now!
           </p>
           <div className="news-input">
             <input

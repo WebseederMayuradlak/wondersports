@@ -41,7 +41,7 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/" element={<SiteMap />} />
+          <Route exact path="/" element={<NewHomePage />} />
           <Route exact path="/tour" element={<TourGuide/>} />
           <Route exact path="/blog" element={<Categories />} />
           <Route exact path="/destination" element={<Destination />} />
