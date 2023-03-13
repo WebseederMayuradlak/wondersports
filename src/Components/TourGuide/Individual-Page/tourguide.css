@@ -1,0 +1,214 @@
+.tour-top {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.tour-top img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tour-top-text {
+  color: #fff;
+  background: rgba(38, 38, 49, 0.4);
+  backdrop-filter: saturate(180%) blur(2px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  max-width: 60%;
+  padding: 10%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour-top-text button {
+  background-color: #ff6c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+/* tour mid */
+
+.tour-mid {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+  background-color: #01090c;
+}
+
+.tour-mid-rev {
+  flex-direction: row-reverse;
+}
+
+.tour-mid-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.tour-mid-left h6 {
+  color: #ff6c00;
+}
+
+.tour-mid-right {
+  height: 100%;
+  width: 50%;
+  padding: 5%;
+}
+
+.tour-mid-right img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+/* tour card */
+
+.tourCardContainer {
+  height: 50vh;
+  width: 100%;
+}
+
+.tourCard {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.tourCard img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(50%);
+}
+
+.tourCardText {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+
+/* tourExplore */
+
+.tourExplore {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #01090c;
+  padding: 5% 10%;
+}
+
+.tourExplore-left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+}
+
+.tourExplore-left button {
+  background-color: #ff6c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.tourExplore-right {
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+}
+
+/* travelExp */
+
+.travelExp {
+  margin-top: 5%;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+}
+
+.travelExp img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(40%);
+}
+
+.travelExpText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+}
+
+.travelExpText button {
+  background-color: #ff6c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.travelExpText p {
+  max-width: 50%;
+}
+
+.travelExpText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50vh;
+  width: 100%;
+  color: #fff;
+  background-color: #01090c;
+  padding: 0 5%;
+}
+
+.travelExpText2 button {
+  background-color: #ff6c00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.travelExpText2 p {
+  max-width: 50%;
+}

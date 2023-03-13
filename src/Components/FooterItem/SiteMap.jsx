@@ -18,28 +18,31 @@ function SiteMap() {
             <a href="" className="site-item">
               <i> <CardTravelIcon /> </i>
               <h3>Destination </h3>
-              <p>The_Destination </p>
+              <p>The Destination </p>
             </a>
             <a href="" className="site-item">
               <i> <CardTravelIcon /> </i>
               <h3>Interest </h3>
-              <p>The_Destination </p>
+              <p>The Destination </p>
             </a>
             <a href="" className="site-item">
               <i> <CardTravelIcon /> </i>
-              <h3>Trip_journal </h3>
-              <p>The_Destination </p>
+              <h3>Trip journal </h3>
+              <p>The Destination </p>
             </a>
             <a href="" className="site-item">
               <i> <CardTravelIcon /> </i>
               <h3>Events </h3>
-              <p>The_Destination </p>
+              <p>The Destination </p>
             </a>
             <a href="" className="site-item">
               <i> <CardTravelIcon /> </i>
               <h3>Travelouge </h3>
-              <p>The_Destination </p>
+              <p>The Destination </p>
             </a>
+          </div>
+          <div className="dest-site">
+                
           </div>
         </div>
       </div>

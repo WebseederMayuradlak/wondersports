@@ -16,7 +16,7 @@ const InterestPage = () => {
     "Africa",
     "North America"
   ];
-  let Column=[true,false,true,false,true,false,true,false,true,false,true,false];
+  let Column=[true,true,true,false,true,false,true,false,true,false,true,false];
   var i=0;
  
  

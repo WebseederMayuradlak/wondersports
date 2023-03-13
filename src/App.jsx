@@ -26,12 +26,14 @@ import ForestBlog from "./Components/Blogs-Page/Forest/ForestBlog";
 import Mountain from "./Components/Blogs-Page/Mountain/Mountain";
 import InterestPage from "./Components/Interest/InterestPage";
 import Event from "./Components/Event/Event";
-import TourGuide from "./Components/TourGuide/MainPage/TourGuide";
+// import TourGuide from "./Components/TourGuide/MainPage/TourGuide";
 import Categories from "./Components/Blogs-Page/MainBlogPage/Categories";
 import CarouselExperience from "./Components/Home/CarouselExperience";
 import PrivacyPolicy from "./Components/FooterItem/PrivacyPolicy";
 import SiteMap from "./Components/FooterItem/SiteMap";
 // wifi password of Webseeder Webseeder@01
+import TourGuide from "./Components/TourGuide/Individual-Page/TourGuide";
+
 function App() {
   return (
     <div className="App">
@@ -39,7 +41,8 @@ function App() {
 
       <Router>
         <Routes>
-          <Route exact path="/" element={<NewHomePage />} />
+          <Route exact path="/" element={<SiteMap />} />
+          <Route exact path="/tour" element={<TourGuide/>} />
           <Route exact path="/blog" element={<Categories />} />
           <Route exact path="/destination" element={<Destination />} />
           <Route exact path="/interest" element={<InterestPage />} />
